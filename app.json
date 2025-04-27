@@ -97,10 +97,10 @@
       "url": "heroku/nodejs"
     },
     {
-      "url": "https://github.com/humphreymbise/heroku-buildpack-webp-binaries.git"
+      "url": "https://github.com/humphreymbise/ZEZE47/heroku-buildpack-webp-binaries.git"
     },
     {
-      "url": "https://github.com/humphreymbise/heroku-buildpack-ffmpeg-latest"
+      "url": "https://github.com/humphreymbise/ZEZE47/heroku-buildpack-ffmpeg-latest"
     }
   ]
 }
