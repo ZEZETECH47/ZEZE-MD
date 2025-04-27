@@ -1,7 +1,6 @@
 {
   "name": "ZEZE47-MD",
   "description": "Ok 3 devs made it.",
-  "logo": "https://files.catbox.moe/5kvvfg.jpg",
   "keywords": ["ZEZE47-MD"],
   "repository": "https://github.com/humphreymbise/ZEZE47",
   "stack": "container",
@@ -106,4 +105,11 @@
       "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
     }
   ]
+}
+"buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
 }
