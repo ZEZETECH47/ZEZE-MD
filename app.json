@@ -8,7 +8,7 @@
     "whatsapp"
   ],
   "logo": "https://i.imgur.com/jE8eQsP.jpeg",
-  "repository": "https://github.com/humphreymbise/ZEZE47-MD/tree/main",
+  "repository": "https://github.com/humphreymbise/ZEZE47/tree/main",
   "succes_url": "/",
   "stack": "container",
   "env": {
@@ -34,7 +34,7 @@
     },
     "CHAT_BOT": {
       "description": "If turned on, the chatbot will automatically chat in your private messages or groups.",
-      "value": "no",
+      "value": "yes",
       "required": false
     },
     "AUTO_DOWNLOAD_STATUS": {
@@ -49,22 +49,22 @@
     },
     "ANTI_VV": {
       "description": "Detect view-once messages",
-      "value": "no",
+      "value": "yes",
       "required": false
     },
     "ANTILINK": {
       "description": "Detect view-once links",
-      "value": "no",
+      "value": "yes",
       "required": false
     },
     "BOT_NAME": {
       "description": "Give a name for your bot",
-      "value": "ZEZE47 ᗰᗪ",
+      "value": "ZEZE47 MD",
       "required": false
     },
     "BOT_MENU_LINKS": {
       "description": "Add one or many links for your bot menu (e.g., url1,url2,url3)",
-      "value": "",
+      "value": "yes",
       "required": false
     },
     "PUBLIC_MODE": {
@@ -89,7 +89,7 @@
     },
     "OWNER_NAME": {
       "description": "Your name",
-      "value": "Zezeboy",
+      "value": "Zeze47",
       "required": false
     },
     "AUTO_READ_MESSAGES": {
@@ -124,7 +124,7 @@
     },
     "ANTICALL": {
       "description": "Automatically decline incoming calls (set 'on' to activate or 'off' to deactivate)",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "AUTO_REACTION": {
