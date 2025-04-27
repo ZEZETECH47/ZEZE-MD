@@ -8,8 +8,8 @@
  
 <p align="center">
   <marquee behavior="scroll" direction="right">
-    <h1 style="color:green;">ZEZE47 MD</h1>
-    <h2 style="color:green;">BEST WHATSAPP BOT☑️</h2>
+    <h1 style="color:green;"> CREATED BY ZEZE47 MD</h1>
+    <h2 style="color:green;">HIGHER TECHNOLOGY 🤖 WHATSAPP BOT☑️</h2>
     <h3 style="color:red;">CREDIT BY MR ZEZE47 TECH</h3>
   </marquee>
 </p>
