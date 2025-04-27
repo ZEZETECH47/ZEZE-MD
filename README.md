@@ -12,7 +12,6 @@
 </p>
  
 <p align="center"> Introducing ZEZE47 MD, A Simple WhatsApp user BOT, Created by zeze47 md.ping ✍️Animation">
-</p>
 
   <a href="https://ibb.co/N6NMDtn"><img src="" alt="01" border="0" /></a>                     
 <a><img src='https://files.catbox.moe/z59hhv.jpg'/>&</a> 
