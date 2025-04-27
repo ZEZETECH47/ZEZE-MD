@@ -97,7 +97,7 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "©charles"
+    "value": "ZEZE47"
   },
     "NUMERO_OWNER":
   {
@@ -110,7 +110,7 @@
   {
     "desc": "this is the limit of warn for warning commandes",
     "required": false,
-    "value": "3"
+    "value": "20"
   },
   "STARTING_BOT_MESSAGE":
   {
@@ -142,4 +142,4 @@
       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
     }
   ]
-  }
+  
