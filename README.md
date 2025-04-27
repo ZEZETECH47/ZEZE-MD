@@ -2,8 +2,8 @@
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
  <h1 align="center"> WELCOME TO 👉ZEZE47 MD🛰️</h1>
 
-https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=3000&color=00FF00&background=000000&center=true&vCenter=true&width=600&lines=⚡+BWM+XMD+QUANTUM+VERSION;🔥+The+Most+Powerful+WhatsApp+Bot;💻+Crafted+by+Ibrahim+Adams;🚀+Next-Gen+Quantum+Technology;🌈+Fast+⚡+Secure+🔒+Reliable+✅
- 
+
+ <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=3000&color=00FF00&background=000000&center=true&vCenter=true&width=600&lines=⚡+ZEZE47+MD+QUANTUM+VERSION;🔥+The+Most+Powerful+WhatsApp+Bot;💻+Crafted+by+ZEZE BOY+47;🚀+Next-Gen+Quantum+Technology;🌈+Fast+⚡+Secure+🔒+Reliable+✅" alt="Typing Animation">
 <p align="center">
   <marquee behavior="scroll" direction="right"><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
  <h1 align="center"> life is such a bullshit without a whatsapp bot </h1>
