@@ -9,7 +9,7 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/humphreymbise/ZEZE47/root/zokou_BOt
+RUN git clone httpshttps://github.com/humphreymbise/ZEZE47-MD/edit/main/set.js
 WORKDIR /root/zokou_Bot/
 
 
