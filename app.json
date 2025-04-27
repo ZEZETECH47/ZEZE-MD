@@ -102,7 +102,7 @@
     "NUMERO_OWNER":
   {
     
-    "desc": "Your number , dont put '+' and put you area code(exemple of Tanzania '255')",
+    "desc": "Your number , dont put '+' and put you area code(exemple of kenya '254')",
     "required":true,
     "value": ""
   },
@@ -138,6 +138,8 @@
     {
       "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
     },
-
-  ]
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
     }
+  ]
+  }
