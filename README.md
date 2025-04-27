@@ -3,7 +3,6 @@
  <h1 align="center"> WELCOME TO 👉ZEZE47 MD🛰️</h1>
 
 
-<a><img src=''/></a>
 
  
 <p align="center">
@@ -11,7 +10,7 @@
  <h1 align="center"> life is such a bullshit without a whatsapp bot </h1>
   </marquee>
 </p>
-<a><img 
+ 
 <p align="center"> Introducing ZEZE47 MD, A Simple WhatsApp user BOT, Created by zeze47 md.ping ✍️Animation">
 </p>
 
