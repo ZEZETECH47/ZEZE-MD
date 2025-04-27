@@ -14,7 +14,7 @@
 
   
 <a><img src='https://files.catbox.moe/z59hhv.jpg'/>&</a> 
-
+<a href="https://gig.io/typing-svg"><img src="https://readme-typing-hgm.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=FF0000&center=true&width=1000&height=100&lines=ZEZE47-MD" alt="Typing HGM" /><
 
 
 
