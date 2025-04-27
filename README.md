@@ -20,7 +20,7 @@
 
 
 
-<a><img src='https://files.catbox.moe/z59hhv.jpg'/></a>
+<a><img src=''/></a>
 
 
 #### SETUP
