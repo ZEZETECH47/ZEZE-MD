@@ -1,6 +1,6 @@
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
- <h1 align="center"> ZEZE47 MD </h1>
+ <h1 align="center"> WELCOME TO 👉ZEZE47 MD🛰️</h1>
 
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
@@ -87,7 +87,7 @@ HOW TO REACH THE OWNER?
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
    
    
-## Thankyou 🤝for choosing👉 ZEZE47 MD bot 
+## Thankyou 🤝for choosing👉 ZEZE47 MD bot🛰️
 
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
@@ -98,7 +98,7 @@ HOW TO REACH THE OWNER?
 Contributions to *ZEZE47-MD* are welcome! If you have ideas for new features, improvements, or bug fixes, feel free to open an issue or submit a pull request.
 
 # Security Notice
-ZEZE47 MD is safe for your WhatsApp and heroku
+ZEZE47 MD is safe for your WhatsApp and heroku☑️
 
 
 
