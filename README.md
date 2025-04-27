@@ -3,7 +3,7 @@
  <h1 align="center"> WELCOME TO 👉ZEZE47 MD🛰️</h1>
 
 
-<a><img src='https://files.catbox.moe/z59hhv.jpg'/></a>
+<a><img src=''/></a>
 
  
 <p align="center">
@@ -16,7 +16,7 @@
 </p>
 
   <a href="https://ibb.co/N6NMDtn"><img src="https://files.catbox.moe/qddjrn.jpg" alt="01" border="0" /></a>                     
-<a><img src='https://i.imgur.com/LyHic3i.gif'/>&</a> 
+<a><img src='https://files.catbox.moe/z59hhv.jpg'/>&</a> 
 
 
 
