@@ -89,8 +89,10 @@
     "PREFIX": {
       "description": "Your Bot Prefix default (.)",
       "required": false,
-      "value": ""
-    }
+      "value": : [
+    {
+      "url": "heroku/nodejs"
     },
+    {
     "buildpacks"
     }
