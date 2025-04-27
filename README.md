@@ -7,10 +7,8 @@
 
  
 <p align="center">
-  <marquee behavior="scroll" direction="right">
-    <h1 style="color:green;"> CREATED BY ZEZE47 MD</h1>
-    <h2 style="color:green;">HIGHER TECHNOLOGY 🤖 WHATSAPP BOT☑️</h2>
-    <h3 style="color:red;">CREDIT BY MR ZEZE47 TECH</h3>
+  <marquee behavior="scroll" direction="right"><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+ <h1 align="center"> life is such a bullshit without a whatsapp bot </h1>
   </marquee>
 </p>
 <a><img 
