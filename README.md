@@ -3,7 +3,7 @@
  <h1 align="center"> WELCOME TO 👉ZEZE47 MD🛰️</h1>
 
 
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://files.catbox.moe/z59hhv.jpg'/></a>
 
  
 <p align="center">
@@ -20,7 +20,6 @@
 
 
 
-<a><img src=''/></a>
 
 
 #### SETUP
