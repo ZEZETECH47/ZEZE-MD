@@ -69,7 +69,7 @@ zokou({
 
     // Check if a valid download URL was found
     if (!downloadUrl || !videoDetails) {
-      return repondre('Failed to retrieve download URL from all sources. Please try again later.');
+      return repondre('Sorry for failed to retrieve download URL from all sources. Please try again later.');
     }
 
     // Prepare the message payload with external ad details
