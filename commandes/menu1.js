@@ -42,8 +42,8 @@ const date = moment().format('DD/MM/YYYY');
     ▸ *uptime* : ${os.platform()}
     ▸ *theme* : *ZEZE TECH*
 
-> ZEZE47E❣️ MD WA BOT
-> POWERED BY ZEZE TECH 💎\n${readmore}`;
+> 🛰️ZEZE47❣️MD WA BOT
+> POWERED BY 🖥️ZEZE TECH 💎\n${readmore}`;
     
 let menuMsg = `
 > Hello ${nomAuteurMessage},,, Type menu2 to access a list of commands. 
