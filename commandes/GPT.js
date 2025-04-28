@@ -8,9 +8,9 @@ zokou({
   categorie: "search"
 }, async (context, message, params) => {
   const { repondre, arg } = params;  // Use args for the command arguments
-  const alone = arg.join(" ").trim(); // Assuming args is an array of command parts
+  const zeze = arg.join(" ").trim(); // Assuming args is an array of command parts
 
-  if (!alone) {
+  if (!zeze) {
     return repondre("Please provide a song name.");
   }
 
