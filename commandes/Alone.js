@@ -14,7 +14,7 @@ const s = require(__dirname + "/../set");
 
 
 
-zokou({ nomCom: "Zeze47", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "ZEZE47", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
 
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
 
@@ -83,7 +83,7 @@ const date = moment().format('DD/MM/YYYY');
 
 let menuMsg = `
 ┏━━━━━━━━━┓
-┣💫 Zeze47 cmds
+┣💫 ZEZE47 cmds
 ┗━━━━━━━━━┛\n
 
 
@@ -117,7 +117,7 @@ let menuMsg = `
 ┣❏Easy life  
 ┗┳━━━━━━━━━━━━┳┛
 ┏┻━━━━━━━━━━━━┻┓
-┃powered by Zeze47 Boy
+┃powered by ZEZE47 TECH
 ┗━━━━━━━━━━━━━━┛\n
 
 
