@@ -941,13 +941,13 @@ zk.ev.on('group-participants.update', async (group) => {
 
             msg += `║
 ╚════◇◇◇═════╝
-◇ *WElOME BUDDY... READ THE GRPUP DESCRIPTION 😊 *   ◇
+◇ *WElOME BUDDY...  First 🥇 READ THE GROUP DESCRIPTION ✍️ *   ◇
 
 ${metadata.desc}\n\n> POWERED BY ZEZE47 TECH.`;
 
             zk.sendMessage(group.id, { image: { url: ppgroup }, caption: msg, mentions: membres });
         } else if (group.action == 'remove' && (await recupevents(group.id, "goodbye") == 'on')) {
-            let msg = `one or somes member(s) left group;\n`;
+            let msg = `😭one or somes member(s) left group;\n`;
 
             let membres = group.participants;
             for (let membre of membres) {
@@ -996,7 +996,7 @@ ${metadata.desc}\n\n> POWERED BY ZEZE47 TECH.`;
 // Function to format notification message
 function createNotification(deletedMessage) {
   const deletedBy = deletedMessage.key.participant || deletedMessage.key.remoteJid;
-  let notification = `*😏ZEZE47 MD ANTIDELETE🤭*\n\n`;
+  let notification = `*🛰️ZEZE47 MD ANTIDELETE✍️*\n\n`;
   notification += `*Time deleted🥀:* ${new Date().toLocaleString()}\n`;
   notification += `*Deleted by🌷:* @${deletedBy.split('@')[0]}\n\n*Powered by ZEZE47-MD*\n\n`;
   return notification;
@@ -1327,7 +1327,7 @@ if (conf.AUTO_LIKE_STATUS === "yes") {
         zk.ev.on("connection.update", async (con) => {
             const { lastDisconnect, connection } = con;
             if (connection === "connecting") {
-                console.log("🛰️ ZEZE47-MD-MD connecting in your account...");
+                console.log("🛰️ ZEZE47-MD connecting in your account...");
             }
             else if (connection === 'open') 
             {
@@ -1340,14 +1340,14 @@ if (conf.AUTO_LIKE_STATUS === "yes") {
                 console.log("------");
                 await (0, baileys_1.delay)(300);
                 console.log("------------------/-----");
-                console.log("ZEZE47-MD by ZEZE47TECH installing cmds😇\n\n");
+                console.log("ZEZE47-MD by ZEZE47 TECH installing cmds😇\n\n");
                 //chargement des commandes 
                 console.log("chargement des commandes ...\n");
                 fs.readdirSync(__dirname + "/commandes").forEach((fichier) => {
                     if (path.extname(fichier).toLowerCase() == (".js")) {
                         try {
                             require(__dirname + "/commandes/" + fichier);
-                            console.log(fichier + "Successfully installed ALONE-MD commands✔️");
+                            console.log(fichier + "Successfully installed ZEZE47-MD commands✔️");
                         }
                         catch (e) {
                             console.log(`${fichier} n'a pas pu être chargé pour les raisons suivantes : ${e}`);
