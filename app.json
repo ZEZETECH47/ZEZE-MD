@@ -96,7 +96,7 @@
       "url": "https://github.com/heroku/heroku-buildpack-nodejs#v176"
     },
     {
-      "url": "https://github.com/heroku/heroku-buildpack-activestorage-preview"
+      "url": "https://github.com/chrismytton/heroku-buildpack-jq.git"
     },
   
   ]
