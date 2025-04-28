@@ -22,7 +22,7 @@ zokou({ nomCom: "repo", catégorie:"Général", reaction: "✨", nomFichier: __f
       const lastUpdateDate = new Date(data.updated_at).toLocaleDateString('en-GB');
 
       const gitdata = `🫣Ｈｕｒｒａａｈ..!!
-      this is •ZEZE47-MD•
+      this is •𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃•
       ᴏᴜʀ ᴍɪssɪᴏɴ ɪs ᴛᴏ ʟᴇᴛ ʏᴏᴜ ᴇɴᴊᴏʏ ʏᴏᴜʀ ᴡʜᴀᴛsᴀᴘᴘ.... ɪ ʟᴏᴠᴇ ʏᴏᴜ 💘'
       \n support : ,  https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r
 
@@ -31,11 +31,11 @@ zokou({ nomCom: "repo", catégorie:"Général", reaction: "✨", nomFichier: __f
 🧧 *FORKS:* ${repoInfo.forks}
 📅 *RELEASE DATE:* ${releaseDate}
 🕐 *UPDATE ON:* ${repoInfo.lastUpdate}
-👨‍💻 *OWNER:* *Zeze tech*
-💞 *THEME:* *ZEZE*
+👨‍💻 *OWNER:* *𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏*
+💞 *THEME:* *𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏*
 🥰 *𝚂𝚒𝚗𝚌𝚎 𝚢𝚘𝚞 𝚑𝚊𝚟𝚎 𝚖𝚎, 𝚢𝚘𝚞'𝚕𝚕 𝚗𝚎𝚟𝚎𝚛 𝚏𝚎𝚎𝚕 𝚊𝚕𝚘𝚗𝚎 !* ❣️
 __________________________________
-            * ❣️ ©Zezetech* `;
+            * ❣️ ©𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏* `;
 
       await zk.sendMessage(dest, { image: { url: img }, caption: gitdata });
     } else {
