@@ -118,12 +118,6 @@
       "value": "yes",
       "required": false
     },
-    },
-    "WELCOME": {
-      "description": "Enable welcome message (set 'yes' to active or 'no' to deactivate)",
-      "required": false,
-      "value": "yes" 
-      },
     "ANTICALL": {
       "description": "Automatically decline incoming calls (set 'on' to activate or 'off' to deactivate)",
       "value": "yes",
