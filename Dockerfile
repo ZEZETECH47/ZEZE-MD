@@ -13,7 +13,7 @@ RUN git clone https://github.com/humphreymbise/ZEZE47-MD.git /root/alone_BOt
 
 
 
-COPY
+COPY 
  {
   "name": "ZEZE47-MD",
   "version": "2.0.0",
