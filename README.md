@@ -70,7 +70,8 @@ HOW TO REACH THE OWNER?
 
 
 ## Makesure you follow my channel for latest updates 
- [`WA CHANNEL`](https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r)
+ [`WA CHANNEL`](_https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r_
+ )
 
 
 
