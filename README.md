@@ -1,4 +1,3 @@
-I have 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=WELCOME+TO+𝐙𝐄𝐙𝐄𝟒𝟕+𝐌𝐃+BOTS+MADE+BY;𝘡𝘌𝘡𝘌47;THANKS+FOR+VISITING+MY+REPO)](to)
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
