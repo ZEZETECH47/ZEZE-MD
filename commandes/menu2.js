@@ -34,7 +34,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╭────  ZEZE47-MD─────✣
+╭────  𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃─────✣
 │  ╭─────────────✣
 │  │▸ *my owner* : ${s.OWNER_NAME}
    │▸ *commander* : ${nomAuteurMessage} 
@@ -45,13 +45,13 @@ const date = moment().format('DD/MM/YYYY');
     ▸ *plugin* : ${cm.length} 
     ▸ *rom* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
     ▸ *running on* : ${os.platform()}
-    ▸ *theme* : *ZEZE47*
+    ▸ *theme* : *𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏*
 
-> ZEZE47-MD 2025\n${readmore}`;
+> 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 2025\n${readmore}`;
     
 let menuMsg = `
 
- * ZEZE47-MD COMMADS *${readmore}
+ * 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 COMMADS *${readmore}
 `;
 
     for (const cat in coms) {
@@ -64,7 +64,7 @@ let menuMsg = `
 ╰────────────···▸▸ \n`
     }
 
-    menuMsg += `> powered by ZEZE TECH
+    menuMsg += `> powered by 𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏
 `;
 
    var lien = mybotpic();
