@@ -4,7 +4,7 @@
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=3000&color=00FF00&background=000000&center=true&vCenter=true&width=600&lines=⚡+𝐙𝐄𝐙𝐄𝟒𝟕+𝐌𝐃+VERSION;🔥+The+Most+Powerful+WhatsApp+Bot;💻+Crafted+by+𝘡𝘌𝘡𝘌47+𝘛𝘌𝘊𝘏;🚀+Next-Gen+Technology;🌈+Fast+⚡+Secure+🔒+Reliable+✅" alt="Typing Animation">
 
 <p align="center"> Introducing 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃, A Simple WhatsApp user BOT, Created by 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃.ping ✍️Animation">
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=WELCOME+TO+𝐙𝐄𝐙𝐄𝟒𝟕-+𝐌𝐃+BOTS+MADE+BY;𝘡𝘌𝘡𝘌47;THANKS+FOR+VISITING+MY+REPO)](to)
+ [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=WELCOME+TO+𝐙𝐄𝐙𝐄𝟒𝟕-+𝐌𝐃+BOTS+MADE+BY;𝘡𝘌𝘡𝘌47;THANKS+FOR+VISITING+MY+REPO)](to)
 
   </marquee>
 </p>
