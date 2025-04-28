@@ -931,7 +931,7 @@ zk.ev.on('group-participants.update', async (group) => {
         if (group.action == 'add' && (await recupevents(group.id, "welcome") == 'on')) {
             let msg = `╔════◇◇◇═════╗
 ║ welcome to new(s) member(s)
-║ * 𝚃𝙷𝙸𝚂 𝙸𝚂 👉ZEZE47🛰️𝚆𝙰 𝙱𝙾𝚃:*
+║ * 𝚃𝙷𝙸𝚂 𝙸𝚂 👉𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃🛰️ 𝙱𝙾𝚃:*
 `;
 
             let membres = group.participants;
@@ -943,7 +943,7 @@ zk.ev.on('group-participants.update', async (group) => {
 ╚════◇◇◇═════╝
 ◇ *WElOME BUDDY...  First 🥇 READ THE GROUP DESCRIPTION ✍️ *   ◇
 
-${metadata.desc}\n\n> POWERED BY ZEZE47 TECH.`;
+${metadata.desc}\n\n> POWERED BY 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃.`;
 
             zk.sendMessage(group.id, { image: { url: ppgroup }, caption: msg, mentions: membres });
         } else if (group.action == 'remove' && (await recupevents(group.id, "goodbye") == 'on')) {
