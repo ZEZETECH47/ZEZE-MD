@@ -1,5 +1,5 @@
 build:
   docker:
       worker: Dockerfile
-run:
+run:heroku create --buildpack https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git
    worker:   npm run zokou 
