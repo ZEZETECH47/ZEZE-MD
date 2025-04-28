@@ -16,7 +16,7 @@
 <a><img src='https://files.catbox.moe/z59hhv.jpg'/>&</a> 
 
 
-<a href="https://git.io/typing-hgm"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=ff0000&center=true&width=1000&height=200&lines=ZEZE-MD" alt="Typing HGM" /></a>
+<a href="https://git.io/typing-hgm"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=ff0000&center=true&width=1000&height=200&lines=ZEZE-MD FOR ENJOYMENT" alt="Typing HGM" /></a>
 
 #### SETUP
 
