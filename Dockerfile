@@ -9,7 +9,7 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/humphreymbise/ZEZE47
+RUN git clone https://github.com/humphreymbise/ZEZE47-MD.git /root/alone_BOt
 
 
 
