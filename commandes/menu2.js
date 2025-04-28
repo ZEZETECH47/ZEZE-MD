@@ -34,7 +34,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╭────  ZEZE47 MD─────✣
+╭────  ZEZE47-MD─────✣
 │  ╭─────────────✣
 │  │▸ *my owner* : ${s.OWNER_NAME}
    │▸ *commander* : ${nomAuteurMessage} 
@@ -45,13 +45,13 @@ const date = moment().format('DD/MM/YYYY');
     ▸ *plugin* : ${cm.length} 
     ▸ *rom* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
     ▸ *running on* : ${os.platform()}
-    ▸ *theme* : *ZEZE*
+    ▸ *theme* : *ZEZE47*
 
-> ZEZE47 MD 2025\n${readmore}`;
+> ZEZE47-MD 2025\n${readmore}`;
     
 let menuMsg = `
 
- * ZEZE47 Md COMMADS *${readmore}
+ * ZEZE47-MD COMMADS *${readmore}
 `;
 
     for (const cat in coms) {
