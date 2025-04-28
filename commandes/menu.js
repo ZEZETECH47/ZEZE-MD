@@ -148,7 +148,7 @@ zokou({ nomCom: "menu", aliases: ["liste", "helplist", "commandlist"], categorie
 *Be motivated with this inspiration quote🫧*   
 "💎${randomQuote}💎"
 
-╭━━━ 〔 •ZEZE47 ~ ＭＤ• 〕━━━┈⊷
+╭━━━ 〔 •𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃• 〕━━━┈⊷
 ┃✵╭───────────────
 ┃✵│▸ *ʙᴏᴛ ᴏᴡɴᴇʀ:* ${settings.OWNER_NAME}
 ┃✵│▸ *ᴘʀᴇғɪx:* *[ ${settings.PREFIXE} ]*
@@ -166,7 +166,7 @@ zokou({ nomCom: "menu", aliases: ["liste", "helplist", "commandlist"], categorie
 🎇 *QUOTE* 🎆
 "${randomQuote}"
 ━━━━━━━━━━━━━━━━
-> © ZEZE47 BOY
+> © 𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏
 `;
 
     // List commands
@@ -193,8 +193,8 @@ zokou({ nomCom: "menu", aliases: ["liste", "helplist", "commandlist"], categorie
             contextInfo: {
                 mentionedJid: [senderName],
                 externalAdReply: {
-                    title: "🌟 ZEZE47 ＭＤ✨",
-                    body: "POWERED BY ZEZE BOY",
+                    title: "🌟 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃✨",
+                    body: "POWERED BY 𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏",
                     thumbnailUrl: "https://i.imgur.com/jE8eQsP.jpeg",
                     sourceUrl: "https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r",
                     mediaType: 1,
