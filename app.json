@@ -137,7 +137,7 @@
   },
   "addons": [
     {
-      "plan": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+      "plan": "heroku-postgresql:essential-0"
     }
   ]
     }
