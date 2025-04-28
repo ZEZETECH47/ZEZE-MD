@@ -93,7 +93,7 @@
     },
 "buildpacks": [
     {
-      "url": "https://github.com/heroku/heroku-buildpack-google-chrome.git"
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs#v176"
     },
     {
       "url": "https://github.com/heroku/heroku-buildpack-activestorage-preview"
