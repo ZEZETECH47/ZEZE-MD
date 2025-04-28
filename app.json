@@ -140,4 +140,16 @@
       "plan": "heroku-postgresql:essential-0"
     }
   ]
+    
+"buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
     }
+  ]
+}
