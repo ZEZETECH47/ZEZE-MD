@@ -34,7 +34,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-*ZEZE47 MD AVAILABLE MENUS* 
+*ZEZE47-MD AVAILABLE MENUS* 
 
 
     ▸ *commander* : ${cm.length} 
@@ -42,7 +42,7 @@ const date = moment().format('DD/MM/YYYY');
     ▸ *uptime* : ${os.platform()}
     ▸ *theme* : *ZEZE TECH*
 
-> 🛰️ZEZE47❣️MD WA BOT
+> 🛰️ ZEZE47-MD❣️ WA BOT
 > POWERED BY 🖥️ZEZE TECH 💎\n${readmore}`;
     
 let menuMsg = `
@@ -64,7 +64,7 @@ let menuMsg = `
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *TOPU MD👑*, déveloper TOPU TECH" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *ZEZE47-MD👑*, déveloper ZEZE47 TECH" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
