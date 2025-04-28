@@ -34,16 +34,16 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-*ZEZE47-MD AVAILABLE MENUS* 
+*𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 AVAILABLE MENUS* 
 
 
     ▸ *commander* : ${cm.length} 
     ▸ *rom* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
     ▸ *uptime* : ${os.platform()}
-    ▸ *theme* : *ZEZE TECH*
+    ▸ *theme* : *𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏*
 
-> 🛰️ ZEZE47-MD❣️ WA BOT
-> POWERED BY 🖥️ZEZE TECH 💎\n${readmore}`;
+> 🛰️ 𝐙𝐄𝐙𝐄𝟒𝟕❣️𝐌𝐃 WA BOT
+> POWERED BY 🖥️𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏 💎\n${readmore}`;
     
 let menuMsg = `
 > Hello ${nomAuteurMessage},,, Type menu2 to access a list of commands. 
@@ -64,7 +64,7 @@ let menuMsg = `
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *ZEZE47-MD👑*, déveloper ZEZE47 TECH" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃👑*, déveloper 𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
