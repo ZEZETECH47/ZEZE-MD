@@ -80,7 +80,7 @@ setTimeout(() => {
         const sockOptions = {
             version,
             logger: pino({ level: "silent" }),
-            browser: ['ZEZE47-MD', "safari", "1.0.0"],
+            browser: ['𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃', "safari", "1.0.0"],
             printQRInTerminal: true,
             fireInitQueries: false,
             shouldSyncHistoryMessage: true,
@@ -165,7 +165,7 @@ setTimeout(() => {
 
             var dev = [dj, dj2,dj3,luffy].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
             function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
-            console.log("\t [][]...{ZEZE47 Md}...[][]");
+            console.log("\t [][]...{𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃}...[][]");
             console.log("=========== New message ===========");
             if (verifGroupe) {
                 console.log("message from : " + nomGroupe);
@@ -334,7 +334,7 @@ const handleAntiLinkBadWordsAndTags = async (zk, ms, origineMessage, texte, veri
                                    // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
                                     const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
                                     var sticker = new Sticker(gifLink, {
-                                        pack: 'ZEZE47 MD',
+                                        pack: '𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏',
                                         author: conf.OWNER_NAME,
                                         type: StickerTypes.FULL,
                                         categories: ['🤩', '🎉'],
@@ -348,7 +348,7 @@ const handleAntiLinkBadWordsAndTags = async (zk, ms, origineMessage, texte, veri
 
                                       if (action === 'remove') {
 
-                                        txt += `message deleted \n @${auteurMessage.split("@")[0]} removed from group by ZEZE47-MD .`;
+                                        txt += `message deleted \n @${auteurMessage.split("@")[0]} removed from group by 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 .`;
 
                                     await zk.sendMessage(origineMessage, { sticker: fs.readFileSync("st1.webp") });
                                     (0, baileys_1.delay)(800);
@@ -590,7 +590,7 @@ if (conf.CHAT_BOT === 'yes') {
                /** ****** gestion auto-status  */
       if (ms.key && ms.key.remoteJid === 'status@broadcast' && conf.AUTO_STATUS_REPLY === "yes") {
   const user = ms.key.participant;
-  const text = `status viewed justnow with ZEZE47-MD`;
+  const text = `status viewed justnow with 𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏;
 
   await zk.sendMessage(user, { 
     text: text,
@@ -731,7 +731,7 @@ if (conf.GROUP_CONTROL === "yes") {
       conf.verifAdmin && !conf.groupeAdmin.includes(ms.key.participant) && ms.key.remoteJid.includes("@g.us")) {
 
       // Respond to the message
-      repondre("_ZEZE47-MD have just detected group link🧐_");
+      repondre("_𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 have just detected group link🧐_");
 
       const participant = ms.key.participant || ms.key.remoteJid;
       const chatId = ms.key.remoteJid;
@@ -785,7 +785,7 @@ if (conf.GROUP_CONTROL === "yes") {
            // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
             const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
             var sticker = new Sticker(gifLink, {
-                pack: 'Zeze47-Md',
+                pack: '𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃',
                 author: conf.OWNER_NAME,
                 type: StickerTypes.FULL,
                 categories: ['🤩', '🎉'],
@@ -996,9 +996,9 @@ ${metadata.desc}\n\n> POWERED BY ZEZE47 TECH.`;
 // Function to format notification message
 function createNotification(deletedMessage) {
   const deletedBy = deletedMessage.key.participant || deletedMessage.key.remoteJid;
-  let notification = `*🛰️ZEZE47 MD ANTIDELETE✍️*\n\n`;
+  let notification = `*🛰️𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 🍀 ANTIDELETE✍️*\n\n`;
   notification += `*Time deleted🥀:* ${new Date().toLocaleString()}\n`;
-  notification += `*Deleted by🌷:* @${deletedBy.split('@')[0]}\n\n*Powered by ZEZE47-MD*\n\n`;
+  notification += `*Deleted by🌷:* @${deletedBy.split('@')[0]}\n\n*Powered by 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃*\n\n`;
   return notification;
 }
 
@@ -1340,14 +1340,14 @@ if (conf.AUTO_LIKE_STATUS === "yes") {
                 console.log("------");
                 await (0, baileys_1.delay)(300);
                 console.log("------------------/-----");
-                console.log("ZEZE47-MD by ZEZE47 TECH installing cmds😇\n\n");
+                console.log("𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 by 𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏 installing cmds😇\n\n");
                 //chargement des commandes 
                 console.log("chargement des commandes ...\n");
                 fs.readdirSync(__dirname + "/commandes").forEach((fichier) => {
                     if (path.extname(fichier).toLowerCase() == (".js")) {
                         try {
                             require(__dirname + "/commandes/" + fichier);
-                            console.log(fichier + "Successfully installed ZEZE47-MD commands✔️");
+                            console.log(fichier + "Successfully installed 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 commands✔️");
                         }
                         catch (e) {
                             console.log(`${fichier} n'a pas pu être chargé pour les raisons suivantes : ${e}`);
@@ -1367,17 +1367,17 @@ if (conf.AUTO_LIKE_STATUS === "yes") {
                 else {
                     md = "undefined";
                 }
-                console.log("ZEZE47-MD successfully connected✅");
+                console.log("Z𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃successfully connected✅");
 
                 await activateCrons();
 
                 if((conf.DP).toLowerCase() === 'no') {     
-                let cmsg = `ZEZE47-MD RUNNING ...
+                let cmsg = 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 RUNNING ...
     
     Prefix : [ ${prefixe} ]
     Mode :${md} mode
     Total Command : ${evt.cm.length}
-    Owner : ZEZE47 TECH 🦸  
+    Owner : 𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏 🦸  
 
 > ❣️ *Im here laways 4r you* ❣️\n`;
                 await zk.sendMessage("255682937675@s.whatsapp.net", { text: cmsg });
