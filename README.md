@@ -1,7 +1,7 @@
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
- <h1 align="center"> WELCOME TO 👉ZEZE47 MD🛰️</h1>
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=3000&color=00FF00&background=000000&center=true&vCenter=true&width=600&lines=⚡+ZEZE47+MD+VERSION;🔥+The+Most+Powerful+WhatsApp+Bot;💻+Crafted+by+Zeze47+Boy;🚀+Next-Gen+Technology;🌈+Fast+⚡+Secure+🔒+Reliable+✅" alt="Typing Animation">
+ <h1 align="center"> WELCOME TO 👉𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃🛰️</h1>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=3000&color=00FF00&background=000000&center=true&vCenter=true&width=600&lines=⚡+𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃+VERSION;🔥+The+Most+Powerful+WhatsApp+Bot;💻+Crafted+by+𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏;🚀+Next-Gen+Technology;🌈+Fast+⚡+Secure+🔒+Reliable+✅" alt="Typing Animation">
 
 
 <p align="center">
@@ -10,13 +10,13 @@
   </marquee>
 </p>
  
-<p align="center"> Introducing ZEZE47 MD, A Simple WhatsApp user BOT, Created by zeze47 md.ping ✍️Animation">
+<p align="center"> Introducing 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃, A Simple WhatsApp user BOT, Created by zeze47 md.ping ✍️Animation">
 
   
 <a><img src='https://files.catbox.moe/z59hhv.jpg'/>&</a> 
 
 
-<a href="https://git.io/typing-hgm"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=ff0000&center=true&width=1000&height=200&lines=ZEZE47-MD" alt="Typing HGM" /></a>
+<a href="https://git.io/typing-hgm"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=ff0000&center=true&width=1000&height=200&lines=𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃" alt="Typing HGM" /></a>
 
 #### SETUP
 
@@ -80,7 +80,7 @@ HOW TO REACH THE OWNER?
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
    
    
-## Thankyou 🤝for choosing👉 ZEZE47 MD bot🛰️
+## Thankyou 🤝for choosing👉 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃bot🛰️
 
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
@@ -88,16 +88,16 @@ HOW TO REACH THE OWNER?
 ## Contributions
 
 
-Contributions to *ZEZE47-MD* are welcome! If you have ideas for new features, improvements, or bug fixes, feel free to open an issue or submit a pull request.
+Contributions to *𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃* are welcome! If you have ideas for new features, improvements, or bug fixes, feel free to open an issue or submit a pull request.
 
 # Security Notice
-ZEZE47 MD is safe for your WhatsApp and heroku☑️
+𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 is safe for your WhatsApp and heroku☑️
 
 
 
-## powered by ZEZE47 MD
+## powered by 𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏
 
 
 
-The *ZEZE47-MD* is released under the [MIT License](https://opensource.org/licenses/MIT).
+The *𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃* is released under the [MIT License](https://opensource.org/licenses/MIT).
 
