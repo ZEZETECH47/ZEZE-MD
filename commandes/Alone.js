@@ -14,7 +14,7 @@ const s = require(__dirname + "/../set");
 
 
 
-zokou({ nomCom: "ZEZE47", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
 
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
 
@@ -66,7 +66,7 @@ const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
 
-┏❏ ⌜  ZEZE47 MD ⌟ ❐
+┏❏ ⌜  𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 ⌟ ❐
 ┃ ⿻𝕄𝕠𝕕𝕖: ${mode}
 ┃ ⿻𝕌𝕤𝕖𝕣 : ${s.OWNER_NAME}
 ┃ ⿻𝕃𝕚𝕓𝕣𝕒𝕣𝕪 : Baileys
@@ -83,7 +83,7 @@ const date = moment().format('DD/MM/YYYY');
 
 let menuMsg = `
 ┏━━━━━━━━━┓
-┣💫 ZEZE47 cmds
+┣💫 𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏 cmds
 ┗━━━━━━━━━┛\n
 
 
@@ -113,11 +113,11 @@ let menuMsg = `
 
 
 ︎┏━━━━━━━━━━━━━━┓
-️┣❏Zeze47 md
-┣❏Easy life  
+️┣❏𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃
+┣❏Easy life👍 
 ┗┳━━━━━━━━━━━━┳┛
 ┏┻━━━━━━━━━━━━┻┓
-┃powered by ZEZE47 TECH
+┃powered by𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏
 ┗━━━━━━━━━━━━━━┛\n
 
 
