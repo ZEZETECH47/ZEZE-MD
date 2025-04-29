@@ -25,9 +25,8 @@
 
 
 2. 2. 👇 Get Session ID Here for wa.connection
-[![Get Session ID Here](https://img.shields.io/static/v1?label=Session%20ID&message=Generate&color=FF4500&style=for-the-badge&logo=firefox&logoColor=orange)]
-     <br> 
-<a href="<a href='https://zeze47-scanner.onrender.com' target="_blank"><img alt=' src='https://zeze-scanner.onrender.com/pair'/></a>" 
+[![Get Session ID Here](https://img.shields.io/static/v1?label=Session%20ID&message=Generate&color=FF4500&style=for-the-badge&logo=firefox&logoColor=orange) 
+<a href="<a href='https://zeze47-scanner.onrender.com' target="_blank"><img alt=' src='https://zeze-scanner.onrender.com/pair'/></a>"] 
 3. Deploy on heroku
     <br>
 <a href='https://dashboard.heroku.com/new?template=https://github.com/humphreymbise/ZEZE47' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
