@@ -12,7 +12,7 @@
 
 
   
-<a><img src='https://chat.whatsapp.com/CS06nnz6auIIVESZwycqOl'/>&</a> 
+<a><img src=''/>&</a> 
 
 
 <a href="https://git.io/typing-hgm"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=ff0000&center=true&width=1000&height=200&lines=ZEZE-MD" alt="Typing HGM" /></a>
