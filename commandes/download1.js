@@ -42,7 +42,7 @@ zokou({ nomCom: "send", categorie: "Mods" }, async (dest, zk, commandeOptions) =
       } else if (msgRepondu.stickerMessage) {
         let media = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage);
         let stickerMess = new Sticker(media, {
-          pack: 'ALPHA-MD',
+          pack: '𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃',
           type: StickerTypes.CROPPED,
           categories: ["🤩", "🎉"],
           id: "12345",
