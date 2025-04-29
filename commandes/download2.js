@@ -25,7 +25,7 @@ zokou({
       'image': {
         'url': _0x93b128
       },
-      'caption': "*powered by ALONE-MD*"
+      'caption': "*powered by 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃*"
     }, {
       'quoted': _0x4eb9fe
     });
