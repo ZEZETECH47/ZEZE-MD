@@ -43,7 +43,7 @@ const date = moment().format('DD/MM/YYYY');
  ${message}
  
  
- *ZEZE47🍀-MD-WA BOT*`
+ *𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃-WA BOT*`
 
  if (lien.match(/\.(mp4|gif)$/i)) {
     try {
@@ -88,7 +88,7 @@ else {
     
 await addOrUpdateDataInAlive(texte , tlien)
 
-repondre(' Hello👋 ,❣️🫠 *ALONE-MD BOT* is alive just like you gee😜. ')
+repondre(' Hello👋 ,❣️🫠 *𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 BOT* is alive just like you gee😜. ')
 
 }
     });
