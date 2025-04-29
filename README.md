@@ -22,8 +22,9 @@
     <br>
 <a href='https://github.com/Zezeboy/ZEZE47-MD-V1/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
-   1.https://dashboard.render.com/web/srv-d07vjb9r0fns73d96nn0) 
-3. Deploy on heroku
+2. GETTING SESSION ID
+   https://zeze-scanner.onrender.com) 
+4. Deploy on heroku
     <br>
 <a href='https://dashboard.heroku.com/new?template=https://github.com/humphreymbise/ZEZE47' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
