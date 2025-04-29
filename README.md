@@ -29,7 +29,6 @@
    > 
      <a href='https://zeze47-scanner.onrender.com' target="_blank"><img alt='SESSION ID' src='https://zeze47-scanner.onrender.com'/></a>
 
-
 3. Deploy on heroku
     <br>
 <a href='https://dashboard.heroku.com/new?template=https://github.com/humphreymbise/ZEZE47' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
@@ -38,7 +37,6 @@
 
 <a><img src=''/></a>
 
-   
 ## Supported Versions Node Versions to run this bot
 
 Please Use Node Version Higher to Get The Best Performance.
