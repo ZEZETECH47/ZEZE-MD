@@ -27,7 +27,7 @@ zokou({ nomCom: "tagall", categorie: 'Group', reaction: "📣" }, async (dest, z
 
   // Prepare the initial message tag
   let tag = `========================\n  
-        🌟 *ALONE-MD* 🌟
+        🌟 *𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃* 🌟
 ========================\n
 👥 Group : ${nomGroupe} 🚀 
 👤 Author : *${nomAuteurMessage}* 👋 
@@ -108,7 +108,7 @@ zokou({ nomCom: "remove", categorie: 'Group', reaction: "👨🏿‍💼" }, asy
             if (admin == false) {
               const stickerUrl = stickers[Math.floor(Math.random() * stickers.length)];
               const sticker = new Sticker(stickerUrl, {
-                pack: 'ALONE-MD',
+                pack: '𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃',
                 author: nomAuteurMessage,
                 type: StickerTypes.FULL,
                 categories: ['🤩', '🎉'],
@@ -162,7 +162,7 @@ if (res === '403') return repondre('Failed, Invite sent.');
 
   const stickerUrl = stickers[Math.floor(Math.random() * stickers.length)];
   const sticker = new Sticker(stickerUrl, {
-    pack: 'ALONE-MD',
+    pack: '𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃',
     author: nomAuteurMessage,
     type: StickerTypes.FULL,
     categories: ['🤩', '🎉'],
@@ -203,7 +203,7 @@ zokou({ nomCom: "promote", categorie: 'Group', reaction: "👨🏿‍💼" }, as
 
               const stickerUrl = stickers[Math.floor(Math.random() * stickers.length)];
               const sticker = new Sticker(stickerUrl, {
-                pack: 'ALONE-MD',
+                pack: '𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃',
                 author: auteurMessage,
                 type: StickerTypes.FULL,
                 categories: ['🤩', '🎉'],
@@ -261,7 +261,7 @@ const txt = `@${auteurMsgRepondu.split("@")[0]} has been removed from their posi
 
               const stickerUrl = stickers[Math.floor(Math.random() * stickers.length)];
               const sticker = new Sticker(stickerUrl, {
-                pack: 'ALONE-MD',
+                pack: '𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃',
                 author: auteurMessage,
                 type: StickerTypes.FULL,
                 categories: ['🤩', '🎉'],
@@ -483,7 +483,7 @@ zokou({ nomCom: "antilink", categorie: 'Group', reaction: "🔗" }, async (dest,
                             }
     } catch (error) {
        repondre(error)
-    }
+    } 
 
   } else { repondre('You are not entitled to this order') ;
 
@@ -521,7 +521,7 @@ zokou({ nomCom: "group", categorie: 'Group' }, async (dest, zk, commandeOptions)
   }
  
 
-});
+}); 
 
 zokou({ nomCom: "left", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
 
@@ -656,7 +656,7 @@ zokou({nomCom:"hidetag",categorie:'Group',reaction:"🎤"},async(dest,zk,command
         let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
 
         let stickerMess = new Sticker(media, {
-          pack: 'ALONE-MD-tag',
+          pack: '𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃-tag',
           type: StickerTypes.CROPPED,
           categories: ["🤩", "🎉"],
           id: "12345",
