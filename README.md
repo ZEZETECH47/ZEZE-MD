@@ -24,7 +24,8 @@
 
 
 
-2. Get Session ID (BY PAIRING CODE)
+2. 2. 👇 Get Session ID Here for wa.connection
+[![Get Session ID Here](https://img.shields.io/static/v1?label=Session%20ID&message=Generate&color=FF4500&style=for-the-badge&logo=firefox&logoColor=orange)]
      <br> 
 <a href="<a href='https://zeze47-scanner.onrender.com' target="_blank"><img alt=' src='https://zeze-scanner.onrender.com/pair'/></a>" 
 3. Deploy on heroku
