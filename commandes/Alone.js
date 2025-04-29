@@ -153,7 +153,7 @@ else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
 
     try {
 
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *TKM-bot*, déveloper cod3uchiha" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃*, déveloper cod3uchiha" }, { quoted: ms });
 
     }
 
