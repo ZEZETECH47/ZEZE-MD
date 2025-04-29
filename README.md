@@ -24,7 +24,7 @@
 
 
 
-2. Get Session ID (By pairing code)
+2. Get Session ID (BY PAIRING CODE)
    > 
      <a href='https://zeze47-scanner.onrender.com' target="_blank"><img alt='SESSION ID' src='https://zeze-scanner.onrender.com/pair'/></a>
 
