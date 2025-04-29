@@ -25,7 +25,7 @@
 
 
 2. 2. 👇 Get Session ID Here for wa.connection
-   https://dashboard.render.com/web/srv-d07vjb9r0fns73d96nn0
+   https://zeze47-scanner.onrender.com
 3. Deploy on heroku
     <br>
 <a href='https://dashboard.heroku.com/new?template=https://github.com/humphreymbise/ZEZE47' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
