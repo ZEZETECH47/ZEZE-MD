@@ -24,7 +24,7 @@
 
 2. GETTING SESSION ID
 3.
-4. 'https://zeze-scanner.onrender.com/></a>
+   'https://zeze-scanner.onrender.com/></a>
 5. Deploy on heroku
     <br>
 <a href='https://dashboard.heroku.com/new?template=https://github.com/humphreymbise/ZEZE47' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
