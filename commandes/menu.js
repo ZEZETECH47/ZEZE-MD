@@ -183,7 +183,7 @@ zokou({ nomCom: "menu", aliases: ["liste", "helplist", "commandlist"], categorie
         commandsList += "\n│◦➛╰─────────────\n╰──────────────┈⊷\n";
     }
 
-    commandsList += readMore + "\nin honor of Zeze\n";
+    commandsList += readMore + "\nin honor of 𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏\n";
 
     // Send message
     try {
@@ -193,7 +193,7 @@ zokou({ nomCom: "menu", aliases: ["liste", "helplist", "commandlist"], categorie
             contextInfo: {
                 mentionedJid: [senderName],
                 externalAdReply: {
-                    title: "🌟 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃✨",
+                    title: "🛰️ 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃🇹🇿",
                     body: "POWERED BY 𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏",
                     thumbnailUrl: "https://i.imgur.com/jE8eQsP.jpeg",
                     sourceUrl: "https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r",
