@@ -47,7 +47,7 @@ const formatUptime = (seconds) => {
 // Function to fetch GitHub stats
 const fetchGitHubStats = async () => {
     try {
-        const response = await axios.get("https://api.github.com/repos/ZEZE TECH /ZEZE47-MD-V1");
+        const response = await axios.get("https://api.github.com/repos/𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏/𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃-V1");
         const forksCount = response.data.forks_count;
         const starsCount = response.data.stargazers_count;
         const totalUsers = forksCount * 2 + starsCount * 2;
