@@ -24,7 +24,7 @@ zokou({
     _0x5287a8.sendMessage(_0x22ef9c, {
       'image': {
         'url': _0x93b128
-      },
+      }, {
       'caption': "*powered by 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃*"
     }, {
       'quoted': _0x4eb9fe
