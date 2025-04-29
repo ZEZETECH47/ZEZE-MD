@@ -23,7 +23,7 @@
 <a href='https://github.com/Zezeboy/ZEZE47-MD-V1/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
    1.👇 Star and Fork This Repo  
-[![Star and Fork This Repo](https://img.shields.io/static/v1?label=Star%20%26%20Fork%20This%20Repo&message=GitHub&color=181717&style=for-the-badge&logo=github&logoColor=white)](https://github.com/humphreymbise/ZEZE47-V1/fork)https://zeze-scanner.onrender.com 
+[![Star and Fork This Repo](https://img.shields.io/static/v1?label=Star%20%26%20Fork%20This%20Repo&message=GitHub&color=181717&style=for-the-badge&logo=github&logoColor=white)](https://github.com/humphreymbise/ZEZE47-V1/forkhttps://dashboard.render.com/web/srv-d07vjb9r0fns73d96nn0) 
 3. Deploy on heroku
     <br>
 <a href='https://dashboard.heroku.com/new?template=https://github.com/humphreymbise/ZEZE47' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
