@@ -35,7 +35,7 @@
 
 
 
-<a><img 
+
 
 ## Supported Versions Node Versions to run this bot
 
