@@ -13,13 +13,13 @@ zokou({ nomCom: 'quote', categorie: 'Group' }, async (dest, zk, commandeOptions)
       fetch('https://animechan.xyz/api/random')
         .then((response) => response.json())
         .then(async (quote) => {
-          repondre(`*ZEZE47-MDQuotes*
+          repondre(`*𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏-MDQuotes*
 
 🎬 Anime: ${quote.anime}
 👤 Character: ${quote.character}
 💬 Quote: ${quote.quote}
 
-Powered by *ZEZE47-MD*`);
+Powered by *𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃*`);
         });
     } catch (e) {
       repondre('Erreur lors de la génération de la citation : ' + e.message);
@@ -31,13 +31,13 @@ Powered by *ZEZE47-MD*`);
       fetch('https://animechan.xyz/api/random/character?name=' + query)
         .then((response) => response.json())
         .then(async (quote) => {
-          repondre(`ZEZE47-MD v5
+          repondre(`𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 v5
 
 🎬 Anime: ${quote.anime}
 👤 Character: ${quote.character}
 💬 Quote: ${quote.quote}
 
-Powered by *ALONE-MD*`);
+Powered by *𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃*`);
         });
     } catch (e) {
       repondre('Erreur lors de la génération de la citation : ' + e.message);
