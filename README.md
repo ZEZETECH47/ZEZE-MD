@@ -26,7 +26,7 @@
 
 2. Get Session ID (BY PAIRING CODE)
    > 
-     <a href='https://zeze47-scanner.onrender.com' target="_blank"><img alt=https://files.catbox.moe/imr7uf.jpg' src='https://zeze-scanner.onrender.com/pair'/></a>
+     <a href='https://zeze47-scanner.onrender.com' target="_blank"><img alt=' src='https://zeze-scanner.onrender.com/pair'/></a>
 
 3. Deploy on heroku
     <br>
