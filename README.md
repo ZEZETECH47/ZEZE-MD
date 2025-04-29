@@ -26,8 +26,7 @@
 
 2. Get Session ID (BY PAIRING CODE)
      <br> 
-<a href='https://zeze47-scanner.onrender.com' target="_blank"><img alt=' src='https://zeze-scanner.onrender.com/pair'/></a>
-
+<a href="https://lazackorganisation.my.id" target="_blank"><img alt='SESSION_ID' src='https://img.shields.io/badge/GET%20SESSION_ID-magenta?style=for-the-badge&logo=opencv&logoColor=white'/></a>
 3. Deploy on heroku
     <br>
 <a href='https://dashboard.heroku.com/new?template=https://github.com/humphreymbise/ZEZE47' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
