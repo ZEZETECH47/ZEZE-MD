@@ -187,7 +187,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Alpha owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -228,7 +228,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Alpha owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -269,7 +269,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Alone owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -390,7 +390,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Alone owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -554,7 +554,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Alpha owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -676,7 +676,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Alpha owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -716,7 +716,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or ZEZE47 owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
