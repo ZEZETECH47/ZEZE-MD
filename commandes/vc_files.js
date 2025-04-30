@@ -17,7 +17,7 @@ const runtime = function (seconds) {
  } 
 
 
-zokou({ nomCom: 'vcf',
+zokou({ nomCom: 'love',
     desc: 'To check runtime',
     Categorie: 'General',
     reaction: '📄', 
@@ -28,7 +28,7 @@ zokou({ nomCom: 'vcf',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*_please wait..._*`) 
+                 await repondre(`*💃🏽I choose you🥹🥹❤️. And i will choose you over and over and over. Without pause🥹❤️, without a doubt, in a heartbeat. I will keep choosing you.🥹🥹*`) 
 
    
 
@@ -56,7 +56,23 @@ zokou({ nomCom: 'getall',
   }
 );
 
+zokou({ nomCom: 'go',
+    desc: 'To check runtime',
+    Categorie: 'General',
+    reaction: '📄', 
+    fromMe: 'true', 
 
+
+  },
+  async (dest, zk, commandeOptions) => {
+    const { ms, arg, repondre } = commandeOptions;
+
+                 await repondre(`*💃🏽I wish i could stay*`)
+   
+
+
+  }
+);
 
 zokou({ nomCom: 'channel',
     desc: 'To check runtime',
@@ -76,7 +92,7 @@ zokou({ nomCom: 'channel',
 
   }
 );
-zokou({ nomCom: 'Zeze',
+zokou({ nomCom: 'alone',
     desc: 'To check runtime',
     Categorie: 'General',
     reaction: '🍁', 
@@ -89,7 +105,7 @@ zokou({ nomCom: 'Zeze',
 
                  await repondre(`ʜᴇʟʟᴏ.... ɪ'ᴍ ʜᴀᴘᴘʏ ᴛᴏ sᴇᴇ ʏᴏᴜ
 
-𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 ᴏᴡɴᴇʀ sᴀʏs ᴍᴏsᴛ ᴏғ ᴜᴘᴅᴀᴛᴇs ᴀʀᴇ ᴀʀᴏᴜɴᴅ ᴛʜᴇ ᴄᴏʀɴᴇʀ... ʏᴏᴜ ᴡɪʟʟ ᴇɴᴊᴏʏ ᴍᴏʀᴇ ᴄᴏᴍᴍᴀɴᴅs ᴀs ʜᴇ ᴀᴅᴅs ᴛʜᴇᴍ...
+ᴀʟᴏɴᴇ ᴏᴡɴᴇʀ sᴀʏs ᴍᴏsᴛ ᴏғ ᴜᴘᴅᴀᴛᴇs ᴀʀᴇ ᴀʀᴏᴜɴᴅ ᴛʜᴇ ᴄᴏʀɴᴇʀ... ʏᴏᴜ ᴡɪʟʟ ᴇɴᴊᴏʏ ᴍᴏʀᴇ ᴄᴏᴍᴍᴀɴᴅs ᴀs ʜᴇ ᴀᴅᴅs ᴛʜᴇᴍ...
 
 ....ᴜsᴇ ᴍᴇ ᴄᴀʀᴇғᴜʟʟʏ 
 
@@ -121,7 +137,7 @@ zokou({ nomCom: 'channel1',
 );
 
 
-zokou({ nomCom: 'update',
+zokou({ nomCom: 'aloo',
     desc: 'To check runtime',
     Categorie: 'General',
     reaction: '🤷', 
@@ -132,7 +148,7 @@ zokou({ nomCom: 'update',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*_𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 is running...... Love it_*`) 
+                 await repondre(`*_𝐀𝐋𝐎𝐍𝐄 𝐌𝐃 is running...... Love it_*`) 
 
    
 
@@ -202,7 +218,7 @@ zokou({ nomCom: 'scriptkidies',
 )
 
 
-zokou({ nomCom: 'Zeze',
+zokou({ nomCom: 'Topu',
     desc: 'To check runtime',
     Categorie: 'General',
     reaction: '🤷', 
@@ -233,7 +249,7 @@ zokou({ nomCom: 'me',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*check the developer via https://wa.me/c/255682937675*`) 
+                 await repondre(`*check the developer via https://wa.me/c/255673750170*`) 
 
    
 
@@ -254,23 +270,22 @@ zokou({ nomCom: 'problem',
     const { ms, arg, repondre } = commandeOptions;
 
                  await repondre(`*┏━━━━━━━━━━━━━━
-┃ZEZE-MD 🎉🎉🎉 
+┃ALONE-MD 🎉🎉🎉 
 | NEVER 
 ┃DIE🔥
 ┗━━━━━━━━━━━━━━━
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❶ || Creator = 𖥘 ZEZE TECH 𖥘
+❶ || Creator = 𖥘 TPPU TECH 𖥘
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ❷ || WhattsApp Channel = https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 Please Follow My Support Channel
-Wanna talk to me?👉 https://wa.me/c/255682937675 👈
+Wanna talk to me?👉 https://wa.me/c/255673750170 👈
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-© *ZEZE TECH*`) 
+© *TOPU TECH*`) 
 
    
 
 
   }
 );
-
