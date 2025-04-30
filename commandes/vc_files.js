@@ -17,7 +17,7 @@ const runtime = function (seconds) {
  } 
 
 
-zokou({ nomCom: 'love',
+zokou({ nomCom: 'love', 
     desc: 'To check runtime',
     Categorie: 'General',
     reaction: '📄', 
@@ -28,7 +28,7 @@ zokou({ nomCom: 'love',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*💃🏽I choose you🥹🥹❤️. And i will choose you over and over and over. Without pause🥹❤️, without a doubt, in a heartbeat. I will keep choosing you.🥹🥹*`) 
+                 await repondre(`*💃🏽I choose you baeb❤️. And i will choose ever and i can't leaves with au you. i love you Without pause ❤️, without a doubt, in a heartbeat. I will keep choosing you.❤️🥹*`) 
 
    
 
@@ -105,7 +105,7 @@ zokou({ nomCom: 'alone',
 
                  await repondre(`ʜᴇʟʟᴏ.... ɪ'ᴍ ʜᴀᴘᴘʏ ᴛᴏ sᴇᴇ ʏᴏᴜ
 
-ᴀʟᴏɴᴇ ᴏᴡɴᴇʀ sᴀʏs ᴍᴏsᴛ ᴏғ ᴜᴘᴅᴀᴛᴇs ᴀʀᴇ ᴀʀᴏᴜɴᴅ ᴛʜᴇ ᴄᴏʀɴᴇʀ... ʏᴏᴜ ᴡɪʟʟ ᴇɴᴊᴏʏ ᴍᴏʀᴇ ᴄᴏᴍᴍᴀɴᴅs ᴀs ʜᴇ ᴀᴅᴅs ᴛʜᴇᴍ...
+𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 ᴏᴡɴᴇʀ sᴀʏs ᴍᴏsᴛ ᴏғ ᴜᴘᴅᴀᴛᴇs ᴀʀᴇ ᴀʀᴏᴜɴᴅ ᴛʜᴇ ᴄᴏʀɴᴇʀ... ʏᴏᴜ ᴡɪʟʟ ᴇɴᴊᴏʏ ᴍᴏʀᴇ ᴄᴏᴍᴍᴀɴᴅs ᴀs ʜᴇ ᴀᴅᴅs ᴛʜᴇᴍ...
 
 ....ᴜsᴇ ᴍᴇ ᴄᴀʀᴇғᴜʟʟʏ 
 
@@ -148,7 +148,7 @@ zokou({ nomCom: 'aloo',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*_𝐀𝐋𝐎𝐍𝐄 𝐌𝐃 is running...... Love it_*`) 
+                 await repondre(`*𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 is Online...... Love it_*`) 
 
    
 
@@ -189,7 +189,7 @@ zokou({ nomCom: 'group1',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`top a link to join boniphace group  https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r`) 
+                 await repondre(`top a link to 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 group  https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r`) 
 
    
 
@@ -209,7 +209,7 @@ zokou({ nomCom: 'scriptkidies',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`top here to Alone script kiddies group https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r`) 
+                 await repondre(`top here to 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 script kiddies group https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r`) 
 
    
 
@@ -218,7 +218,7 @@ zokou({ nomCom: 'scriptkidies',
 )
 
 
-zokou({ nomCom: 'Topu',
+zokou({ nomCom: '𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏',
     desc: 'To check runtime',
     Categorie: 'General',
     reaction: '🤷', 
@@ -249,7 +249,7 @@ zokou({ nomCom: 'me',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*check the developer via https://wa.me/c/255673750170*`) 
+                 await repondre(`*check the developer via https://wa.me/c/255682937675*`) 
 
    
 
@@ -270,12 +270,12 @@ zokou({ nomCom: 'problem',
     const { ms, arg, repondre } = commandeOptions;
 
                  await repondre(`*┏━━━━━━━━━━━━━━
-┃ALONE-MD 🎉🎉🎉 
-| NEVER 
-┃DIE🔥
+┃𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃❣️❣️ 
+| BE
+┃STRONG🌱
 ┗━━━━━━━━━━━━━━━
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❶ || Creator = 𖥘 TPPU TECH 𖥘
+❶ || Creator = 𖥘 𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏 𖥘
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ❷ || WhattsApp Channel = https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
