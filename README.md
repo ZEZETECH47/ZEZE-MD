@@ -22,17 +22,17 @@
 - <a align="center"><a href="https://github.com/humphreymbise/ZEZE47-V1/fork"> <img src="https://img.shields.io/badge/FORK%20REPO-colorless?style=for-the-badge&logo=porsche" width="220" height="38.45"/></a></p>
 
 
- 2.👇✓GETING SESSIOM ID✓
+ ## .👇✓GETING SESSIOM ID✓
  
  [![Get Session ID Here](https://img.shields.io/static/v1?label=Session%20ID&message=Generate&color=FF4500&style=for-the-badge&logo=firefox&logoColor=orange)](https://zeze-scanner.onrender.com) 
 
  
 
- 3.👇¥DEPLOY TO HEROKU¥
+ ## 👇¥DEPLOY TO HEROKU¥
      </a></p>
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/humphreymbise/ZEZE47)
 
-4.👇£CREATE ACCOUNT ON HEROKU© 
+## 👇£CREATE ACCOUNT ON HEROKU© 
 [![Create Account on Heroku](https://img.shields.io/badge/GET%20CREATE.HEROKU-magenta?style=for-the-badge&logo=opencv&logoColor=white)](https://heroku.com)  
 
 
@@ -96,7 +96,7 @@ to activate your what's app running 💨
 
 Contributions to *𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃* are welcome! If you have ideas for new features, improvements, or feel free to open an issue or submit a pull request.
 
-# 👇Notice❣️
+## 👇Notice❣️
 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 is supper for your what's app account 
 
 
@@ -105,5 +105,5 @@ Contributions to *𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃* are welcome! If you have id
 
 
 
-The *𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃* is released under the [MIT License](https://opensource.org/licenses/MIT).
+## The *𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃* is released under the [MIT License](https://opensource.org/licenses/MIT).
 
