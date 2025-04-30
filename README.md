@@ -32,7 +32,7 @@
 
  3.DEPLOY TO HEROKU
      </a></p>
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/humphreymbise/ZEZE47-Device)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/humphreymbise/ZEZE47)
 
 4.👇 CREATE ACCOUNT ON HEROKU 🛰️ 
 [![Create Account on Heroku](https://img.shields.io/badge/GET%20CREATE.HEROKUACCOUNT-magenta?style=for-the-badge&logo=opencv&logoColor=white)](https://heroku.com)  
