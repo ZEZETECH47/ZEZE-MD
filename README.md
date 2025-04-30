@@ -22,7 +22,7 @@
 
 1. Fork the repo
     <br>
-    <div style="background: #000000; border: 1px solid #00ffff; border-radius: 15px; padding: 20px; box-shadow: 0 0 15px #00ffff; margin-bottom: 30px;">href='https://github.com/humphreymbise/ZEZE4/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+<a 30px;">href='https://github.com/humphreymbise/ZEZE4/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
  2.GETING SESSIOM ID 
  [![Get Session ID Here](https://img.shields.io/static/v1?label=Session%20ID&message=Generate&color=FF4500&style=for-the-badge&logo=firefox&logoColor=orange)](https://zeze-scanner.onrender.com) 
