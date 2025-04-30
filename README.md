@@ -1,6 +1,6 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=WELCOME+TO+𝐙𝐄𝐙𝐄𝟒𝟕+𝐌𝐃+BOTS+MADE+BY;𝘡𝘌𝘡𝘌47;THANKS+FOR+VISITING+MY+REPO)](to)
 🛰️MADE BY 𝐇𝐔𝐌𝐏𝐇𝐑𝐄𝐘𝐌𝐁𝐈𝐒𝐄47
-'/></a>
+ ></a>
  <h1 align="center"> 🛰️𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃💻</h1>
    <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <p align="center">
