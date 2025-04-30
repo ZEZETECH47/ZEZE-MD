@@ -33,7 +33,7 @@
 
  3.Deploy on heroku
      </a></p>
-- <a href='[https://dashboard.heroku.com/new?template=https://github.com/humphreymbise,/ZEZE47]`((https://dashboard.heroku.com/new?template=https://github.com/humphreymbise/turn-meh) )' target="_silver"><img alt='DEPLOY' src='https://img.shields.io/badge/-𝔻𝔼ℙ𝕃𝕆𝕐 𝕋𝕆 ℍ𝔼ℝ𝕆𝕂𝕌-rgb(32, 178, 170)?style=for-the-badge&logo=ferrari&logoColor=yellow' width="240" height="38.45"/></a>
+- <a href='[https://dashboard.heroku.com/new?template=https://github.com/humphreymbise,/ZEZE47]`((https://dashboard.heroku.com/new?template=https://github.com/humphreymbise/ZEZE47) )' target="_silver"><img alt='DEPLOY' src='https://img.shields.io/badge/-𝔻𝔼ℙ𝕃𝕆𝕐 𝕋𝕆 ℍ𝔼ℝ𝕆𝕂𝕌-rgb(32, 178, 170)?style=for-the-badge&logo=ferrari&logoColor=yellow' width="240" height="38.45"/></a>
 
 
 
