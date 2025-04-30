@@ -50,7 +50,7 @@ Please Use Node Version Higher to Get The Best Performance.
 | 18.x   | :white_check_mark: |
 | 20.x   | ✅                |
 
-## Support 
+## ⭐SUPPORT 💪 ⭐
 <a href="https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r" target="_blank">
     <img alt="whatsapp Group" src="https://img.shields.io/badge/ Whatsapp Support Channel -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   </a>
@@ -73,7 +73,7 @@ HOW TO REACH THE OWNER?
 
 
 
-## Makesure you follow my channel for latest updates 
+## Makesure you follow my channel for latest updates and features 🥰
  [`WA CHANNEL`](_https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r_
  )
 
@@ -83,7 +83,8 @@ HOW TO REACH THE OWNER?
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
    
    
-## Thankyou 🤝for choosing👉 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃bot🛰️
+## EASY 😜 
+to activate your what's app running 💨 
 
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
@@ -91,14 +92,14 @@ HOW TO REACH THE OWNER?
 ## Contributions
 
 
-Contributions to *𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃* are welcome! If you have ideas for new features, improvements, or bug fixes, feel free to open an issue or submit a pull request.
+Contributions to *𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃* are welcome! If you have ideas for new features, improvements, or feel free to open an issue or submit a pull request.
 
-# Security Notice
-𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 is safe for your WhatsApp and heroku☑️
+# 👇Notice❣️
+𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 is supper for your what's app account 
 
 
 
-## powered by 𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏
+## TECHNICALLY BY 𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏
 
 
 
