@@ -20,9 +20,7 @@
 
 #### SETUP
 
-1. Fork the repo
-
-1.👇 Star and Fork This Repo  
+1.👇 FORK THE REPO HERE👇 
 [![Star and Fork This Repo](https://img.shields.io/static/v1?label=Star%20%26%20Fork%20This%20Repo&message=GitHub&color=181717&style=for-the-badge&logo=github&logoColor=white)](https://github.com/humphreymbise/ZEZE47-V1/fork)  
 
  2.GETING SESSIOM ID 
@@ -31,7 +29,7 @@
 
  
 
- 3.Deploy on heroku
+ 3.DEPLOY TO HEROKU
      </a></p>
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/humphreymbise/ZEZE47-Device)
 
