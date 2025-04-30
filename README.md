@@ -23,9 +23,7 @@
 1. Fork the repo
 
   1.👇 Star and Fork This Repo  
-[![Star and Fork This Repo]
-
-(https://img.shields.io/static/v1?label=Star%20%26%20Fork%20This%20Repo&message=GitHub&color=181717&style=for-the-badhttps://github.com/humphreymbise/ZEZE4/forkge&logo=github&logoColor=white)]
+[![Star and Fork This Repo(https://img.shields.io/static/v1?label=Star%20%26%20Fork%20This%20Repo&message=GitHub&color=181717&style=for-the-badhttps://github.com/humphreymbise/ZEZE4/forkge&logo=github&logoColor=white)]
 
  2.GETING SESSIOM ID 
  
