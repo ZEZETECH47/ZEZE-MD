@@ -24,7 +24,8 @@
     <br>
 <a href='https://github.com/humphreymbise/ZEZE4/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
- 2.https://zeze-scanner.onrender.com
+ 2.GETING SESSIOM ID 
+ <a https://zezescanner.onrender.comhttps://img.shields.io/badge/DEPLOY-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black`/></a>
 
  3.Deploy on heroku
     <br>
