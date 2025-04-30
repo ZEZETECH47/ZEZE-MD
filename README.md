@@ -21,7 +21,7 @@
 #### SETUP
 
 1.👇 Star and Fork This Repo  
-[![START AND FORK THIS REPO](https://img.shields.io/badge/Join%20WhatsApp%20Group-green?style=for-the-badge&logo=whatsapp&logoColor=white=white)](https://github.com/humphreymbise/ZEZE47-V1/fork)  
+[![START AND FORK THIS REPO](https://img.shields.io/badge/FORK%20THE%20GREPO-green?style=for-the-badge&logo=whatsapp&logoColor=white=white)](https://github.com/humphreymbise/ZEZE47-V1/fork)  
 
 
  2.GETING SESSIOM ID 
@@ -35,7 +35,7 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/humphreymbise/ZEZE47-Device)
 
 4.👇 CREATE ACCOUNT ON HEROKU 🛰️ 
-[![Create Account on Heroku](https://img.shields.io/badge/GET%20CREDS.JSON-magenta?style=for-the-badge&logo=opencv&logoColor=white)](https://heroku.com)  
+[![Create Account on Heroku](https://img.shields.io/badge/GET%20CREATE.HEROKUACCOUNT-magenta?style=for-the-badge&logo=opencv&logoColor=white)](https://heroku.com)  
 
 
 
