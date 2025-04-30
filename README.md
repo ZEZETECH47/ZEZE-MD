@@ -20,22 +20,22 @@
 
 #### SETUP
 
-1.👇 Star and Fork This Repo  
+1.👇 STAR AND FORK THIS REPO🛰️
 [![START AND FORK THIS REPO](https://img.shields.io/badge/FORK%20THE%20GREPO-green?style=for-the-badge&logo=whatsapp&logoColor=white=white)](https://github.com/humphreymbise/ZEZE47-V1/fork)  
 
 
- 2.GETING SESSIOM ID 
+ 2.👇GETING SESSIOM ID🛰️
  
  [![Get Session ID Here](https://img.shields.io/static/v1?label=Session%20ID&message=Generate&color=FF4500&style=for-the-badge&logo=firefox&logoColor=orange)](https://zeze-scanner.onrender.com) 
 
  
 
- 3.DEPLOY TO HEROKU
+ 3.👇DEPLOY TO HEROKU🛰️
      </a></p>
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/humphreymbise/ZEZE47)
 
 4.👇 CREATE ACCOUNT ON HEROKU 🛰️ 
-[![Create Account on Heroku](https://img.shields.io/badge/GET%20CREATE.HEROKUACCOUNT-magenta?style=for-the-badge&logo=opencv&logoColor=white)](https://heroku.com)  
+[![Create Account on Heroku](https://img.shields.io/badge/GET%20CREATE.HEROKU-magenta?style=for-the-badge&logo=opencv&logoColor=white)](https://heroku.com)  
 
 
 
