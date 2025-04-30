@@ -21,7 +21,7 @@
 #### SETUP
 
 1.👇 Star and Fork This Repo  
-[![START AND FORK THIS REPO](https://img.shields.io/static/v1?label=Star%20%26%20Fork%20This%20Repo&message=GitHub&color=181717&style=for-the-badge&logo=github&logoColor=white)](https://github.com/humphreymbise/ZEZE47-V1/fork)  
+[![START AND FORK THIS REPO](https://img.shields.io/badge/Join%20WhatsApp%20Group-green?style=for-the-badge&logo=whatsapp&logoColor=white=white)](https://github.com/humphreymbise/ZEZE47-V1/fork)  
 
 
  2.GETING SESSIOM ID 
