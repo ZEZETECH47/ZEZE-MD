@@ -61,7 +61,7 @@ HOW TO REACH THE OWNER?
  
    
 
-   <a href="https://wa.me/c/+255673750170">
+   <a href="https://wa.me/255760109840">
     <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   </a>&nbsp;&nbsp;
    <a
