@@ -2,7 +2,7 @@
 🛰️MADE BY 𝐇𝐔𝐌𝐏𝐇𝐑𝐄𝐘𝐌𝐁𝐈𝐒𝐄47
 '/></a>
  <h1 align="center"> 🛰️𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃💻</h1>
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=3000&color=00FF00&background=000000&center=true&vCenter=true&width=600&lines=⚡+𝐙𝐄𝐙𝐄𝟒𝟕+𝐌𝐃+VERSION;🔥+The+Most+Powerful+WhatsApp+Bot;💻+Crafted+by+𝘡𝘌𝘡𝘌47+𝘛𝘌𝘊𝘏;🚀+Next-Gen+Technology;🌈+Fast+⚡+Secure+🔒+Reliable+✅" alt="Typing Animation">
+alt="Typing Animation">
    <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <p align="center">
 <p align="center">
