@@ -23,8 +23,7 @@
 1. Fork the repo
     <br>
 <a href='https://github.com/humphreymbise/ZEZE4/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
- 
-2. https://zeze-scanner.onrender.com
+ ><img alt='SESSION_ID' src='https://img.shields.io/badge/GET%20SESSION_ID-magenta?style=for-the-badge&logo=opencv&logoColor=white'https://zeze-scanner.onrender.com><a>
 3. Deploy on heroku
     <br>
 <a href='https://dashboard.heroku.com/new?template=https://github.com/humphreymbise/ZEZE47' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
