@@ -32,8 +32,9 @@
  
 
  3.Deploy on heroku
-    <br>
-<a href='https://dashboard.heroku.com/new?template=https://github.com/humphreymbise/ZEZE47' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+     </a></p>
+- <a href='[https://dashboard.heroku.com/new?template=https://github.com/Mselachui03/CHUI-MASTER-BOT](https://dashboard.heroku.com/new?template=https://github.com/humphreymbise/ZEZE47)' target="_silver"><img alt='DEPLOY' src='https://img.shields.io/badge/-𝔻𝔼ℙ𝕃𝕆𝕐 𝕋𝕆 ℍ𝔼ℝ𝕆𝕂𝕌-rgb(32, 178, 170)?style=for-the-badge&logo=ferrari&logoColor=yellow' width="240" height="38.45"/></a>
+
 
 
 
