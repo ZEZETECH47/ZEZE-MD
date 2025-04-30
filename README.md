@@ -21,7 +21,7 @@
 #### SETUP
 
 1.👇 FORK THE REPO HERE👇 
-[![Star and Fork This Repo](https://img.shields.io/badge/GET%20SESSION_ID-magenta?style=for-the-badge&logo=github&logoColor=white)](https://github.com/humphreymbise/ZEZE47-V1/fork)  
+[![Star and Fork This Repo](https://img.shields.io/badge/GET%20FORKTHEREEPO-magenta?style=for-the-badge&logo=github&logoColor=white)](https://github.com/humphreymbise/ZEZE47-V1/fork)  
 
  2.GETING SESSIOM ID 
  
