@@ -27,7 +27,7 @@
  2.GETING SESSIOM ID 
  [![Get Session ID Here](https://img.shields.io/static/v1?label=Session%20ID&message=Generate&color=FF4500&style=for-the-badge&logo=firefox&logoColor=orange)](https://zeze-scanner.onrender.com) 
 
- https://zeze-scanner.onrender.com
+ 
 
  3.Deploy on heroku
     <br>
