@@ -29,13 +29,11 @@
  
 
  ## 👇¥DEPLOY TO HEROKU¥
-     </a></p>
+
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/humphreymbise/ZEZE47)
 
 ## 👇£CREATE ACCOUNT ON HEROKU© 
 [![Create Account on Heroku](https://img.shields.io/badge/GET%20CREATE.HEROKU-magenta?style=for-the-badge&logo=opencv&logoColor=white)](https://heroku.com)  
-
-
 
 
 =======Supported Versions Node Versions to run this bot====
