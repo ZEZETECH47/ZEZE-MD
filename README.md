@@ -35,7 +35,6 @@
      </a></p>
 - <a href='[https://dashboard.heroku.com/new?template=https://github.com/humphreymbise,/ZEZE47]`(https://dashboard.heroku.com/new?template=https://github.com/humphreymbise/ZEZE47)' target="_silver"><img alt='DEPLOY' src='https://img.shields.io/badge/-𝔻𝔼ℙ𝕃𝕆𝕐 𝕋𝕆 ℍ𝔼ℝ𝕆𝕂𝕌-rgb(32, 178, 170)?style=for-the-badge&logo=ferrari&logoColor=yellow' width="240" height="38.45"/></a>
 
-https://img.shields.io/static/v1?label=Star%20%26%20Fork%20This%20Repo&message=GitHub&color=181717&style=for-the-badhttps://github.com/humphreymbise/ZEZE4/forkge&logo=github&logoColor=white
 
 
 
