@@ -28,7 +28,7 @@ zokou({ nomCom: 'love',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*💃🏽I choose you baeb❤️. And i will choose ever and i can't leaves with au you. i love you Without pause ❤️, without a doubt, in a heartbeat. I will keep choosing you.❤️🥹*`) 
+                 await repondre(`*💃🏽I choose you ❤️. And i will choose ever and i can't love anyone's like u🌹trust me❤️. i love you Without pause ❤️, without a doubt, in a heartbeat. I will keep choosing you.❤️🥹*`) 
 
    
 
