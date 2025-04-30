@@ -72,6 +72,11 @@ HOW TO REACH THE OWNER?
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 
+## *RECOMMENDED TOOLS**
+
+(https://code.visualstudio.com/)
+- **Version Control:** [Git](https://git-scm.com/)
+- **Hosting:** [Heroku](https://heroku.com/), [Replit](https://replit.com/)
 
 ## Makesure you follow my channel for latest updates and features 🥰
  [`WA CHANNEL`](_https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r_
