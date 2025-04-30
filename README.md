@@ -73,7 +73,7 @@ HOW TO REACH THE OWNER?
 
 
 ## *𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 TAP TO OPEN 👐**
-https://img.shields.io/badge/https://git-scm.com/-25D366?style=for-the-badge&logo=https://heroku.com/&logoColor=white
+
 (https://code.visualstudio.com/)
 - **Version Control:** [Git](https://git-scm.com/)
 - **Hosting:** [Heroku](https://heroku.com/),
