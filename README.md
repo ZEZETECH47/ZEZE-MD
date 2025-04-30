@@ -58,6 +58,8 @@
 
 HOW TO REACH THE OWNER? 
  
+## 🤙CONTACT ME❣️
+[![Whatsapp contact](https://img.shields.io/badge/Contact-Dev%20Popkid-25D366?style=for-the-badge&logo=whatsapp)](https://wa.me/255682937675)
    
 
    <a href="https://wa.me/255760109840">
