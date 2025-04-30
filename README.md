@@ -59,7 +59,7 @@ HOW TO REACH THE OWNER?
    
 
    ## 🤙CONTACT ME❣️
-[![Whatsapp contact](https://img.shields.io/badge/Contact-ZEZE%20TECH-25D366?style=for-the-badge&logo=whatsapp)](https://whatsapp.com/dl/)
+[![Whatsapp contact](https://img.shields.io/badge/Contact-ZEZE%20TECH-25D366?style=for-the-badge&logo=whatsapp)](https://wa.me/255760109840)
     
     ## Ask any thing
   
