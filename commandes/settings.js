@@ -136,7 +136,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Alone owner 💀*");
+    return repondre("*This command is restricted to the bot owner or science 𝑍𝐸𝑍𝐸47-𝑀𝐷 owner 💀*");
   }
 
   const appname = s.HEROKU_APP_NAME;
@@ -179,14 +179,14 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Alone owner 💀*");
+    return repondre("*This command is restricted to the bot owner or 𝑍𝐸𝑍𝐸47-𝑀𝐷 owner 💀*");
   }
 
   const appname = s.HEROKU_APP_NAME;
   const herokuapi = s.HEROKU_API_KEY;
 
   if (!arg || arg.length !== 1 || !arg[0].includes('=')) {
-    return repondre('Incorrect Usage:\nProvide the key and value correctly.\nExample: setvar OWNER-NAME=Toputech');
+    return repondre('Incorrect Usage:\nProvide the key and value correctly.\nExample: setvar OWNER-NAME=𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏');
   }
 
   const [key, value] = arg[0].split('=');
@@ -347,7 +347,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Alone owner 💀*");
+    return repondre("*This command is restricted to the bot owner or 𝑍𝐸𝑍𝐸47-𝑀𝐷 owner 💀*");
   }
 
   // Ensure Heroku app name and API key are set
@@ -367,7 +367,7 @@ zokou({
         `https://api.heroku.com/apps/${herokuAppName}/builds`,
         {
           source_blob: {
-            url: "https://github.com/Toputech/turn-meh/tarball/main",
+            url: "https://github.com/humphreymbise/ZEZE47",
           },
         },
         {
@@ -379,7 +379,7 @@ zokou({
       );
 
       // Notify the user about the update and redeployment
-      await repondre("*Your bot is getting updated, wait 2 minutes for the redeploy to finish! This will install the latest version of ALONE-MD.*");
+      await repondre("*Your bot is getting updated, wait 2 minutes for the redeploy to finish! This will install the latest version of 𝑍𝐸𝑍𝐸47-𝑀𝐷.*");
       console.log("Build details:", response.data);
     } catch (error) {
       // Handle any errors during the redeployment process
