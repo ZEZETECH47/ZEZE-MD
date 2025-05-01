@@ -206,8 +206,8 @@ zokou({ nomCom: "menu", aliases: ["liste", "helplist", "commandlist"], categorie
           mediaType: 1,
           
         }
-      }
-            });
+      },
+           { quoted: ms } });
     } catch (error) {
         console.error("Menu error: ", error);
         respond("🥵🥵 Menu error: " + error);
