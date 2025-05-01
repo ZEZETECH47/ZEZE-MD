@@ -37,15 +37,15 @@ const date = moment().format('DD/MM/YYYY');
 ╭────  𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃─────✣
 │  ╭─────────────✣
 │  │▸ *my owner* : ${s.OWNER_NAME}
-   │▸ *commander* : ${nomAuteurMessage} 
+   │▸ *𝚌𝚘𝚖𝚖𝚊𝚗𝚍𝚎𝚛* : ${nomAuteurMessage} 
 ╰──────────────💎
     ▸ *date *: ${date}
     ▸ *prefix* : ${s.PREFIXE}
     ▸ *worktype* : ${mode} mode
     ▸ *plugin* : ${cm.length} 
-    ▸ *rom* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+    ▸ *𝚁𝙾𝙼* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
     ▸ *running on* : ${os.platform()}
-    ▸ *theme* : *𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏*
+    ▸ *𝚝𝚑𝚎𝚖𝚎* : *𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏*
 
 > 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 2025\n${readmore}`;
     
