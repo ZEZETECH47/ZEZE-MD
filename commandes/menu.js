@@ -153,13 +153,13 @@ zokou({ nomCom: "menu", aliases: ["liste", "helplist", "commandlist"], categorie
 ┃✵│▸ *ʙᴏᴛ ᴏᴡɴᴇʀ:* ${settings.OWNER_NAME}
 ┃✵│▸ *ᴘʀᴇғɪx:* *[ ${settings.PREFIXE} ]*
 ┃✵│▸ *ᴛɪᴍᴇ:* ${formattedTime}
-┃✵│▸ *ᴄᴏᴍᴍᴀɴᴅꜱ:* ${commands.length}
+┃✵│▸ *ᴘʟᴜɢɪɴs:* ${commands.length}
 ┃✵│▸ *ᴅᴀᴛᴇ:* ${formattedDate}
 ┃✵│▸ *ᴍᴏᴅᴇ:* ${mode}
 ┃✵│▸ *ᴛɪᴍᴇ ᴢᴏɴᴇ:* Africa/Arusha
 ┃✵│▸ *ᴛᴏᴛᴀʟ ᴜsᴇʀs:* ${formattedTotalUsers} users
 ┃✵│▸ *ʀᴀᴍ:* ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-┃✵│▸ *ᴜᴘᴛɪᴍᴇ:* ${formatUptime(process.uptime())}
+┃✵│▸ *ʀᴜɴɴɪɴɢ ᴏɴ:* ${formatUptime(process.uptime())}
 ┃✵╰───────────────
 ╰━━━━━━━━━━━━━━━┈⊷
 ━━━━━━━━━━━━━━━━
