@@ -50,7 +50,9 @@ zokou({ nomCom: "ping", categorie: "General" }, async (dest, zk, commandeOptions
     }, { quoted: ms });
 
     await zk.sendMessage(dest, {
-        text: "```Testing ping..✓```"
+        audio: { url: AUDIO_URL }, 
+            mimetype: 'audio/mp4', 
+            ptt: true, // Voice note form
     } ,{ quoted: ms });// Voice note form
     }catch (e) {
         console.log("❌ Ping Command Error: " + e);
