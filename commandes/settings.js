@@ -367,7 +367,7 @@ zokou({
         `https://api.heroku.com/apps/${herokuAppName}/builds`,
         {
           source_blob: {
-            url: "https://github.com/humphreymbise/ZEZE47",
+            url: "https://github.com/humphreymbise/ZEZE47/tarball/main",
           },
         },
         {
