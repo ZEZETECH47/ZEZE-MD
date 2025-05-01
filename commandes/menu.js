@@ -191,17 +191,23 @@ zokou({ nomCom: "menu", aliases: ["liste", "helplist", "commandlist"], categorie
         await client.sendMessage(message, {
             text: responseMessage + commandsList,
             contextInfo: {
-                mentionedJid: [senderName],
-                externalAdReply: {
-                    title: "🛰️ 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃🇹🇿",
-                    body: "POWERED BY 𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏",
-                    thumbnailUrl: "https://i.imgur.com/jE8eQsP.jpeg",
-                    sourceUrl: "https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r",
-                    mediaType: 1,
-                    renderLargerThumbnail: true
-                }
-            }
-        });
+        forwardingScore: 999,
+            isForwarded: true,
+            forwardedNewsletterMessageInfo: {
+              newsletterJid: '120363295141350550@newsletter',
+              newsletterName: '𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 ',
+              serverMessageId: 143},
+        externalAdReply: {
+          
+          title: "Follow for updates 🌺",
+      body: "Enjoy...",
+      thumbnailUrl: conf.URL,
+          sourceUrl: conf.GURL,
+          mediaType: 1,
+          
+        }
+      }
+            });
     } catch (error) {
         console.error("Menu error: ", error);
         respond("🥵🥵 Menu error: " + error);
