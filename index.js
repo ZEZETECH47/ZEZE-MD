@@ -81,7 +81,7 @@ setTimeout(() => {
         const sockOptions = {
             version,
             logger: pino({ level: "silent" }),
-            browser: ['ALONE-MD', "safari", "1.0.0"],
+            browser: ['𝑍𝐸𝑍𝐸47-𝑀𝐷', "safari", "1.0.0"],
             printQRInTerminal: true,
             fireInitQueries: false,
             shouldSyncHistoryMessage: true,
