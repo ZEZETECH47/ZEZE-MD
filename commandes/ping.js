@@ -29,7 +29,7 @@ zokou({ nomCom: "ping", categorie: "General" }, async (dest, zk, commandeOptions
         audio: { url: AUDIO_URL }, 
             mimetype: 'audio/mp4', 
             ptt: true, // Voice note form
-      text: `Pong...: ${ping}ms\n🍒🍓`,
+      text: `𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏 online...: ${ping}ms\n🌹❣️`,
       contextInfo: {
         forwardingScore: 999,
             isForwarded: true,
@@ -39,7 +39,7 @@ zokou({ nomCom: "ping", categorie: "General" }, async (dest, zk, commandeOptions
               serverMessageId: 143},
         externalAdReply: {
           
-          title: "Follow for updates 🩸",
+          title: "Follow for updates 🌺",
       body: "Enjoy...",
       thumbnailUrl: conf.URL,
           sourceUrl: conf.GURL,
