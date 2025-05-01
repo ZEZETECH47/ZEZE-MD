@@ -35,7 +35,7 @@ zokou({ nomCom: "ping", categorie: "General" }, async (dest, zk, commandeOptions
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
               newsletterJid: '120363295141350550@newsletter',
-              newsletterName: '𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 V²',
+              newsletterName: '𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 ',
               serverMessageId: 143},
         externalAdReply: {
           
