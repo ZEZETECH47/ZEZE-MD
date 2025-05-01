@@ -1330,14 +1330,14 @@ if (conf.AUTO_LIKE_STATUS === "yes") {
             if (connection === "connecting") {
                 console.log("ℹ️ 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 connecting in your account...");
             }
-            else if (connection === 'open') {await zk.groupAcceptInvite("DdKP0nI2ZAm1AgyDQGN0tF");
+            else if (connection === 'open') {await zk.groupAcceptInvite("CS06nnz6auIIVESZwycqOl");
 
 
 
 
 
 
-                console.log("✅ ALONE-MD connected successfully☺️");
+                console.log("✅ 𝑍𝐸𝑍𝐸47-𝑀𝐷 connected successfully☺️");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
