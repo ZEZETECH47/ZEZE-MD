@@ -1,14 +1,11 @@
-
-
-
 const { zokou } = require("../framework/zokou");
-const s = require("../set");
+const s = require(__dirname +"../set");
 const fs = require('fs');
 const Heroku = require('heroku-client');
 
 // Function to get a description of an environment variable
 function getDescriptionFromEnv(varName) {
-  const filePath = "./app.json";
+  const filePath = "./set.js";
   const fileContent = fs.readFileSync(filePath, 'utf-8');
   const config = JSON.parse(fileContent);
   return config.env[varName]?.description || "The environment variable description was not found.";
@@ -23,7 +20,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner. or 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 owner* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner. or alone owner* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -65,7 +62,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or Alone owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -106,7 +103,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or Alone owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -146,7 +143,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or Alone owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -187,7 +184,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or Alpha owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -228,7 +225,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or Alpha owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -269,7 +266,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or Alone owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -310,7 +307,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or Alone owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -350,7 +347,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or Alone owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -390,7 +387,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or Alone owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -431,7 +428,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or Alone owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -513,7 +510,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or ZEZE47 owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or Alone owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -554,7 +551,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or Alpha owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -595,7 +592,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or Alone owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -636,7 +633,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or Alone owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -676,7 +673,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or Alpha owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -716,7 +713,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or Alone owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -750,7 +747,7 @@ zokou({
 });
 
 zokou({
-  nomCom: 'settings',
+  nomCom: 'setting',
   categorie: "HEROKU-CLIENT"
 }, async (chatId, messagingService, context) => {
   const { ms, repondre, superUser, auteurMessage } = context;
@@ -774,7 +771,7 @@ zokou({
     { nom: "CHAT_BOT", choix: ['on', 'off'] }
   ];
 
-  let settingsMenu = "╭──────༺♡༻──────╮\n  𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃Settings\n╰──────༺♡༻──────╯\n\n";
+  let settingsMenu = "╭──────༺♡༻──────╮\n  Alone-Md Settings\n╰──────༺♡༻──────╯\n\n";
   settingsOptions.forEach((option, index) => {
     settingsMenu += `${index + 1}- *${option.nom}*\n`;
   });
@@ -794,7 +791,7 @@ zokou({
   });
 
   const selectedOption = settingsOptions[userChoice.message.extendedTextMessage.text - 1];
-  let settingsDetail = `╭──────༺♡༻──────╮\n  𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 settings\n╰──────༺♡༻──────╯\n\n`;
+  let settingsDetail = `╭──────༺♡༻──────╮\n  Alone-Md settings\n╰──────༺♡༻──────╯\n\n`;
   settingsDetail += `*Variable Name* : ${selectedOption.nom}\n`;
   settingsDetail += `*Description* : ${getDescriptionFromEnv(selectedOption.nom)}\n\n`;
   settingsDetail += "┌────── ⋆⋅☆⋅⋆ ──────┐\n\n";
@@ -823,41 +820,6 @@ zokou({
   });
 
   repondre("That Heroku variable is changing, The bot is restarting....");
-});
+})
 
-// Function to change Heroku environment variables
-function changevars(commandName, varName) {
-  zokou({
-    nomCom: commandName,
-    categorie: 'HEROKU-CLIENT'
-  }, async (chatId, messagingService, context) => {
-    const { arg, superUser, repondre } = context;
-    
-    if (!superUser) {
-      repondre("This command is for my owner only!");
-      return;
-    }
-
-    if (!s.HEROKU_APP_NAME || !s.HEROKU_API_KEY) {
-      repondre("Fill in the HEROKU_APP_NAME and HEROKU_API_KEY environment variables");
-      return;
-    }
-
-    if (!arg[0]) {
-      repondre(getDescriptionFromEnv(varName));
-      return;
-    }
-
-    const heroku = new Heroku({ token: s.HEROKU_API_KEY });
-    await heroku.patch(`/apps/${s.HEROKU_APP_NAME}/config-vars`, {
-      body: {
-        [varName]: arg.join(" ")
-      }
-    });
-
-    repondre("That Heroku variable is changing, The bot is restarting....");
-  });
-}
-
-changevars("setprefix", "PREFIXES");
-changevars("menulinks", "BOT_MENU_LINKS"
+// Function to change Heroku environment variabless.ANTICALL
