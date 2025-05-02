@@ -28,7 +28,7 @@ zokou({ nomCom: 'love',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*💃🏽I choose you ❤️. And i will choose ever and i can't love anyone's like u🌹trust me❤️. i love you Without pause ❤️, without a doubt, in a heartbeat. I will keep choosing you.❤️🥹*`) 
+                 await repondre(`*🌹trust me❤️. i love you Without pause ❤️, without a doubt, in a heartbeat. I will keep choosing you.❤️🥹*`) 
 
    
 
@@ -280,9 +280,9 @@ zokou({ nomCom: 'problem',
 ❷ || WhattsApp Channel = https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 Please Follow My Support Channel
-Wanna talk to me?👉 https://wa.me/c/255673750170 👈
+Wanna talk to me?👉 https://wa.me/c/255760109840 👈
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-© *TOPU TECH*`) 
+© *𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏*`) 
 
    
 
