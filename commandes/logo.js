@@ -50,7 +50,7 @@ zokou({ nomCom: "naruto", categorie: "Logo", reaction: "⛩" }, async (dest, zk,
     let { ms, arg, repondre, prefixe } = commandeOptions;
     try {
         if (!arg || arg == '') {
-            repondre("*_Exemple : * " + prefixe + "naruto boniphace");
+            repondre("*_Exemple : * " + prefixe + "naruto 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃);
             return;
         }
         var nar = "https://en.ephoto360.com/naruto-shippuden-logo-style-text-effect-online-808.html";
@@ -94,7 +94,7 @@ zokou({ nomCom: "didong", categorie: "Logo", reaction: "📱" }, async (dest, zk
      var titre = "\t* logo by 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃*";
       var lien = "https://ephoto360.com/tao-anh-che-vui-tu-choi-cuoc-goi-voi-ten-cua-ban-930.html";
         if (!arg || arg == "") {
-           repondre(`*exemple :* ${prefixe}didong Zokou`)
+           repondre(`*exemple :* ${prefixe}didong 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃`)
             return ;
         }
      
@@ -259,7 +259,7 @@ zokou({nomCom:"water",categorie:"Logo",reation:"💦"},async(dest,zk,commandeOpt
 var {ms,repondre,arg,prefixe}=commandeOptions;
   if(!arg||arg=="")
   {
-    repondre(`${prefixe}water zokou`)
+    repondre(`${prefixe}water 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃)
     return;
   }
   try{
@@ -450,7 +450,7 @@ zokou({nomCom:"gold",categorie:"Logo",reaction:"🧚🏿‍♀️"},async(dest,z
   try{
       if(!arg||arg=="")
       {
-        repondre(prefixe+"gold Zokou-MD");return;
+        repondre(prefixe+"gold 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃");return;
       }
 
     var lien="https://en.ephoto360.com/modern-gold-4-213.html";
@@ -469,7 +469,7 @@ zokou({nomCom:"arena",categorie:"Logo",reaction:"🥵"},async(dest,zk,commandeOp
   try{
       if(!arg||arg=="")
       {
-        repondre(prefixe+"arena Zokou-MD");return;
+        repondre(prefixe+"arena 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃");return;
       }
 
     var lien="https://en.ephoto360.com/create-cover-arena-of-valor-by-mastering-360.html";
