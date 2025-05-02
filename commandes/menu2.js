@@ -40,11 +40,11 @@ const date = moment().format('DD/MM/YYYY');
    │▸ *𝚌𝚘𝚖𝚖𝚊𝚗𝚍𝚎𝚛* : ${nomAuteurMessage} 
 ╰──────────────💎
     ▸ *date *: ${date}
-    ▸ *prefix* : ${s.PREFIXE}
-    ▸ *worktype* : ${mode} mode
-    ▸ *plugin* : ${cm.length} 
+    ▸ *𝚙𝚛𝚎𝚏𝚒𝚡* : ${s.PREFIXE}
+    ▸ *𝚠𝚘𝚛𝚔 𝚝𝚢𝚙𝚎* : ${mode} mode
+    ▸ *𝚙𝚕𝚞𝚐𝚒𝚗* : ${cm.length} 
     ▸ *𝚁𝙾𝙼* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-    ▸ *running on* : ${os.platform()}
+    ▸ *𝚛𝚞𝚗𝚗𝚒𝚗𝚐 𝚘𝚗* : ${os.platform()}
     ▸ *𝚝𝚑𝚎𝚖𝚎* : *𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏*
 
 > 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 2025\n${readmore}`;
