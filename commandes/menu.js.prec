@@ -46,7 +46,7 @@ zokou({
   console.log("date" + _0xa2ea49);
   console.log("temps " + _0x38e404);
   let _0x5a1f10 = "  ╩═══ * Ƶ𝓞ｋØ𝓊 * ╩═══\n\n";
-  _0x5a1f10 += "\n╔════---------\n║    Préfixe : " + s.PREFIXE + "\n║    Owner : " + s.OWNER_NAME + "    \n║    Mode : " + _0x1a0467 + "\n║    Commandes:" + _0x4c8eef.length + "\n║    Date : " + _0xa2ea49 + "\n║    Heure : " + _0x38e404 + "\n║    Mémoire : " + format(os.totalmem() - os.freemem()) + '/' + format(os.totalmem()) + "\n║    Plateforme : " + os.platform() + "\n║    Développeurs : Boniphace||Md-hacker\n╚════--------------- \n\n";
+  _0x5a1f10 += "\n╔════---------\n║    Préfixe : " + s.PREFIXE + "\n║    Owner : " + s.OWNER_NAME + "    \n║    Mode : " + _0x1a0467 + "\n║    Commandes:" + _0x4c8eef.length + "\n║    Date : " + _0xa2ea49 + "\n║    Heure : " + _0x38e404 + "\n║    Mémoire : " + format(os.totalmem() - os.freemem()) + '/' + format(os.totalmem()) + "\n║    Plateforme : " + os.platform() + "\n║    Développeurs : 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃╚════--------------- \n\n";
   for (const _0x3f635e in _0x454e87) {
     if (!_0x288d3a[_0x3f635e]) {
       _0x288d3a[_0x3f635e] = '💞';
