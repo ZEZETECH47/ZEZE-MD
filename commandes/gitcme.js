@@ -19,8 +19,8 @@ console.log("mon test");
 
 async function  execute  (origineMessage,zok) {
   console.log("Commande saisie !!!s")
-   let z ='Salut je m\'appelle *ALONE* \n\n '+'je suis un bot Whatsapp Multi-appareil '
-      let d =' developpé par *Topu tech*'
+   let z ='Salut je m\'appelle *ZEZE47-MD* \n\n '+'je suis un bot Whatsapp Multi-appareil '
+      let d =' developpé par *𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏*'
       let varmess=z+d
       var img='https://i.imgur.com/jE8eQsP.jpeg'
 await  zok.sendMessage(origineMessage,  { image:{url:img},caption:varmess});
