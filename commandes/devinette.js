@@ -105,7 +105,7 @@ zokou({ nomCom: "riddle", categorie: "Games" }, async (dest, zk, commandeOptions
   await zk.sendMessage(
     dest,
     {
-      text: `Riddle: ${devinette.question} . \n you have 30 seconds to think about.`,
+      text: `Riddle: ${devinette.question} . \n you have 60 seconds to think about.`,
     },
     { quoted: ms }
   );
@@ -126,4 +126,6 @@ zokou({ nomCom: "riddle", categorie: "Games" }, async (dest, zk, commandeOptions
 // Function to create a pause/delay in milliseconds
 function delay(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
+created by 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃
 }
+ 
