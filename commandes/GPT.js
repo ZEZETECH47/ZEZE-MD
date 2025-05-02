@@ -23,7 +23,7 @@ zokou({
 
     const messages = [
       { role: 'user', content: text },
-      { role: 'system', content: 'You are an assistant in WhatsApp. You are called Zeze. You respond to user commands.' }
+      { role: 'system', content: 'You are an assistant in WhatsApp. You are called 𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏. You respond to user commands.' }
     ];
 
     try {
