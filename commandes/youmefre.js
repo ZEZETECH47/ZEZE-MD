@@ -31,7 +31,7 @@ zokou({
           'image': {
             'url': _0x5a2825[0x0].thumbnail
           },
-          'caption': "*BONIPHACE-MD SONG DOWNLOADING*\n\n╭───────────────◆\n│⿻ *Title:* " + _0x58c224.result.title + "\n│⿻ *Quality:* " + _0x58c224.result.type + "\n│⿻ *Duration:* " + _0x5a2825[0x0].timestamp + "\n│⿻ *Viewers:* " + _0x5a2825[0x0].views + "\n│⿻ *Uploaded:* " + _0x5a2825[0x0].ago + "\n│⿻ *Artist:* " + _0x5a2825[0x0].author.name + "\n╰────────────────◆\n⦿ *Direct YtLink:* " + _0x50cb1f + "\n\n╭────────────────◆\n│ *_Powered by boniphace tech._*\n╰─────────────────◆"
+          'caption': "*𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 SONG DOWNLOADING*\n\n╭───────────────◆\n│⿻ *Title:* " + _0x58c224.result.title + "\n│⿻ *Quality:* " + _0x58c224.result.type + "\n│⿻ *Duration:* " + _0x5a2825[0x0].timestamp + "\n│⿻ *Viewers:* " + _0x5a2825[0x0].views + "\n│⿻ *Uploaded:* " + _0x5a2825[0x0].ago + "\n│⿻ *Artist:* " + _0x5a2825[0x0].author.name + "\n╰────────────────◆\n⦿ *Direct YtLink:* " + _0x50cb1f + "\n\n╭────────────────◆\n│ *_Powered by 𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏._*\n╰─────────────────◆"
         };
         await _0x5e783c.sendMessage(_0x208fbe, _0x190f0d, {
           'quoted': _0x37be60
@@ -85,7 +85,7 @@ zokou({
           'image': {
             'url': _0x3f4e2c[0x0].thumbnail
           },
-          'caption': "*BONIPHACE-MD SONG DOWNLOADING*\n\n╭───────────────◆\n│⿻ *Title:* " + _0x417aee.result.title + "\n│⿻ *Quality:* " + _0x417aee.result.type + "\n│⿻ *Duration:* " + _0x3f4e2c[0x0].timestamp + "\n│⿻ *Viewers:* " + _0x3f4e2c[0x0].views + "\n│⿻ *Uploaded:* " + _0x3f4e2c[0x0].ago + "\n│⿻ *Artist:* " + _0x3f4e2c[0x0].author.name + "\n╰────────────────◆\n⦿ *Direct YtLink:* " + _0x13523a + "\n\n╭────────────────◆\n│ *_Powered by boniphace tech._*\n╰─────────────────◆"
+          'caption': "*𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 SONG DOWNLOADING*\n\n╭───────────────◆\n│⿻ *Title:* " + _0x417aee.result.title + "\n│⿻ *Quality:* " + _0x417aee.result.type + "\n│⿻ *Duration:* " + _0x3f4e2c[0x0].timestamp + "\n│⿻ *Viewers:* " + _0x3f4e2c[0x0].views + "\n│⿻ *Uploaded:* " + _0x3f4e2c[0x0].ago + "\n│⿻ *Artist:* " + _0x3f4e2c[0x0].author.name + "\n╰────────────────◆\n⦿ *Direct YtLink:* " + _0x13523a + "\n\n╭────────────────◆\n│ *_Powered by 𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏._*\n╰─────────────────◆"
         };
         await _0x10a442.sendMessage(_0x491dd9, _0x28f427, {
           'quoted': _0x44ac2e
@@ -139,7 +139,7 @@ zokou({
           'image': {
             'url': _0x14ddfc[0x0].thumbnail
           },
-          'caption': "*BONIPHACE-MD VIDEO DOWNLOAD*\n\n╭───────────────◆\n│⿻ *Title:* " + _0x52a93e.result.title + "\n│⿻ *Quality:* " + _0x52a93e.result.type + "\n│⿻ *Duration:* " + _0x14ddfc[0x0].timestamp + "\n│⿻ *Viewers:* " + _0x14ddfc[0x0].views + "\n│⿻ *Uploaded:* " + _0x14ddfc[0x0].ago + "\n│⿻ *Artist:* " + _0x14ddfc[0x0].author.name + "\n╰────────────────◆\n⦿ *Direct YtLink:* " + _0x1b41fa + "\n\n╭────────────────◆\n│ *_Powered by boniphace tech._*\n╰─────────────────◆"
+          'caption': "*𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 VIDEO DOWNLOAD*\n\n╭───────────────◆\n│⿻ *Title:* " + _0x52a93e.result.title + "\n│⿻ *Quality:* " + _0x52a93e.result.type + "\n│⿻ *Duration:* " + _0x14ddfc[0x0].timestamp + "\n│⿻ *Viewers:* " + _0x14ddfc[0x0].views + "\n│⿻ *Uploaded:* " + _0x14ddfc[0x0].ago + "\n│⿻ *Artist:* " + _0x14ddfc[0x0].author.name + "\n╰────────────────◆\n⦿ *Direct YtLink:* " + _0x1b41fa + "\n\n╭────────────────◆\n│ *_Powered by 𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏._*\n╰─────────────────◆"
         };
         await _0x42b08b.sendMessage(_0x1dd452, _0x3ac450, {
           'quoted': _0x3567c8
@@ -193,7 +193,7 @@ zokou({
           'image': {
             'url': _0x5914b4[0x0].thumbnail
           },
-          'caption': "*POWERED BY BONIPHACE VIDEO DOWNLOAD*\n\n╭───────────────◆\n│⿻ *Title:* " + _0x2a2489.result.title + "\n│⿻ *Quality:* " + _0x2a2489.result.type + "\n│⿻ *Duration:* " + _0x5914b4[0x0].timestamp + "\n│⿻ *Viewers:* " + _0x5914b4[0x0].views + "\n│⿻ *Uploaded:* " + _0x5914b4[0x0].ago + "\n│⿻ *Artist:* " + _0x5914b4[0x0].author.name + "\n╰────────────────◆\n⦿ *Direct YtLink:* " + _0x5225ee + "\n\n╭────────────────◆\n│ *_Powered by boniphace  tech._*\n╰─────────────────◆"
+          'caption': "*POWERED BY 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 VIDEO DOWNLOAD*\n\n╭───────────────◆\n│⿻ *Title:* " + _0x2a2489.result.title + "\n│⿻ *Quality:* " + _0x2a2489.result.type + "\n│⿻ *Duration:* " + _0x5914b4[0x0].timestamp + "\n│⿻ *Viewers:* " + _0x5914b4[0x0].views + "\n│⿻ *Uploaded:* " + _0x5914b4[0x0].ago + "\n│⿻ *Artist:* " + _0x5914b4[0x0].author.name + "\n╰────────────────◆\n⦿ *Direct YtLink:* " + _0x5225ee + "\n\n╭────────────────◆\n│ *_Powered by 𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏._*\n╰─────────────────◆"
         };
         await _0x304721.sendMessage(_0x801348, _0x21fe97, {
           'quoted': _0x478cdd
