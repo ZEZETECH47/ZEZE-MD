@@ -20,7 +20,7 @@ const runtime = function (seconds) {
 zokou({ nomCom: 'love', 
     desc: 'To check runtime',
     Categorie: 'General',
-    reaction: '📄', 
+    reaction: '❤️', 
     fromMe: 'true', 
 
 
@@ -28,7 +28,7 @@ zokou({ nomCom: 'love',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*🌹trust me❤️. i love you Without pause ❤️, without a doubt, in a heartbeat. I will keep choosing you.❤️🥹*`) 
+                 await repondre(`*🌹Mpenzi pale ninapokwambia nakupenda❤️, sisemi hivyo kukufurahisha❤️bali ni kwamba wewe ni mwanamke wa ndoto yangu,❣️. I will keep choosing you.💐*`) 
 
    
 
@@ -40,7 +40,7 @@ zokou({ nomCom: 'love',
 zokou({ nomCom: 'getall',
     desc: 'To check runtime',
     Categorie: 'General',
-    reaction: '😎', 
+    reaction: '😊', 
     fromMe: 'true', 
 
 
@@ -59,7 +59,7 @@ zokou({ nomCom: 'getall',
 zokou({ nomCom: 'go',
     desc: 'To check runtime',
     Categorie: 'General',
-    reaction: '📄', 
+    reaction: '🤨', 
     fromMe: 'true', 
 
 
@@ -77,7 +77,7 @@ zokou({ nomCom: 'go',
 zokou({ nomCom: 'channel',
     desc: 'To check runtime',
     Categorie: 'General',
-    reaction: '🍁', 
+    reaction: '🛰️', 
     fromMe: 'true', 
 
 
@@ -92,10 +92,10 @@ zokou({ nomCom: 'channel',
 
   }
 );
-zokou({ nomCom: 'alone',
+zokou({ nomCom: 'Zeze47md',
     desc: 'To check runtime',
     Categorie: 'General',
-    reaction: '🍁', 
+    reaction: '🥰', 
     fromMe: 'true', 
 
 
@@ -120,7 +120,7 @@ zokou({ nomCom: 'alone',
 zokou({ nomCom: 'channel1',
     desc: 'To check runtime',
     Categorie: 'General',
-    reaction: '🍁', 
+    reaction: '🛰️', 
     fromMe: 'true', 
 
 
@@ -137,7 +137,7 @@ zokou({ nomCom: 'channel1',
 );
 
 
-zokou({ nomCom: 'aloo',
+zokou({ nomCom: 'Zeze47md',
     desc: 'To check runtime',
     Categorie: 'General',
     reaction: '🤷', 
@@ -160,7 +160,7 @@ zokou({ nomCom: 'aloo',
 zokou({ nomCom: 'vision',
     desc: 'To check runtime',
     Categorie: 'General',
-    reaction: '🔎', 
+    reaction: '🧐', 
     fromMe: 'true', 
 
 
@@ -201,7 +201,7 @@ zokou({ nomCom: 'group1',
 zokou({ nomCom: 'scriptkidies',
     desc: 'To check runtime',
     Categorie: 'General',
-    reaction: '🐅', 
+    reaction: '🤙', 
     fromMe: 'true', 
 
 
@@ -221,7 +221,7 @@ zokou({ nomCom: 'scriptkidies',
 zokou({ nomCom: '𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏',
     desc: 'To check runtime',
     Categorie: 'General',
-    reaction: '🤷', 
+    reaction: '💟', 
     fromMe: 'true', 
 
 
@@ -241,7 +241,7 @@ zokou({ nomCom: '𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏',
 zokou({ nomCom: 'me',
     desc: 'To check runtime',
     Categorie: 'General',
-    reaction: '🤷', 
+    reaction: '💝', 
     fromMe: 'true', 
 
 
@@ -261,7 +261,7 @@ zokou({ nomCom: 'me',
 zokou({ nomCom: 'problem',
     desc: 'To check runtime',
     Categorie: 'General',
-    reaction: '🤷', 
+    reaction: '🤔', 
     fromMe: 'true', 
 
 
