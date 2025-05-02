@@ -28,8 +28,8 @@ D ☞ tiger 🐯 video logo
     const contextInfo = {
       mentionedJid: [ms.sender], // Mention the sender
       externalAdReply: {
-        title: "RICHY OBEDX",
-        body: "Pambe Kwa, ObedTechX",
+        title: "https:𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃",
+        body: "𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃, 𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏",
         thumbnailUrl: "https://files.catbox.moe/7irwqn.jpeg",
         sourceUrl: "https://whatsapp.com/channel/0029Vb46YKVGehEEbFN3jH3I",
         mediaType: 1,
