@@ -85,7 +85,7 @@ zokou({
           'image': {
             'url': _0x3f4e2c[0x0].thumbnail
           },
-          'caption': "*𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 SONG DOWNLOADING*\n\n╭───────────────◆\n│⿻ *Title:* " + _0x417aee.result.title + "\n│⿻ *Quality:* " + _0x417aee.result.type + "\n│⿻ *Duration:* " + _0x3f4e2c[0x0].timestamp + "\n│⿻ *Viewers:* " + _0x3f4e2c[0x0].views + "\n│⿻ *Uploaded:* " + _0x3f4e2c[0x0].ago + "\n│⿻ *Artist:* " + _0x3f4e2c[0x0].author.name + "\n╰────────────────◆\n⦿ *Direct YtLink:* " + _0x13523a + "\n\n╭────────────────◆\n│ *_Powered by 𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏._*\n╰─────────────────◆"
+          'caption': "*𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 SONG DOWNLOADING*\n\n╭───────────────◆\n│⿻ *Title:* " + _0x417aee.result.title + "\n│⿻ *Quality:* " + _0x417aee.result.type + "\n│⿻ *Duration:* " + _0x3f4e2c[0x0].timestamp + "\n│⿻ *Viewers:* " + _0x3f4e2c[0x0].views + "\n│⿻ *Uploaded:* " + _0x3f4e2c[0x0].ago + "\n│⿻ *Artist:* " + _0x3f4e2c[0x0].author.name + "\n╰────────────────◆\n⦿ *Direct YtLink:* " + _0x13523a + "\n\n╭────────────────◆\n│ *_Powered by Zeze tech._*\n╰─────────────────◆"
         };
         await _0x10a442.sendMessage(_0x491dd9, _0x28f427, {
           'quoted': _0x44ac2e
@@ -131,7 +131,7 @@ zokou({
     _0x14ddfc = _0x152718.videos;
     if (_0x14ddfc && _0x14ddfc.length > 0x0) {
       const _0x1b41fa = _0x14ddfc[0x0].url;
-      const _0x5734dd = await fetch("https://gifted-apis-third-30b2fdbb9819.herokuapp.com/api/download/ytmp4?url=" + encodeURIComponent(_0x1b41fa) + "&apikey=" + "giftedtechk");
+      const _0x5734dd = await fetch("https://zeze-apis-third-30b2fdbb9819.herokuapp.com/api/download/ytmp4?url=" + encodeURIComponent(_0x1b41fa) + "&apikey=" + "zezetech");
       const _0x52a93e = await _0x5734dd.json();
       if (_0x52a93e.status === 0xc8 && _0x52a93e.success) {
         const _0x514b03 = _0x52a93e.result.download_url;
@@ -139,7 +139,7 @@ zokou({
           'image': {
             'url': _0x14ddfc[0x0].thumbnail
           },
-          'caption': "*𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 VIDEO DOWNLOAD*\n\n╭───────────────◆\n│⿻ *Title:* " + _0x52a93e.result.title + "\n│⿻ *Quality:* " + _0x52a93e.result.type + "\n│⿻ *Duration:* " + _0x14ddfc[0x0].timestamp + "\n│⿻ *Viewers:* " + _0x14ddfc[0x0].views + "\n│⿻ *Uploaded:* " + _0x14ddfc[0x0].ago + "\n│⿻ *Artist:* " + _0x14ddfc[0x0].author.name + "\n╰────────────────◆\n⦿ *Direct YtLink:* " + _0x1b41fa + "\n\n╭────────────────◆\n│ *_Powered by 𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏._*\n╰─────────────────◆"
+          'caption': "*𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 VIDEO DOWNLOAD*\n\n╭───────────────◆\n│⿻ *Title:* " + _0x52a93e.result.title + "\n│⿻ *Quality:* " + _0x52a93e.result.type + "\n│⿻ *Duration:* " + _0x14ddfc[0x0].timestamp + "\n│⿻ *Viewers:* " + _0x14ddfc[0x0].views + "\n│⿻ *Uploaded:* " + _0x14ddfc[0x0].ago + "\n│⿻ *Artist:* " + _0x14ddfc[0x0].author.name + "\n╰────────────────◆\n⦿ *Direct YtLink:* " + _0x1b41fa + "\n\n╭────────────────◆\n│ *_Powered by Zezetech._*\n╰─────────────────◆"
         };
         await _0x42b08b.sendMessage(_0x1dd452, _0x3ac450, {
           'quoted': _0x3567c8
@@ -185,7 +185,7 @@ zokou({
     _0x5914b4 = _0x1f4904.videos;
     if (_0x5914b4 && _0x5914b4.length > 0x0) {
       const _0x5225ee = _0x5914b4[0x0].url;
-      const _0x1ee242 = await fetch("https://gifted-apis-third-30b2fdbb9819.herokuapp.com/api/download/ytmp4?url=" + encodeURIComponent(_0x5225ee) + '&apikey=' + "giftedtechk");
+      const _0x1ee242 = await fetch("https://zeze-apis-third-30b2fdbb9819.herokuapp.com/api/download/ytmp4?url=" + encodeURIComponent(_0x5225ee) + '&apikey=' + "giftedtechk");
       const _0x2a2489 = await _0x1ee242.json();
       if (_0x2a2489.status === 0xc8 && _0x2a2489.success) {
         const _0x540a3e = _0x2a2489.result.download_url;
