@@ -40,10 +40,10 @@ async function loading(dest, zk) {
 }
 
 zokou({
-  //nomCom: "test",
+  nomCom: "test",
   aliases: ["alive", "testing"],
   categorie: "system",
-  reaction: "⚔️"
+  reaction: "💯"
 }, async (dest, zk, commandeOptions) => {
   const { ms } = commandeOptions;
 
@@ -81,7 +81,7 @@ zokou({
     fileName: 'shizo',
     contextInfo: {
       externalAdReply: {
-        title: '𝗜 𝗔𝗠 𝗔𝗟𝗜𝗩𝗘 𝗠𝗢𝗧𝗛𝗘𝗥𝗙𝗨𝗖𝗞𝗘𝗥',
+        title: 'ZEZE-MD IS ONLINE',
         body: conf.OWNER_NAME,
         thumbnailUrl: conf.URL,
         sourceUrl: conf.GURL, // Corrected variable name
