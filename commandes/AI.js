@@ -14,7 +14,7 @@ zokou({
     arg: _0x4fda94
   } = _0x3f0bda;
   if (!_0x4fda94 || !_0x4fda94[0x0]) {
-    return _0x410093("it's me 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 I'm listening to you today.");
+    return _0x410093("yes online to listening to you today.");
   }
   try {
     const _0x48658a = await traduire(_0x4fda94.join(" "), {
