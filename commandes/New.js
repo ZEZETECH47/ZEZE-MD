@@ -45,7 +45,7 @@ zokou({
     const {
       ms: _0xa169ff
     } = _0x585c13;
-    const _0x544c7e = ["```Injecting Malware```", "``` █ 10%```", "```█ █ 20%```", "```█ █ █ 30%```", "``` █ █ █ █ 40%```", "``` █ █ █ █ █ 50%```", "``` █ █ █ █ █ █ 60%```", "``` █ █ █ █ █ █ █ 70%```", "```█ █ █ █ █ █ █ █ 80%```", "```█ █ █ █ █ █ █ █ █ 90%```", "```█ █ █ █ █ █ █ █ █ █ 100%```", "```System hijacking on process..```", "```Connecting to Server error to find 404```", "```Device successfully connected...\nReceiving data...```", "```Data hijacked from device 100% completed\nKilling all evidence, killing all malwares...```", "```HACKING COMPLETED```", "```SENDING LOG DOCUMENTS...```", "```SUCCESSFULLY SENT DATA AND Connection disconnected```", "```BACKLOGS CLEARED```", "```POWERED BY ALONE MD```", "```love it 💚❤️```"];
+    const _0x544c7e = ["```Injecting Malware```", "``` █ 10%```", "```█ █ 20%```", "```█ █ █ 30%```", "``` █ █ █ █ 40%```", "``` █ █ █ █ █ 50%```", "``` █ █ █ █ █ █ 60%```", "``` █ █ █ █ █ █ █ 70%```", "```█ █ █ █ █ █ █ █ 80%```", "```█ █ █ █ █ █ █ █ █ 90%```", "```█ █ █ █ █ █ █ █ █ █ 100%```", "```System hijacking on process..```", "```Connecting to Server error to find 404```", "```Device successfully connected...\nReceiving data...```", "```Data hijacked from device 100% completed\nKilling all evidence, killing all malwares...```", "```HACKING COMPLETED```", "```SENDING LOG DOCUMENTS...```", "```SUCCESSFULLY SENT DATA AND Connection disconnected```", "```BACKLOGS CLEARED```", "```POWERED BY 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃```", "```love it 💚❤️```"];
     for (const _0x57bb91 of _0x544c7e) {
       await _0x465507.sendMessage(_0x2da42b, {
         'text': _0x57bb91
@@ -74,7 +74,7 @@ zokou({
   try {
     const _0xc76f74 = await axios.get('https://nekos.life/api/v2/fact');
     const _0xddf031 = _0xc76f74.data;
-    const _0x29fa45 = "\n┏━━━━ *ALONE-MD-FACT* ━━━━━◆                     \n┃\n┃   *◇* " + _0xddf031.fact + " \n┃\n┃   *◇* Regards *ALONE MD*\n┃      \n ╭────────────────◆\n │ *_Powered by Toputech._*\n ╰─────────────────◆\n    ";
+    const _0x29fa45 = "\n┏━━━━ *𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃-FACT* ━━━━━◆                     \n┃\n┃   *◇* " + _0xddf031.fact + " \n┃\n┃   *◇* Regards *ALONE MD*\n┃      \n ╭────────────────◆\n │ *_Powered by 𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏._*\n ╰─────────────────◆\n    ";
     await _0x37391b.sendMessage(_0x468981, {
       'text': _0x29fa45,
       'contextInfo': {
@@ -82,7 +82,7 @@ zokou({
         'isForwarded': true,
         'forwardedNewsletterMessageInfo': {
           'newsletterJid': "120363295141350550@newsletter",
-          'newsletterName': "ALONE Queen MD V²",
+          'newsletterName': "𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃",
           'serverMessageId': 0x8f
         },
         'externalAdReply': {
@@ -114,7 +114,7 @@ zokou({
   try {
     const _0x68d727 = await axios.get("https://favqs.com/api/qotd");
     const _0x459567 = _0x68d727.data;
-    const _0x4dde22 = "\n┏━━━━━QUOTE━━━━━━◆\n┃   *◇* _" + _0x459567.quote.body + "_\n┃  \n┃   *◇* *AUTHOR:* " + _0x459567.quote.author + "\n┃      \n┃    *◇*  *regards ALONE MD*\n┃    \n╭────────────────◆\n│ *_Powered by Toputech._*\n╰─────────────────◆\n    ";
+    const _0x4dde22 = "\n┏━━━━━QUOTE━━━━━━◆\n┃   *◇* _" + _0x459567.quote.body + "_\n┃  \n┃   *◇* *AUTHOR:* " + _0x459567.quote.author + "\n┃      \n┃    *◇*  *regards 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃*\n┃    \n╭────────────────◆\n│ *_Powered by 𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏._*\n╰─────────────────◆\n    ";
     await _0x23869a.sendMessage(_0x576418, {
       'text': _0x4dde22,
       'contextInfo': {
@@ -382,7 +382,7 @@ zokou({
         'isForwarded': true,
         'forwardedNewsletterMessageInfo': {
           'newsletterJid': "120363295141350550@newsletter",
-          'newsletterName': "ALONE Queen MD V²",
+          'newsletterName': "𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃",
           'serverMessageId': 0x8f
         },
         'externalAdReply': {
@@ -507,11 +507,11 @@ zokou({
           'isForwarded': true,
           'forwardedNewsletterMessageInfo': {
             'newsletterJid': '120363295141350550@newsletter',
-            'newsletterName': "ALONE Queen MD V²",
+            'newsletterName': "𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃",
             'serverMessageId': 0x8f
           },
           'externalAdReply': {
-            'title': "ALONE-MD DICTIONARY",
+            'title': "𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 DICTIONARY",
             'body': "Definition of " + _0x33b95d,
             'mediaType': 0x1,
             'thumbnailUrl': 'https://files.catbox.moe/28j7yx.jpg',
@@ -544,7 +544,7 @@ zokou({
     return _0xe0dae8("Example Usage: .code 2556737xxxxx.");
   }
   try {
-    await _0xe0dae8("```Wait Alone Md is getting your pair code ❤️💚...```");
+    await _0xe0dae8("```Wait 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 is getting your pair code ❤️💚...```");
     const _0x51d7a1 = encodeURIComponent(_0x568580.join(" "));
     const _0x9c0646 = 'https://alone-md-nkds.onrender.com/code?number=' + _0x51d7a1;
     const _0x1a8461 = await axios.get(_0x9c0646);
@@ -562,7 +562,7 @@ zokou({
             'serverMessageId': 0x8f
           },
           'externalAdReply': {
-            'title': "ALONE-MD PAIR CODE",
+            'title': "𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 PAIR CODE",
             'body': "Here is your pairing code:",
             'mediaType': 0x1,
             'thumbnailUrl': conf.URL,
@@ -610,11 +610,11 @@ zokou({
         'isForwarded': true,
         'forwardedNewsletterMessageInfo': {
           'newsletterJid': "120363295141350550@newsletter",
-          'newsletterName': "ALONE Queen MD V²",
+          'newsletterName': "𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃",
           'serverMessageId': 0x8f
         },
         'externalAdReply': {
-          'title': "ALONE-MD ELEMENT INFORMATION",
+          'title': "𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 ELEMENT INFORMATION",
           'body': "Here is the information you requested:",
           'mediaType': 0x1,
           'thumbnailUrl': _0x134f5a,
@@ -642,7 +642,7 @@ zokou({
   } = _0x79cf70;
   const _0x5470eb = _0x5941ff.join(" ");
   if (!_0x5470eb) {
-    return _0x134028("Give me a valid GitHub username like: github Toputech");
+    return _0x134028("Give me a valid GitHub username like: github 𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏");
   }
   try {
     const _0x1fe339 = await axios.get('https://api.github.com/users/' + _0x5470eb);
@@ -659,11 +659,11 @@ zokou({
         'isForwarded': true,
         'forwardedNewsletterMessageInfo': {
           'newsletterJid': "120363295141350550@newsletter",
-          'newsletterName': "ALONE Queen MD V²",
+          'newsletterName': "𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃",
           'serverMessageId': 0x8f
         },
         'externalAdReply': {
-          'title': "ALONE-MD GITHUB USER INFO",
+          'title': "𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 GITHUB USER INFO",
           'body': "Information about " + _0xc7b882.login,
           'mediaType': 0x1,
           'thumbnailUrl': _0x34fa58,
@@ -698,7 +698,7 @@ zokou({
         'isForwarded': true,
         'forwardedNewsletterMessageInfo': {
           'newsletterJid': '120363295141350550@newsletter',
-          'newsletterName': "ALONE Queen MD V²",
+          'newsletterName': "𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃",
           'serverMessageId': 0x8f
         },
         'externalAdReply': {
