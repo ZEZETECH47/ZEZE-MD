@@ -74,7 +74,7 @@ zokou({
   try {
     const _0xc76f74 = await axios.get('https://nekos.life/api/v2/fact');
     const _0xddf031 = _0xc76f74.data;
-    const _0x29fa45 = "\n┏━━━━ *𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃-FACT* ━━━━━◆                     \n┃\n┃   *◇* " + _0xddf031.fact + " \n┃\n┃   *◇* Regards *ALONE MD*\n┃      \n ╭────────────────◆\n │ *_Powered by 𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏._*\n ╰─────────────────◆\n    ";
+    const _0x29fa45 = "\n┏━━━━ *𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃-FACT* ━━━━━◆                     \n┃\n┃   *◇* " + _0xddf031.fact + " \n┃\n┃   *◇* Regards *𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃*\n┃      \n ╭────────────────◆\n │ *_Powered by 𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏._*\n ╰─────────────────◆\n    ";
     await _0x37391b.sendMessage(_0x468981, {
       'text': _0x29fa45,
       'contextInfo': {
@@ -444,7 +444,7 @@ zokou({
           'isForwarded': true,
           'forwardedNewsletterMessageInfo': {
             'newsletterJid': "120363295141350550@newsletter",
-            'newsletterName': "ALONE Queen MD V²",
+            'newsletterName': "𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃",
             'serverMessageId': 0x8f
           },
           'externalAdReply': {
@@ -558,7 +558,7 @@ zokou({
           'isForwarded': true,
           'forwardedNewsletterMessageInfo': {
             'newsletterJid': "120363295141350550@newsletter",
-            'newsletterName': "ALONE Queen MD V²",
+            'newsletterName': "𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃",
             'serverMessageId': 0x8f
           },
           'externalAdReply': {
@@ -759,7 +759,7 @@ zokou({
           'isForwarded': true,
           'forwardedNewsletterMessageInfo': {
             'newsletterJid': "120363295141350550@newsletter",
-            'newsletterName': "ALONE Queen MD V²",
+            'newsletterName': "𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃",
             'serverMessageId': 0x8f
           },
           'externalAdReply': {
@@ -810,7 +810,7 @@ zokou({
       return _0x1e714b("Provide the term to search,\nE.g What is JavaScript!");
     }
     const _0x11895a = await wiki.summary(_0x12ace0);
-    const _0x426ae2 = "\n*📚 Wikipedia Summary 📚*\n\n🔍 *Title*: _" + _0x11895a.title + "_\n\n📝 *Description*: _" + _0x11895a.description + "_\n\n💬 *Summary*: _" + _0x11895a.extract + "_\n\n🔗 *URL*: " + _0x11895a.content_urls.mobile.page + "\n\n> Powered by Alone Md\n    ";
+    const _0x426ae2 = "\n*📚 Wikipedia Summary 📚*\n\n🔍 *Title*: _" + _0x11895a.title + "_\n\n📝 *Description*: _" + _0x11895a.description + "_\n\n💬 *Summary*: _" + _0x11895a.extract + "_\n\n🔗 *URL*: " + _0x11895a.content_urls.mobile.page + "\n\n> Powered by 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n    ";
     _0x1e714b(_0x426ae2);
   } catch (_0x503a84) {
     console.error(_0x503a84);
