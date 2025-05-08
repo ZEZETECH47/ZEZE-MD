@@ -351,8 +351,8 @@ const handleAntiLinkBadWordsAndTags = async (zk, ms, origineMessage, texte, veri
 
                                         txt += `message deleted \n @${auteurMessage.split("@")[0]} removed from group by 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 .`;
 
-                                    await zk.sendMessage(origineMessage, { sticker: fs.readFileSync("st1.webp") });
-                                    (0, baileys_1.delay)(800);
+                                   // await zk.sendMessage(origineMessage, { sticker: fs.readFileSync("st1.webp") });
+                                 //   (0, baileys_1.delay)(800);
                                     await zk.sendMessage(origineMessage, { text: txt, mentions: [auteurMessage] }, { quoted: ms });
                                     try {
                                         await zk.groupParticipantsUpdate(origineMessage, [auteurMessage], "remove");
