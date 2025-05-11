@@ -1,61 +1,64 @@
-const {
-  zokou
-} = require("../framework/zokou");
-zokou({
-  'nomCom': 'vv',
-  'categorie': "Général",
-  'reaction': '🤲🏿'
-}, async (_0x4ac9d6, _0x549432, _0x14b0f8) => {
-  const {
-    ms: _0x48ad36,
-    msgRepondu: _0x28e70f,
-    repondre: _0x198321
-  } = _0x14b0f8;
-  if (!_0x28e70f) {
-    return _0x198321("*Please mention a message sent in single view*.");
-  }
-  console.log(_0x28e70f);
-  if (_0x28e70f.viewOnceMessageV2 || _0x28e70f.viewOnceMessageV2Extension) {
-    let _0x23b0a6 = _0x28e70f.viewOnceMessageV2Extension ?? _0x28e70f.viewOnceMessageV2;
-    if (_0x23b0a6.message.imageMessage) {
-      var _0x1b35e8 = await _0x549432.downloadAndSaveMediaMessage(_0x28e70f.viewOnceMessageV2.message.imageMessage);
-      var _0x2c26a0 = _0x28e70f.viewOnceMessageV2.message.imageMessage.caption;
-      await _0x549432.sendMessage(_0x4ac9d6, {
-        'image': {
-          'url': _0x1b35e8
-        },
-        'caption': _0x2c26a0
-      }, {
-        'quoted': _0x48ad36
-      });
-    } else {
-      if (_0x23b0a6.message.videoMessage) {
-        var _0x2224d6 = await _0x549432.downloadAndSaveMediaMessage(_0x28e70f.viewOnceMessageV2.message.videoMessage);
-        var _0x2c26a0 = _0x28e70f.viewOnceMessageV2.message.videoMessage.caption;
-        await _0x549432.sendMessage(_0x4ac9d6, {
-          'video': {
-            'url': _0x2224d6
-          },
-          'caption': _0x2c26a0
-        }, {
-          'quoted': _0x48ad36
-        });
-      } else {
-        if (_0x23b0a6.message.audioMessage) {
-          var _0x2684dd = await _0x549432.downloadAndSaveMediaMessage(_0x23b0a6.message.audioMessage);
-          await _0x549432.sendMessage(_0x4ac9d6, {
-            'audio': {
-              'url': _0x2684dd
-            },
-            'mymetype': 'audio/mp4'
-          }, {
-            'quoted': _0x48ad36,
-            'ptt': false
-          });
-        }
-      }
+const { cmd } = require("../command");
+
+cmd({
+  pattern: "vv",
+  alias: ["viewonce", 'retrive'],
+  react: '😜',
+  desc: "Owner Only - retrieve quoted message back to user",
+  category: "owner",
+  filename: __filename
+}, async (client, message, match, { from, isCreator }) => {
+  try {
+    if (!isCreator) {
+      return await client.sendMessage(from, {
+        text: "*📛 This is an owner command.*"
+      }, { quoted: message });
     }
-  } else {
-    return _0x198321("The message you mentioned is not a single view message.");
+
+    if (!match.quoted) {
+      return await client.sendMessage(from, {
+        text: "*🍁 Please reply to a view once message!*"
+      }, { quoted: message });
+    }
+
+    const buffer = await match.quoted.download();
+    const mtype = match.quoted.mtype;
+    const options = { quoted: message };
+
+    let messageContent = {};
+    switch (mtype) {
+      case "imageMessage":
+        messageContent = {
+          image: buffer,
+          caption: match.quoted.text || '',
+          mimetype: match.quoted.mimetype || "image/jpeg"
+        };
+        break;
+      case "videoMessage":
+        messageContent = {
+          video: buffer,
+          caption: match.quoted.text || '',
+          mimetype: match.quoted.mimetype || "video/mp4"
+        };
+        break;
+      case "audioMessage":
+        messageContent = {
+          audio: buffer,
+          mimetype: "audio/mp4",
+          ptt: match.quoted.ptt || false
+        };
+        break;
+      default:
+        return await client.sendMessage(from, {
+          text: "❌ Only image, video, and audio messages are supported"
+        }, { quoted: message });
+    }
+
+    await client.sendMessage(from, messageContent, options);
+  } catch (error) {
+    console.error("vv Error:", error);
+    await client.sendMessage(from, {
+      text: "❌ Error fetching vv message:\n" + error.message
+    }, { quoted: message });
   }
 });
