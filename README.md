@@ -6,7 +6,7 @@
   </marquee>
 </p>
  
-<a href='https://app.koyeb.com/services/deploy?type=git&repository=mrfrankofcc/B.M.B-XMD[PREFIX]=.&env[SESSION_ID]=&env[ALWAYS_ONLINE]=false&env[MODE]=public&env[AUTO_STATUS_MSG]=Seen%20status%20by%20SUBZERO-MD&env[AUTO_STATUS_REPLY]=false&env[AUTO_STATUS_SEEN]=true&env[AUTO_TYPING]=false&env[ANTI_LINK]=true&env[AUTO_REACT]=false&env[READ_MESSAGE]=false' target="_blank"><img 
+
 
   
 <a><img src='https://files.catbox.moe/z59hhv.jpg'/>
