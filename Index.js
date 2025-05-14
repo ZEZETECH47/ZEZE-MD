@@ -47,7 +47,7 @@ const  {addGroupToBanList,isGroupBanned,removeGroupFromBanList} = require("./bdd
 const {isGroupOnlyAdmin,addGroupToOnlyAdminList,removeGroupFromOnlyAdminList} = require("./bdd/onlyAdmin");
 //const //{loadCmd}=require("/framework/mesfonctions")
 let { reagir } = require(__dirname + "/framework/app");
-var session = conf.session.replace(/ALONE-MD;;;=>/g,"");
+var session = conf.session.replace(/𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃;;;=>/g,"");
 const prefixe = conf.PREFIXE;
 
 
