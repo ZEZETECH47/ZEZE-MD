@@ -9,7 +9,8 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/humphreymbise/ZEZE47
+RUN git clone https://github.com/Toputech/turn-meh.git /root/zokou_BOt
+WORKDIR /root/zokou_Bot/
 
 
 COPY package.json .
