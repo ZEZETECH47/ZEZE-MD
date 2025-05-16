@@ -8,7 +8,7 @@ const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
     : process.env.DATABASE_URL;
 module.exports = { session: process.env.SESSION_ID || 'zokk',
-    PREFIXE: process.env.PREFIX || "+",
+    PREFIXE: process.env.PREFIX || "!",
     GITHUB : process.env.GITHUB|| 'https://github.com/humphreymbise/ZEZE47',
     OWNER_NAME : process.env.OWNER_NAME || "𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃",
     NUMERO_OWNER : process.env.NUMERO_OWNER || "255682937675",  
@@ -37,7 +37,7 @@ module.exports = { session: process.env.SESSION_ID || 'zokk',
     ETAT : process.env.PRESENCE || '',
     GEMINI_API_KEY : process.env.GEMINI_API_KEY || 'AIzaSyCcZqDMBa8FcAdBxqE1o6YYvzlygmpBx14',
     DP : process.env.STARTING_BOT_MESSAGE || "yes",
-    ADM : process.env.ANTI_DELETE_MESSAGE || 'no',
+    ADM : process.env.ANTI_DELETE_MESSAGE || 'yes',
     ANTICALL: process.env.ANTICALL || 'yes',              
     CHAT_BOT : process.env.CHAT_BOT || 'no',  
     DATABASE_URL,
