@@ -10,7 +10,7 @@ RUN apt-get update && \
   rm -rf /var/lib/apt/lists/*
   
 RUN git clone https://github.com/humphreymbise/ZEZE47.git /root/alone_BOt
-WORKDIR /root/Alone_Bot/
+WORKDIR /root/Zeze_Bot/
 
 
 COPY package.json .
