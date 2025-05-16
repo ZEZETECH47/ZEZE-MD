@@ -9,7 +9,8 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/humphreymbise/ZEZE47
+RUN git clone https://github.com/humphreymbise/ZEZE47.git /root/alone_BOt
+WORKDIR /root/Alone_Bot/
 
 
 COPY package.json .
