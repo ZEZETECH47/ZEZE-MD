@@ -29,7 +29,7 @@
 
  ## 👇¥DEPLOY TO HEROKU¥
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/humphreymbise/ZEZE47)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ZEZE47-MD/ZEZE47)
 
 ## 👇£CREATE ACCOUNT ON HEROKU© 
 [![Create Account on Heroku](https://img.shields.io/badge/GET%20CREATE.HEROKU-magenta?style=for-the-badge&logo=opencv&logoColor=white)](https://heroku.com)  
