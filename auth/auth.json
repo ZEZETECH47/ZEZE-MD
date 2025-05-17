@@ -1,3 +1,3 @@
 //..
-sync toputech.urls
-fetch {alone md*150+cmdlength}
+sync zezetech.urls
+fetch {zeze md*150+cmdlength}
