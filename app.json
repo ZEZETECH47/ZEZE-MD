@@ -1,7 +1,7 @@
 {
-  "name": "ALONE-MD",
+  "name": "ZEZE47-MD",
   "website": "https://files.catbox.moe/ykdtkm.jpeg",
-  "description": "Alone is a multidevice WhatsApp bot built to make your WhatsApp enjoyable..",
+  "description": "Zeze is a multidevice WhatsApp bot built to make your WhatsApp enjoyable..",
   "keywords": [
     "bot",
     "node",
@@ -9,7 +9,7 @@
     "whatsapp"
   ],
   "logo": "https://i.imgur.com/jE8eQsP.jpeg",
-  "repository": "https://github.com/Toputech/ALONE-MD-V1",
+  "repository": "https://github.com/ZEZE-MD/ZEZE47",
   "succes_url": "/",
   "stack": "container",
   "env": {
@@ -55,7 +55,7 @@
     },
     "BOT_NAME": {
       "description": "Give a name for your bot",
-      "value": "ᗩᒪOᑎE ᗰᗪ",
+      "value": "ZEZE47 MD",
       "required": false
     },
     "PUBLIC_MODE": {
@@ -89,8 +89,8 @@
       "required": false  
     },
     "NUMERO_OWNER": {
-      "description": "Your phone number (exclude '+' and area code, e.g., '255673750170')",
-      "value": "255673750170",
+      "description": "Your phone number (exclude '+' and area code, e.g., '255682937675')",
+      "value": "255682937675",
       "required": false
     },
     "WARN_COUNT": {
