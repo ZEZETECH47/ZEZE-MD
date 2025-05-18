@@ -1,6 +1,6 @@
 
  {
-  "name": "ALONE MD",
+  "name": "ZEZE47 MD",
   "version": "2.0.0",
   "description": "",
   "main": "index.js",
@@ -19,7 +19,7 @@
     "zokou"
   ],
   
-  "author": "Toputech",
+  "author": "Zezetech",
 "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
