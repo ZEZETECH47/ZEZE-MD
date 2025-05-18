@@ -1,7 +1,7 @@
 const { zokou } = require("../framework/zokou");
 const fs = require('fs');
 const path = require('path');
-const conf = require('../set');
+const conf = require('../set.js');
 
 const badWords = ["wtf", "mia", "xxx", "fuck", "sex", "huththa", "pakaya", "ponnaya", "hutto", "lol"];
 const linkPatterns = [
@@ -26,7 +26,7 @@ const linkPatterns = [
     /https?:\/\/(?:www\.)?medium\.com\/\S+/gi // Medium links
 ];
 
-zokou({
+zoku({
     on: "body"
 }, async (dest, zk, commandeOptions) => {
     const {
