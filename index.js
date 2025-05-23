@@ -861,9 +861,9 @@ zk.ev.on('group-participants.update', async (group) => {
                 console.log("------");
                 await (0, baileys_1.delay)(300);
                 console.log("------------------/-----");
-                console.log("Toxic MD is Online ✅\n\n");
+                console.log("Zeze MD is running 💨 ✅\n\n");
                 //chargement des clintplugins 
-                console.log("Loading Toxic Commands ...\n");
+                console.log("Loading Zeze Commands ...\n");
                 fs.readdirSync(__dirname + "/clintplugins").forEach((fichier) => {
                     if (path.extname(fichier).toLowerCase() == (".js")) {
                         try {
@@ -899,7 +899,7 @@ zk.ev.on('group-participants.update', async (group) => {
 > 𝑫𝑬𝑽   :
 𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏
 > 𝑩𝑶𝑻   : 
-Zeze-MD 
+𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 
 ⁠⁠`;
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
