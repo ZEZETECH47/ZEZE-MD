@@ -27,14 +27,14 @@ zokou(
      𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏 
 
 VERSION
-> ZEZE47-𝐌𝐃 V2.0
+> 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 V2.0
 
 STATUS
 > ${mode.toUpperCase()} MODE
 
 ◈━━━━━━━━━━━━━━━━◈
 │❒⁠⁠⁠⁠ RAM : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│❒⁠⁠⁠⁠ DEV : 𝐱𝐡_𝐜𝐥𝐢𝐧𝐭𝐨𝐧
+│❒⁠⁠⁠⁠ DEV : 𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏
 ⁠⁠⁠⁠◈━━━━━━━━━━━━━━━━◈
   `;
 
@@ -52,7 +52,7 @@ STATUS
           {
             video: { url: lien },
             caption: infoMsg + menuMsg,
-            footer: "Zeze47-MD WhatsApp Bot",
+            footer: "𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 WhatsApp Bot",
             gifPlayback: true,
           },
           { quoted: ms }
@@ -63,7 +63,7 @@ STATUS
           {
             image: { url: lien },
             caption: infoMsg + menuMsg,
-            footer: "Zeze47-MD WhatsApp Bot",
+            footer: "𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 WhatsApp Bot",
           },
           { quoted: ms }
         );
@@ -109,7 +109,7 @@ STATUS
               audio: { url: audioPath },
               mimetype: "audio/mpeg", // MP3 files use audio/mpeg
               ptt: true, // Voice note appearance (waveform, duration)
-              fileName: `ZEZE47 𝐕𝐎𝐈𝐂𝐄 ✧`,
+              fileName: 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 𝐕𝐎𝐈𝐂𝐄 ✧`,
               caption: "✦⋆✗ZEZE",
             },
             { quoted: ms }
