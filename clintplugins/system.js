@@ -81,7 +81,7 @@ zokou({
     fileName: 'shizo',
     contextInfo: {
       externalAdReply: {
-        title: 'ZEZE-MD IS danger like nuclear',
+        title: 'ZEZE-MD IS ONLINE',
         body: conf.OWNER_NAME,
         thumbnailUrl: conf.URL,
         sourceUrl: conf.GURL, // Corrected variable name
