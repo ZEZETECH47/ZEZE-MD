@@ -110,7 +110,7 @@ STATUS
               mimetype: "audio/mpeg", // MP3 files use audio/mpeg
               ptt: true, // Voice note appearance (waveform, duration)
               fileName: 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 𝐕𝐎𝐈𝐂𝐄 ✧`,
-              caption: "✦⋆✗ZEZE",
+              caption: "✦⋆✗𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃",
             },
             { quoted: ms }
           );
