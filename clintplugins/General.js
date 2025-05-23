@@ -24,7 +24,7 @@ zokou({ nomCom: "owner", categorie: "General", reaction: "❣️" }, async (dest
                 if (sudo) {
                     const sudonumero = sudo.replace(/[^0-9]/g, '');
                     // Skip if it's one of our required numbers
-                    if (!['255682937675', '255682937675'].includes(sudonumero)) {
+                    if (!['255682937675', '255760109840'].includes(sudonumero)) {
                         msg += `• @${sudonumero}\n`;
                     }
                 }
@@ -36,7 +36,7 @@ zokou({ nomCom: "owner", categorie: "General", reaction: "❣️" }, async (dest
             '255682937675@s.whatsapp.net',
             '255760109840@s.whatsapp.net',
             ...sudos.map(num => num.replace(/[^0-9]/g, '') + '@s.whatsapp.net')
-        ].filter(num => !['255682937675', '255682937675'].includes(num.replace(/@s\.whatsapp\.net/, '')))
+        ].filter(num => !['255682937675', '255760109840'].includes(num.replace(/@s\.whatsapp\.net/, '')))
 
         zk.sendMessage(
             dest,
@@ -125,15 +125,15 @@ zokou({ nomCom: "support", categorie: "General", reaction: "🔗" }, async (dest
 *🌟 𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐜𝐡𝐨𝐨𝐬𝐢𝐧𝐠 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃!*
 
 *📢 𝐂𝐡𝐚𝐧𝐧𝐞𝐥:*
-https://whatsapp.com/channel/0029VagJlnG6xCSU2tS1Vz19
+https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r
 
 *👥 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩:*
-https://chat.whatsapp.com/GoXKLVJgTAAC3556FXkfFI
+https://chat.whatsapp.com/CS06nnz6auIIVESZwycqOl
 
 *🎥 𝐘𝐨𝐮𝐓𝐮𝐛𝐞:*
 
 
-╚════◇ *𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 𝐱𝐡_𝐜𝐥𝐢𝐧𝐭𝐨𝐧* ◇════╝
+╚════◇ *𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏* ◇════╝
     `;
 
     await repondre(supportMessage);
