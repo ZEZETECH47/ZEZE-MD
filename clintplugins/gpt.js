@@ -47,7 +47,7 @@ zokou(
       if (data && data.result) {
         const res = data.result;
         await repondre(
-          `${res}\n\n𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 𝐱𝐡_𝐜𝐥𝐢𝐧𝐭𝐨𝐧`
+          `${res}\n\n𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 `
         );
       } else {
         console.log("Invalid API response structure");
