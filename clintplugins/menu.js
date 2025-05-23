@@ -42,10 +42,10 @@ zokou(
     let infoMsg = `
 ◈━━━━━━━━━━━━━━━━◈
   
-     𝐓𝐎𝐗𝐈𝐂-𝐌𝐃 𝐕𝟐
+     𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃  𝐕𝟐
   
 > ✦ 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫: 
-@254735342808
+@255682937675
 
 > ✦ 𝐌𝐨𝐝𝐞: 
 ${mode}
@@ -98,8 +98,8 @@ ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 ◈━━━━━━━━━━━━━━━━◈
 > 𝑨𝒍𝒍 𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓 𝑵𝒖𝒎𝒃𝒆𝒓𝒔 
   
-  @254735342808 (𝐌𝐚𝐢𝐧)
-  @254799283147 (𝐓𝐨𝐱𝐢𝐜)
+  @255682937675 (𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 )
+  @255760109840 (𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏)
   
  ⃝⃪⃕🥀-〭⃛〬𓆩〭⃛〬❥
 ◈━━━━━━━━━━━━━━━━◈
@@ -108,8 +108,8 @@ ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
     try {
       const lien = mybotpic();
       const mentionedJids = [
-        "254735342808@s.whatsapp.net",
-        "254799283147@s.whatsapp.net",
+        "255682937675@s.whatsapp.net",
+        "255760109840@s.whatsapp.net",
       ];
 
       // Send menu based on media type
@@ -154,7 +154,7 @@ ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
       }
 
       // Send random audio as a voice note
-      const audioFolder = __dirname + "/../xh_clinton/";
+      const audioFolder = __dirname + "/../𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏/";
       console.log(`[DEBUG] menu: Audio folder path: ${audioFolder}`);
 
       // Check if folder exists
@@ -191,8 +191,8 @@ ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
               audio: { url: audioPath },
               mimetype: "audio/mpeg",
               ptt: true,
-              fileName: `𝐓𝐎𝐗𝐈𝐂 𝐕𝐎𝐈𝐂𝐄 ✧`,
-              caption: "✦⋆✗𝐓𝐎𝐗𝐈𝐂",
+              fileName: `𝐙𝐄𝐙𝐄𝟒𝟕 𝐕𝐎𝐈𝐂𝐄 ✧`,
+              caption: "𝐙𝐄𝐙𝐄𝟒𝟕",
             },
             { quoted: ms }
           );
