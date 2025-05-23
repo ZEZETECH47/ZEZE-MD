@@ -255,7 +255,7 @@ zokou({ nomCom: "remove", categorie: 'Group', reaction: "👺" }, async (dest, z
         if (zkad) {
           if (membre) {
             if (admin == false) {
-              const gifLink = "https://raw.githubusercontent.com/xhclintohn/Toxic-MD/main/media/remover.gif"
+              const gifLink = "ZEZE47-MD/main/media/remover.gif"
               var sticker = new Sticker(gifLink, {
                 pack: 'Zeze47-Md', // The pack name
                 author: nomAuteurMessage, // The author name
