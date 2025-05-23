@@ -170,7 +170,7 @@ ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 
       if (audioFiles.length === 0) {
         console.log(`[DEBUG] menu: No MP3 files found in folder`);
-        repondre(`𝐍𝐨 𝐚𝐮𝐝𝐢𝐨 𝐟𝐢𝐥𝐞𝐬 𝐟𝐨𝐮𝐧𝐝 𝐢𝐧 𝐱𝐡_𝐜𝐥𝐢𝐧𝐭𝐨𝐧 𝐟𝐨𝐥𝐝𝐞𝐫`);
+        repondre(`𝐍𝐨 𝐚𝐮𝐝𝐢𝐨 𝐟𝐢𝐥𝐞𝐬 𝐟𝐨𝐮𝐧𝐝 but i will fix`);
         return;
       }
 
