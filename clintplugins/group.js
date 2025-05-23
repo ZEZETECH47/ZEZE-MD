@@ -37,7 +37,7 @@ zokou({ nomCom: "tagall", categorie: 'Group', reaction: "📣" }, async (dest, z
   tag +=`
   
 ◈━━━━━━━━━━━━━━━━◈
-│ 𝐓𝐎𝐗𝐈𝐂  𝐌𝐃 𝐓𝐀𝐆𝐒
+│ 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃  𝐓𝐀𝐆𝐒
 ◈━━━━━━━━━━━━━━━━◈ \n
 │⭕ *Group* : ${nomGroupe} 
 │⭕ *Hey🙃* : *${nomAuteurMessage}* 
@@ -78,7 +78,7 @@ zokou({ nomCom: "link", categorie: 'Group', reaction: "🙋" }, async (dest, zk,
 
   let mess = `hello ${nomAuteurMessage} , here is the group link for ${nomGroupe} \n
 
-Group link :${lien} \n\n©𝐓𝐎𝐗𝐈𝐂™`
+Group link :${lien} \n\n©𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏`
   repondre(mess)
 
 
@@ -257,7 +257,7 @@ zokou({ nomCom: "remove", categorie: 'Group', reaction: "👺" }, async (dest, z
             if (admin == false) {
               const gifLink = "https://raw.githubusercontent.com/xhclintohn/Toxic-MD/main/media/remover.gif"
               var sticker = new Sticker(gifLink, {
-                pack: 'Toxic-Md', // The pack name
+                pack: 'Zeze47-Md', // The pack name
                 author: nomAuteurMessage, // The author name
                 type: StickerTypes.FULL, // The sticker type
                 categories: ['🤩', '🎉'], // The sticker category
@@ -666,7 +666,7 @@ zokou({nomCom:"tag",categorie:'Group',reaction:"🎤"},async(dest,zk,commandeOpt
         let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
 
         let stickerMess = new Sticker(media, {
-          pack: 'Toxic-mdtag',
+          pack: 'Zeze47-mdtag',
           type: StickerTypes.CROPPED,
           categories: ["🤩", "🎉"],
           id: "12345",
