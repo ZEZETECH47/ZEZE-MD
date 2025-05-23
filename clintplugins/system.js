@@ -81,7 +81,7 @@ zokou({
     fileName: 'shizo',
     contextInfo: {
       externalAdReply: {
-        title: 'ZEZE-MD IS ONLINE',
+        title: 'ZEZE-MD IS danger like nuclear',
         body: conf.OWNER_NAME,
         thumbnailUrl: conf.URL,
         sourceUrl: conf.GURL, // Corrected variable name
@@ -367,7 +367,7 @@ zokou({
         `https://api.heroku.com/apps/${herokuAppName}/builds`,
         {
           source_blob: {
-            url: "https://github.com/humphreymbise/ZEZE47/tarball/main",
+            url: "https://github.com/ZEZE47-MD/ZEZE47/tarball/main",
           },
         },
         {
