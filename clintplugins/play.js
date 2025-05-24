@@ -1,4 +1,4 @@
-aconst { zokou } = require("../framework/zokou");
+const { zokou } = require("../framework/zokou");
 const axios = require("axios");
 const ytSearch = require("yt-search");
 const ytdl = require("ytdl-core");
