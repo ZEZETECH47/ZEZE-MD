@@ -1,4 +1,4 @@
-aconst { zokou } = require("../framework/zokou");
+const { zokou } = require("../framework/zokou");
 
 // Define super users here, change the IDs to your actual super user WhatsApp IDs
 const superUser = [
@@ -27,7 +27,7 @@ zokou({
           serverMessageId: 143,
         },
         externalAdReply: {
-          title: "ZEZE MD V²",
+          title: "ZEZE47 MD V²",
           body: "Group Broadcast",
           mediaType: 1,
           thumbnailUrl: "https://i.ibb.co/album/thumbnail.jpg",
@@ -85,10 +85,10 @@ zokou({
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
               newsletterJid: '120363295141350550@newsletter',
-              newsletterName: 'ZEZE47MD V²',
+              newsletterName: 'ZEZE47 MD V²',
               serverMessageId: 143},
           externalAdReply: {
-            title: "🎭ALONE MD GROUP BROADCASTER🏆",
+            title: "🎭 ZEZE47 MD GROUP BROADCASTER🏆",
             body: `From ${ms.pushName || "an Admin"}`,
             mediaType: 1,
             renderLargerThumbnail: false,
