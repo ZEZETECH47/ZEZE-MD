@@ -45,7 +45,7 @@ const { isUserBanned, addUserToBanList, removeUserFromBanList } = require("./bdd
 const { addGroupToBanList, isGroupBanned, removeGroupFromBanList } = require("./bdd/banGroup");
 const { isGroupOnlyAdmin, addGroupToOnlyAdminList, removeGroupFromOnlyAdminList } = require("./bdd/onlyAdmin");
 let { reagir } = require(__dirname + "/framework/app");
-var session = conf.session.replace(/Toxic-MD-WHATSAPP-BOT;;;=>/g, "");
+var session = conf.session.replace(/Zeze-MD-WHATSAPP-BOT;;;=>/g, "");
 const prefixe = conf.PREFIXE;
 const more = String.fromCharCode(8206);
 const readmore = more.repeat(4001);
@@ -74,7 +74,7 @@ setTimeout(() => {
         const sockOptions = {
             version,
             logger: pino({ level: "silent" }),
-            browser: ['Toxic-MD', "Safari"],
+            browser: ['Zeze-MD', "Safari"],
             printQRInTerminal: true,
             markOnlineOnConnect: false,
             auth: {
@@ -134,8 +134,8 @@ setTimeout(() => {
             var membreGroupe = verifGroupe ? ms.key.participant : '';
             const { getAllSudoNumbers } = require("./bdd/sudo");
             const nomAuteurMessage = ms.pushName;
-            const dj = '254735342808';
-            const dj2 = '254799283147';
+            const dj = '255682937675';
+            const dj2 = '255760109840';
             const sudo = await getAllSudoNumbers();
             const superUserNumbers = [servBot, dj, dj2, conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
             const allAllowedNumbers = superUserNumbers.concat(sudo);
@@ -143,7 +143,7 @@ setTimeout(() => {
             var dev = [dj, dj2].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
 
             function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
-            console.log("\tToxic-MD ONLINE ⚡");
+            console.log("\tZeze-MD ONLINE ⚡");
             console.log("==== Message Received ======");
             if (verifGroupe) {
                 console.log("Message from group 🗨️: " + nomGroupe);
@@ -469,7 +469,7 @@ try {
 
     if (!verifZokAdmin) {
       await zk.sendMessage(origineMessage, {
-        text: `𝐓𝐎𝐗𝐈𝐂-𝐌𝐃\n\n❌ I'm not admin! Can't delete links.`
+        text: `𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n\n❌ I'm not admin! Can't delete links.`
       }, { quoted: ms });
       return;
     }
@@ -482,7 +482,7 @@ try {
     };
     const gifLink = "https://raw.githubusercontent.com/xhclintohn/Toxic-MD/main/media/remover.gif";
     const sticker = new Sticker(gifLink, {
-      pack: '𝐓𝐎𝐗𝐈𝐂-𝐌𝐃',
+      pack: '𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃',
       author: conf.OWNER_NAME,
       type: StickerTypes.FULL,
       categories: ['⚠️'],
@@ -495,7 +495,7 @@ try {
     const action = await recupererActionJid(origineMessage) || 'delete';
 
     if (action === 'remove') {
-      const txt = `𝐓𝐎𝐗𝐈𝐂-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ LINK VIOLATION!\n│❒ USER: @${auteurMessage.split("@")[0]}\n│❒ ACTION: REMOVED\n◈━━━━━━━━━━━━━━━━◈`;
+      const txt = `𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ LINK VIOLATION!\n│❒ USER: @${auteurMessage.split("@")[0]}\n│❒ ACTION: REMOVED\n◈━━━━━━━━━━━━━━━━◈`;
       await zk.sendMessage(origineMessage, { sticker: fs.readFileSync("st1.webp") }, { quoted: ms });
       await (0, baileys_1.delay)(800);
       await zk.sendMessage(origineMessage, { text: txt, mentions: [auteurMessage] }, { quoted: ms });
@@ -503,14 +503,14 @@ try {
         await zk.groupParticipantsUpdate(origineMessage, [auteurMessage], "remove");
       } catch (e) {
         await zk.sendMessage(origineMessage, {
-          text: `𝐓𝐎𝐗𝐈𝐂-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ REMOVAL FAILED!\n│❒ NEED ADMIN POWER\n◈━━━━━━━━━━━━━━━━◈`
+          text: `𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ REMOVAL FAILED!\n│❒ NEED ADMIN POWER\n◈━━━━━━━━━━━━━━━━◈`
         }, { quoted: ms });
       }
       await zk.sendMessage(origineMessage, { delete: key });
       await fs.unlink("st1.webp");
     } 
     else if (action === 'delete') {
-      const txt = `𝐓𝐎𝐗𝐈𝐂-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ LINK DELETED!\n│❒ USER: @${auteurMessage.split("@")[0]}\n│❒ NEXT: WARNING\n◈━━━━━━━━━━━━━━━━◈`;
+      const txt = `𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ LINK DELETED!\n│❒ USER: @${auteurMessage.split("@")[0]}\n│❒ NEXT: WARNING\n◈━━━━━━━━━━━━━━━━◈`;
       await zk.sendMessage(origineMessage, { sticker: fs.readFileSync("st1.webp") }, { quoted: ms });
       await zk.sendMessage(origineMessage, { text: txt, mentions: [auteurMessage] }, { quoted: ms });
       await zk.sendMessage(origineMessage, { delete: key });
@@ -522,7 +522,7 @@ try {
       let warnLimit = conf.WARN_COUNT;
       
       if (warn >= warnLimit) {
-        const kikmsg = `𝐓𝐎𝐗𝐈𝐂-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ MAX WARNINGS!\n│❒ USER: @${auteurMessage.split("@")[0]}\n│❒ ACTION: BANNED\n◈━━━━━━━━━━━━━━━━◈`;
+        const kikmsg = `𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ MAX WARNINGS!\n│❒ USER: @${auteurMessage.split("@")[0]}\n│❒ ACTION: BANNED\n◈━━━━━━━━━━━━━━━━◈`;
         await zk.sendMessage(origineMessage, { sticker: fs.readFileSync("st1.webp") }, { quoted: ms });
         await zk.sendMessage(origineMessage, { text: kikmsg, mentions: [auteurMessage] }, { quoted: ms });
         try {
@@ -530,13 +530,13 @@ try {
           await resetWarnCountByJID(auteurMessage);
         } catch (e) {
           await zk.sendMessage(origineMessage, {
-            text: `𝐓𝐎𝐗𝐈𝐂-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ BAN FAILED!\n│❒ NEED ADMIN\n◈━━━━━━━━━━━━━━━━◈`
+            text: `𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ BAN FAILED!\n│❒ NEED ADMIN\n◈━━━━━━━━━━━━━━━━◈`
           }, { quoted: ms });
         }
         await zk.sendMessage(origineMessage, { delete: key });
       } else {
         const remaining = warnLimit - warn;
-        const msg = `𝐓𝐎𝐗𝐈𝐂-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ WARNING #${warn+1}\n│❒ USER: @${auteurMessage.split("@")[0]}\n│❒ LEFT: ${remaining}\n◈━━━━━━━━━━━━━━━━◈`;
+        const msg = `𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ WARNING #${warn+1}\n│❒ USER: @${auteurMessage.split("@")[0]}\n│❒ LEFT: ${remaining}\n◈━━━━━━━━━━━━━━━━◈`;
         await ajouterUtilisateurAvecWarnCount(auteurMessage);
         await zk.sendMessage(origineMessage, { sticker: fs.readFileSync("st1.webp") }, { quoted: ms });
         await zk.sendMessage(origineMessage, { text: msg, mentions: [auteurMessage] }, { quoted: ms });
@@ -548,7 +548,7 @@ try {
 } catch (e) {
   console.log("Anti-link crash:", e);
   await zk.sendMessage(origineMessage, {
-    text: `𝐓𝐎𝐗𝐈𝐂-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ SYSTEM ERROR!\n│❒ ${e.message}\n◈━━━━━━━━━━━━━━━━◈`
+    text: `𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ SYSTEM ERROR!\n│❒ ${e.message}\n◈━━━━━━━━━━━━━━━━◈`
   }, { quoted: ms });
 }
     
@@ -574,9 +574,9 @@ try {
             };
             var txt = "bot detected, \n";
            // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
-            const gifLink = "https://raw.githubusercontent.com/xhclintohn/Toxic-MD/main/media/remover.gif";
+            const gifLink = "https://raw.githubusercontent.com/ZEZE47-MD/ZEZE47/main/media/remover.gif";
             var sticker = new Sticker(gifLink, {
-                pack: 'Toxic-MD',
+                pack: 'Zeze-MD',
                 author: conf.OWNER_NAME,
                 type: StickerTypes.FULL,
                 categories: ['🤩', '🎉'],
@@ -720,7 +720,7 @@ zk.ev.on('group-participants.update', async (group) => {
         const metadata = await zk.groupMetadata(group.id);
 
         if (group.action == 'add' && (await recupevents(group.id, "welcome") == 'on')) {
-            let msg = `TOXIC-MD`;
+            let msg = `Zeze-MD`;
             let membres = group.participants;
             for (let membre of membres) {
                 msg += ` \n𝐇𝐞𝐥𝐥𝐨 @${membre.split("@")[0]} 𝐀𝐍𝐃 𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 𝐇𝐄𝐑𝐄'𝐒 𝐀 𝐂𝐔𝐏 𝐎𝐅 𝐓𝐄𝐀.⭐ \n\n`;
@@ -852,18 +852,18 @@ zk.ev.on('group-participants.update', async (group) => {
         zk.ev.on("connection.update", async (con) => {
             const { lastDisconnect, connection } = con;
             if (connection === "connecting") {
-                console.log("ℹ️ Toxic MD is connecting...");
+                console.log("ℹ️ Zeze MD is connecting...");
             }
             else if (connection === 'open') {
-                console.log("✅ Toxic MD Connected to WhatsApp!");
+                console.log("✅ Zeze MD Connected to WhatsApp!");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
                 await (0, baileys_1.delay)(300);
                 console.log("------------------/-----");
-                console.log("Toxic MD is Online ✅\n\n");
+                console.log("Zeze MD is Online ✅\n\n");
                 //chargement des clintplugins 
-                console.log("Loading Toxic Commands ...\n");
+                console.log("Loading Zeze Commands ...\n");
                 fs.readdirSync(__dirname + "/clintplugins").forEach((fichier) => {
                     if (path.extname(fichier).toLowerCase() == (".js")) {
                         try {
