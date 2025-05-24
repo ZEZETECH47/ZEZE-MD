@@ -1,4 +1,4 @@
-aconst { zokou } = require("../framework/zokou");
+const { zokou } = require("../framework/zokou");
 const axios = require("axios");
 const ytSearch = require("yt-search");
 const ytdl = require("ytdl-core");
@@ -22,7 +22,7 @@ zokou(
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
         newsletterJid: "120363295141350550@newsletter",
-        newsletterName: "ZEZE47 MD V²",
+        newsletterName: "ALONE Queen MD V²",
         serverMessageId: 143,
       },
       externalAdReply: {
@@ -119,7 +119,7 @@ zokou({
               isForwarded: true,
               forwardedNewsletterMessageInfo: {
                 newsletterJid: "120363295141350550@newsletter",
-                newsletterName: "ZEZE47 MD V²",
+                newsletterName: "ALONE Queen MD V²",
                 serverMessageId: 143,
               },
         externalAdReply: {
@@ -258,7 +258,7 @@ zokou({
         },
         externalAdReply: {
           title: "🎵 ZEZE47 MD LYRICS FINDER",
-          body: "Powered by ZEZE4U MD V²",
+          body: "Powered by ZEZE47 V²",
           thumbnailUrl: "https://telegra.ph/file/94f5c37a2b1d6c93a97ae.jpg",
           sourceUrl: "https://github.com/Zokou1/ZEZE47",
           mediaType: 1,
@@ -304,7 +304,7 @@ zokou({
         author: "Unknown",
         lyrics: res.data.content,
         thumbnail: "https://telegra.ph/file/94f5c37a2b1d6c93a97ae.jpg",
-        link: "https://github.com/Zokou1/ZEZE47"
+        link: "https://github.com/Zokou1/ZEZE47MD"
       };
     }
   ];
@@ -358,13 +358,13 @@ zokou({
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
               newsletterJid: '120363295141350550@newsletter',
-              newsletterName: 'ALONE Queen MD V²',
+              newsletterName: 'ZEZE47 MD V²',
               serverMessageId: 143},
         externalAdReply: {
           title: "♻️ ZEZE47 MD AUDIO DOWNLOADER ♻️",
-          body: "Powered by ALONE MD V²",
+          body: "Powered by ZEZE47 MD V²",
           thumbnailUrl: "https://telegra.ph/file/94f5c37a2b1d6c93a97ae.jpg",
-          sourceUrl: "https://github.com/Zokou1/ZEZE47",
+          sourceUrl: "https://github.com/Zokou1/ALONE-MD",
           mediaType: 1,
           renderLargerThumbnail: false,
           showAdAttribution: false,
@@ -413,7 +413,7 @@ zokou({
       mimetype: "audio/mp4",
       contextInfo: {
         externalAdReply: {
-          title: "♻️ ZEZE47 AUDIO DOWNLOADER ♻️",
+          title: "♻️ ZEZE47 MD AUDIO DOWNLOADER ♻️",
           body: `🎵 ${artist} - ${songTitle}`,
           mediaType: 1,
           thumbnailUrl: thumbnail,
@@ -424,7 +424,7 @@ zokou({
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
             newsletterJid: '120363295141350550@newsletter',
-            newsletterName: 'ZEZE4U  MD V²',
+            newsletterName: 'ALONE  MD V²',
             serverMessageId: 143
           }
         },
