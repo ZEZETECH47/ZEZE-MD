@@ -24,7 +24,7 @@ async function events(nomCom) {
                 await zk.sendMessage(
                     dest,
                     {
-                        text: `𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ BOOM, ${nomAuteurMessage}! ${nomCom} is now ${setting} for this group! 🔥\n│❒ 𝔗𝔬𝔵𝔦𝔠 𝔐𝔇’s got it locked in! 🚀\n│❒ Powered by 𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏\n◈━━━━━━━━━━━━━━━━◈`,
+                        text: `𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ BOOM, ${nomAuteurMessage}! ${nomCom} is now ${setting} for this group! 🔥\n│❒ ZEZE47 got it locked in! 🚀\n│❒ Powered by 𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏\n◈━━━━━━━━━━━━━━━━◈`,
                         footer: `Hey ${nomAuteurMessage}! I'm Toxic-MD, created by 𝐱𝐡_𝐜𝐥𝐢𝐧𝐭𝐨𝐧 😎`
                     },
                     { quoted: ms }
@@ -34,7 +34,7 @@ async function events(nomCom) {
                 await repondre(`𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ TOTAL BUST, ${nomAuteurMessage}! 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃  tripped while setting ${nomCom}: ${error.message} 😡 Try again or flop! 😣\n◈━━━━━━━━━━━━━━━━◈`);
             }
         } else {
-            repondre(`𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ Yo ${nomAuteurMessage}, what’s this nonsense? 😡 Only *${nomCom} on* or *${nomCom} off* works for 𝔗𝔬𝔵𝔦𝔠 𝔐𝔇! Get it right! 🔧\n◈━━━━━━━━━━━━━━━━◈`);
+            repondre(`𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ Yo ${nomAuteurMessage}, what’s this nonsense? 😡 Only *${nomCom} on* or *${nomCom} off* works for ZEZE47 MD Get it right! 🔧\n◈━━━━━━━━━━━━━━━━◈`);
         }
     });
 }
