@@ -50,7 +50,7 @@ zokou(
       }
 
       // Prepare media details
-      const caption = msg[messageType].caption || `BOOM! Retrieved by 𝔗𝔬𝔵𝔦𝔠 𝔐𝔇 | Powered by xh_clinton 🔥`;
+      const caption = msg[messageType].caption || `BOOM! Retrieved by Zeze md | Powered by zeze_md🔥`;
       const mediaOptions = {
         caption,
         footer: `Hey ${nomAuteurMessage}! I'm Zeze md, created by zezetech 😎`,
@@ -70,11 +70,11 @@ zokou(
       );
 
       // Notify success
-      await repondre(`𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ BOOM, ${nomAuteurMessage}! 𝔗𝔬𝔵𝔦𝔠 𝔐𝔇 decrypted and dropped the media right here! 🗿🔥\n◈━━━━━━━━━━━━━━━━◈`);
+      await repondre(`𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ BOOM, ${nomAuteurMessage}! 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 v² decrypted and dropped the media right here! 🗿🔥\n◈━━━━━━━━━━━━━━━━◈`);
 
     } catch (error) {
       console.error("Error in vv command:", error.stack);
-      await repondre(`𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ TOTAL BUST, ${nomAuteurMessage}! 𝔗𝔬𝔵𝔦𝔠 𝔐𝔇 tripped while decrypting the media: ${error.message} 😡 Try again or flop! 😣\n◈━━━━━━━━━━━━━━━━◈`);
+      await repondre(`𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ TOTAL BUST, ${nomAuteurMessage}! 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 v² tripped while decrypting the media: ${error.message} 😡 Try again or flop! 😣\n◈━━━━━━━━━━━━━━━━◈`);
     }
   }
 );
