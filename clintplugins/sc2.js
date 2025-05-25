@@ -35,6 +35,8 @@ zokou({ nomCom: "sc", categorie: "General", reaction: "☣️" }, async (dest, z
 *👥 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩*:
 https://chat.whatsapp.com/CS06nnz6auIIVESZwycqOl
 
+*📡 support channel*:
+https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r
 ╭───────────────────◇
 │💻 *𝐑𝐀𝐌 𝐔𝐬𝐚𝐠𝐞*: ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 │👑 *𝐎𝐰𝐧𝐞𝐫 1*: @255682937675
@@ -44,7 +46,7 @@ https://chat.whatsapp.com/CS06nnz6auIIVESZwycqOl
     `;
     
     let menuMsg = `
-╔════◇ *𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 𝐌𝐄𝐍𝐔* ◇════╗
+╔════◇ *𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 V² 𝐌𝐄𝐍𝐔* ◇════╗
 `;
 
     var lien = mybotpic();
