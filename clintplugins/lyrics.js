@@ -47,7 +47,7 @@ zokou({
     
     await zk.sendMessage(dest, {
       image: Buffer.from(imageResponse.data),
-      caption: `🎶 *${title}* - ${artist}\n\n${lyrics}\n\n*Powered by Rahmani-Md*`,
+      caption: `🎶 *${title}* - ${artist}\n\n${lyrics}\n\n*Powered by 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 V²*`,
       contextInfo: {
         externalAdReply: {
           title: "𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃  Lyrics Finder",
