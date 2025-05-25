@@ -74,7 +74,7 @@ zokou({
   try {
     const _0xc76f74 = await axios.get('https://nekos.life/api/v2/fact');
     const _0xddf031 = _0xc76f74.data;
-    const _0x29fa45 = "\n┏━━━━ *𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃-FACT* ━━━━━◆                     \n┃\n┃   *◇* " + _0xddf031.fact + " \n┃\n┃   *◇* Regards *𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃*\n┃      \n ╭────────────────◆\n │ *_Powered by 𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏._*\n ╰─────────────────◆\n    ";
+    const _0x29fa45 = "\n┏━━━━ *𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 V²-FACT* ━━━━━◆                     \n┃\n┃   *◇* " + _0xddf031.fact + " \n┃\n┃   *◇* Regards *𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃*\n┃      \n ╭────────────────◆\n │ *_Powered by 𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏._*\n ╰─────────────────◆\n    ";
     await _0x37391b.sendMessage(_0x468981, {
       'text': _0x29fa45,
       'contextInfo': {
@@ -122,7 +122,7 @@ zokou({
         'isForwarded': true,
         'forwardedNewsletterMessageInfo': {
           'newsletterJid': "120363295141350550@newsletter",
-          'newsletterName': "ALONE Queen MD V²",
+          'newsletterName': "𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃  V²",
           'serverMessageId': 0x8f
         },
         'externalAdReply': {
@@ -507,11 +507,11 @@ zokou({
           'isForwarded': true,
           'forwardedNewsletterMessageInfo': {
             'newsletterJid': '120363295141350550@newsletter',
-            'newsletterName': "𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃",
+            'newsletterName': "𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 V²",
             'serverMessageId': 0x8f
           },
           'externalAdReply': {
-            'title': "𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 DICTIONARY",
+            'title': "𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 V² DICTIONARY",
             'body': "Definition of " + _0x33b95d,
             'mediaType': 0x1,
             'thumbnailUrl': 'https://files.catbox.moe/28j7yx.jpg',
@@ -562,7 +562,7 @@ zokou({
             'serverMessageId': 0x8f
           },
           'externalAdReply': {
-            'title': "𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 PAIR CODE",
+            'title': "𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 V²PAIR CODE",
             'body': "Here is your pairing code:",
             'mediaType': 0x1,
             'thumbnailUrl': conf.URL,
@@ -610,11 +610,11 @@ zokou({
         'isForwarded': true,
         'forwardedNewsletterMessageInfo': {
           'newsletterJid': "120363295141350550@newsletter",
-          'newsletterName': "𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃",
+          'newsletterName': "𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 V²",
           'serverMessageId': 0x8f
         },
         'externalAdReply': {
-          'title': "𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 ELEMENT INFORMATION",
+          'title': "𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 V²ELEMENT INFORMATION",
           'body': "Here is the information you requested:",
           'mediaType': 0x1,
           'thumbnailUrl': _0x134f5a,
