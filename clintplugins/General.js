@@ -78,7 +78,7 @@ zokou({ nomCom: "dev", categorie: "General", reaction: "💘" }, async (dest, zk
         { nom: "𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 𝐃𝐞𝐯", numero: "255682937675" }
     ];
 
-    let message = `╔════◇ *𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑𝐒* ◇════╗\n\n`;
+    let message = `╔════◇ *𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 V² 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑𝐒* ◇════╗\n\n`;
     message += `*🚀 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐨𝐮𝐫 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫𝐬 𝐟𝐨𝐫 𝐬𝐮𝐩𝐩𝐨𝐫𝐭:*\n\n`;
     
     for (const dev of devs) {
@@ -120,9 +120,9 @@ zokou({ nomCom: "support", categorie: "General", reaction: "🔗" }, async (dest
     const { ms, repondre, auteurMessage } = commandeOptions; 
 
     const supportMessage = `
-╔════◇ *𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 𝐒𝐔𝐏𝐏𝐎𝐑𝐓* ◇════╗
+╔════◇ *𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 V² 𝐒𝐔𝐏𝐏𝐎𝐑𝐓* ◇════╗
 
-*🌟 𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐜𝐡𝐨𝐨𝐬𝐢𝐧𝐠 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃!*
+*💝 𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐜𝐡𝐨𝐨𝐬𝐢𝐧𝐠 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 V²!❣️*
 
 *📢 𝐂𝐡𝐚𝐧𝐧𝐞𝐥:*
 https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r
@@ -131,8 +131,10 @@ https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r
 https://chat.whatsapp.com/CS06nnz6auIIVESZwycqOl
 
 *🎥 𝐘𝐨𝐮𝐓𝐮𝐛𝐞:*
+https://www.youtube.com/@Humphrey47Mbise
 
-
+*🔥 Tick-tock;*
+https://vm.tiktok.com/ZMS2H8vPx/
 ╚════◇ *𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏* ◇════╝
     `;
 
@@ -140,7 +142,7 @@ https://chat.whatsapp.com/CS06nnz6auIIVESZwycqOl
     await zk.sendMessage(
         auteurMessage,
         {
-            text: `*📩 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐥𝐢𝐧𝐤𝐬 𝐬𝐞𝐧𝐭 𝐭𝐨 𝐲𝐨𝐮𝐫 𝐃𝐌!*\n\n𝐏𝐥𝐞𝐚𝐬𝐞 𝐣𝐨𝐢𝐧 𝐨𝐮𝐫 𝐜𝐨𝐦𝐦𝐮𝐧𝐢𝐭𝐲 𝐟𝐨𝐫 𝐮𝐩𝐝𝐚𝐭𝐞𝐬 𝐚𝐧𝐝 𝐬𝐮𝐩𝐩𝐨𝐫𝐭.`
+            text: `*📩 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐥𝐢𝐧𝐤𝐬 𝐬𝐞𝐧𝐭 𝐭𝐨 𝐲𝐨𝐮𝐫 𝐃𝐌!*\n\n𝐏𝐥𝐞𝐚𝐬𝐞📡 𝐣𝐨𝐢𝐧 or follow or line 𝐟𝐨𝐫 𝐮𝐩𝐝𝐚𝐭𝐞𝐬 𝐚𝐧𝐝 𝐬𝐮𝐩𝐩𝐨𝐫𝐭.`
         },
         { quoted: ms }
     );
