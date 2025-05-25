@@ -80,7 +80,7 @@ zokou(
       // Determine media type for response
       const mediaType = getMediaType(msgRepondu.mtype);
       const successMessage = {
-        text: `𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 \n\n◈━━━━━━━━━━━━━━━━◈\n│❒ ${mediaType.toUpperCase()} URL 🔗\n│❒ ${mediaUrl}\n│❒ Powered by xh_clinton\n◈━━━━━━━━━━━━━━━━◈`
+        text: `𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 \n\n◈━━━━━━━━━━━━━━━━◈\n│❒ ${mediaType.toUpperCase()} URL 🔗\n│❒ ${mediaUrl}\n│❒ Powered by Zeze_md\n◈━━━━━━━━━━━━━━━━◈`
       };
 
       // For non-audio media, send as media message with caption
