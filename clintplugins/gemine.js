@@ -33,7 +33,7 @@ zokou(
         dest,
         {
           text: `𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ BOOM, ${nomAuteurMessage}! Gemini AI says: "${data.result.trim()}" 🔥\n│❒ Powered by 𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏\n◈━━━━━━━━━━━━━━━━◈`,
-          footer: `Hey ${nomAuteurMessage}! I'm Toxic-MD, created by 𝐱𝐡_𝐜𝐥𝐢𝐧𝐭𝐨𝐧 😎`,
+          footer: `Hey ${nomAuteurMessage}! I'm Toxic-MD, created by zeze_md 😎`,
         },
         { quoted: ms }
       );
