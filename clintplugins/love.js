@@ -28,7 +28,33 @@ zokou({ nomCom: 'love',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*💃🏽I choose you🥹🥹❤️. And i will choose you over and over and over. Without pause🥹❤️, without a doubt, in a heartbeat. I will keep choosing you.🥹🥹*`) 
+                 await repondre(`*💃🏽Of course! Here are some beautiful and heartfelt words of love you can use:
+
+1. "I didn't choose you, my heart did. And it chooses you every single day."
+
+
+2. "You are the reason I smile a little more, laugh a little louder, and love a lot deeper."
+
+
+3. "In your arms, I’ve found my home. In your heart, I’ve found my forever."
+
+
+4. "Every moment with you is a dream I never want to wake up from."
+
+
+5. "Your love is the light that guides me through the darkest times."
+
+
+6. "With you, I’ve found the one my soul loves, the one my heart beats for."
+
+
+7. "You don’t cross my mind—you live in it."
+
+
+
+Would you like these turned into a love message, poem, or something specific like for an anniversary or special occasion?
+
+*`) 
 
    
 
