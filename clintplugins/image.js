@@ -51,7 +51,7 @@ zokou({
       'image': {
         'url': _0xd392c1
       },
-      'caption': "*Screenshot taken by ALONE QUEEN v²"
+      'caption': "*Screenshot taken by 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 v²"
     }, {
       'quoted': _0xf816e8
     });
@@ -107,7 +107,7 @@ zokou({
       'image': {
         'url': _0x3f49a1
       },
-      'caption': "*Screenshot taken by ALONE QUEEN v²"
+      'caption': "*Screenshot taken by 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 v²"
     }, {
       'quoted': _0x53a9c1
     });
@@ -164,7 +164,7 @@ zokou({
       'image': {
         'url': _0x4c8c61
       },
-      'caption': "*Screenshot taken by ALONE QUEEN v²"
+      'caption': "*Screenshot taken by 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 v²"
     }, {
       'quoted': _0x552a3a
     });
@@ -250,7 +250,7 @@ zokou({
       'image': {
         'url': _0x2a748e
       },
-      'caption': "*Screenshot taken by ALONE QUEEN v²"
+      'caption': "*Screenshot taken by 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 v²"
     }, {
       'quoted': _0x489553
     });
@@ -307,7 +307,7 @@ zokou({
       'image': {
         'url': _0x1f8e1c
       },
-      'caption': "*Screenshot taken by ALONE QUEEN v²"
+      'caption': "*Screenshot taken by 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 v²"
     }, {
       'quoted': _0x3553d7
     });
@@ -335,7 +335,7 @@ zokou({
       'image': {
         'url': _0x4f3d01
       },
-      'caption': "*Screenshot taken by ALONE QUEEN v²"
+      'caption': "*Screenshot taken by 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 v²"
     }, {
       'quoted': _0x136d47
     });
@@ -364,7 +364,7 @@ zokou({
       'image': {
         'url': _0x10e68a
       },
-      'caption': "*Screenshot taken by ALONE QUEEN v²"
+      'caption': "*Screenshot taken by 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 v²"
     }, {
       'quoted': _0x3efc6b
     });
@@ -393,7 +393,7 @@ zokou({
       'image': {
         'url': _0x44b842
       },
-      'caption': "*Screenshot taken by ALONE QUEEN v²"
+      'caption': "*Screenshot taken by 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 v²"
     }, {
       'quoted': _0x4b9f6e
     });
@@ -422,7 +422,7 @@ zokou({
       'image': {
         'url': _0x4c781d
       },
-      'caption': "*Screenshot taken by ALONE QUEEN v²"
+      'caption': "*Screenshot taken by 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 v²"
     }, {
       'quoted': _0x47a3c1
     });
@@ -451,7 +451,7 @@ zokou({
       'image': {
         'url': _0x2707a9
       },
-      'caption': "*Screenshot taken by ALONE QUEEN v²"
+      'caption': "*Screenshot taken by 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 v²"
     }, {
       'quoted': _0x16152d
     });
@@ -714,7 +714,7 @@ zokou({
       'image': {
         'url': _0x5b6df3
       },
-      'caption': "*powered by ALONE QUEEN v²"
+      'caption': "*powered by 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 v²"
     }, {
       'quoted': _0x2be120
     });
@@ -743,7 +743,7 @@ zokou({
       'image': {
         'url': _0x12709a
       },
-      'caption': "*powered by ALONE QUEEN v²"
+      'caption': "*powered by 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 v²"
     }, {
       'quoted': _0x5ebcf1
     });
@@ -772,7 +772,7 @@ zokou({
       'image': {
         'url': _0x5d386e
       },
-      'caption': "*powered by ALONE QUEEN v²"
+      'caption': "*powered by 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 v²"
     }, {
       'quoted': _0x4c7329
     });
@@ -830,7 +830,7 @@ zokou({
       'image': {
         'url': _0x3386d9
       },
-      'caption': "*powered by ALONE QUEEN v²"
+      'caption': "*powered by 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 v²"
     }, {
       'quoted': _0x473b3f
     });
@@ -859,7 +859,7 @@ zokou({
       'image': {
         'url': _0x6933e3
       },
-      'caption': "*powered by ALONE QUEEN v²"
+      'caption': "*powered by 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 v²"
     }, {
       'quoted': _0x45ab0e
     });
@@ -916,7 +916,7 @@ zokou({
       'image': {
         'url': _0x59f87e
       },
-      'caption': "*powered by ALONE QUEEN v²"
+      'caption': "*powered by 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 v²"
     }, {
       'quoted': _0x2ff1c5
     });
@@ -945,7 +945,7 @@ zokou({
       'image': {
         'url': _0x2bf2f8
       },
-      'caption': "*powered by ALONE QUEEN v²"
+      'caption': "*powered by 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 v²"
     }, {
       'quoted': _0x42b678
     });
@@ -974,7 +974,7 @@ zokou({
       'image': {
         'url': _0x152537
       },
-      'caption': "*powered by ALONE QUEEN v²"
+      'caption': "*powered by 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 v²"
     }, {
       'quoted': _0x53f2a4
     });
@@ -1003,7 +1003,7 @@ zokou({
       'image': {
         'url': _0x24d922
       },
-      'caption': "*powered by ALONE queen v²"
+      'caption': "*powered by 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 v²"
     }, {
       'quoted': _0x1b1c04
     });
@@ -1032,7 +1032,7 @@ zokou({
       'image': {
         'url': _0x590b18
       },
-      'caption': "*powered by ALONE MD v²*"
+      'caption': "*powered by 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 v²*"
     }, {
       'quoted': _0x27a896
     });
@@ -1061,7 +1061,7 @@ zokou({
       'image': {
         'url': _0x3e5ccf
       },
-      'caption': "*powered by ᴅᴜʟʟᴀʜ-xᴍᴅ v²"
+      'caption': "*powered by 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 v²"
     }, {
       'quoted': _0x4464fe
     });
@@ -1090,7 +1090,7 @@ zokou({
       'image': {
         'url': _0x480fea
       },
-      'caption': "*powered by ᴅᴜʟʟᴀʜ-xᴍᴅ v²"
+      'caption': "*powered by 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 v²"
     }, {
       'quoted': _0x1e91d5
     });
