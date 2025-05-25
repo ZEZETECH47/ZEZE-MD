@@ -12,7 +12,7 @@ zokou(
 
     try {
       if (!msgRepondu) {
-        return repondre(`𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ Yo ${nomAuteurMessage}, reply to a media message (image, video, or audio) first! 😡 Don’t waste 𝔗𝔬𝔵𝔦𝔠 𝔐𝔇’s time! 🤔\n◈━━━━━━━━━━━━━━━━◈`);
+        return repondre(`𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ Yo ${nomAuteurMessage}, reply to a media message (image, video, or audio) first! 😡 Don’t waste 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 V² time! 🤔\n◈━━━━━━━━━━━━━━━━◈`);
       }
 
       // Extract the message content
@@ -41,12 +41,12 @@ zokou(
       }
 
       // Notify the user that media is being processed
-      await repondre(`𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ Yo ${nomAuteurMessage}, 𝔗𝔬𝔵𝔦𝔠 𝔐𝔇’s cracking open that media! 📦 Hold tight! 🔍\n◈━━━━━━━━━━━━━━━━◈`);
+      await repondre(`𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ Yo ${nomAuteurMessage}, 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 V² cracking open that media! 📦 Hold tight! 🔍\n◈━━━━━━━━━━━━━━━━◈`);
 
       // Download the media
       const buffer = await downloadMediaMessage(msgRepondu, 'buffer', {});
       if (!buffer) {
-        return repondre(`𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ Yo ${nomAuteurMessage}, 𝔗𝔬𝔵𝔦𝔠 𝔐𝔇 couldn’t download the media! 😓 Try again or check the message! 🚨\n◈━━━━━━━━━━━━━━━━◈`);
+        return repondre(`𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ Yo ${nomAuteurMessage}, 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 V²couldn’t download the media! 😓 Try again or check the message! 🚨\n◈━━━━━━━━━━━━━━━━◈`);
       }
 
       // Prepare media details
