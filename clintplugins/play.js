@@ -9,7 +9,7 @@ const conf = require("../set");
 
 zokou(
   {
-    nomCom: "movie1",
+    nomCom: "movie",
     aliases: ["gtmovie", "mvdl"],
     categorie: "Search",
     reaction: "🎬",
@@ -105,7 +105,7 @@ zokou(
   }
 );
 zokou({
-  nomCom: "playvideo",
+  nomCom: "video",
   aliases: ["video", "ytvideo", "ytmp4","getmovie", "moviedl","movie"],
   categorie: "Search",
   reaction: "🎬",
