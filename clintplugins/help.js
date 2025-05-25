@@ -44,7 +44,7 @@ VERSION
 
         // Create a numbered list of categories
         let menuMsg = `
-     𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 2025™
+     𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 V² 2025™
 
 ◈━━━━━━━━━━━━━━━━◈
 `;
@@ -84,7 +84,7 @@ VERSION
                     {
                         image: { url: lien },
                         caption: infoMsg + menuMsg,
-                        footer: "Toxic-MD WhatsApp Bot",
+                        footer: "Zeze-MD WhatsApp Bot",
                     },
                     { quoted: ms }
                 );
