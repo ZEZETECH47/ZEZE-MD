@@ -19,7 +19,7 @@ zokou(
       }
 
       const query = arg.join(' ').trim();
-      await repondre(`𝐓𝐎𝐗𝐈𝐂-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ Hang on, ${nomAuteurMessage}! Scouting YouTube for "${query}" like a boss! 🔍\n◈━━━━━━━━━━━━━━━━◈`);
+      await repondre(`𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ Hang on, ${nomAuteurMessage}! Scouting YouTube for "${query}" like a boss! 🔍\n◈━━━━━━━━━━━━━━━━◈`);
 
       const apiUrl = `https://api.giftedtech.web.id/api/search/yts?apikey=gifted&query=${encodeURIComponent(query)}`;
       const response = await axios.get(apiUrl);
