@@ -72,7 +72,7 @@ STATUS
       }
 
       // Send random audio as a voice note
-      const audioFolder = __dirname + "/../xh_clinton/";
+      const audioFolder = __dirname + "/../zeze_md/";
       console.log("Audio folder path:", audioFolder);
 
       // Check if folder exists
@@ -88,7 +88,7 @@ STATUS
 
       if (audioFiles.length === 0) {
         console.log("No MP3 files found in folder");
-        repondre(`𝐍𝐨 𝐚𝐮𝐝𝐢𝐨 𝐟𝐢𝐥𝐞𝐬 𝐟𝐨𝐮𝐧𝐝 𝐢𝐧 𝐱𝐡_𝐜𝐥𝐢𝐧𝐭𝐨𝐧 𝐟�{o𝐥𝐝𝐞𝐫`);
+        repondre(`𝐍𝐨 𝐚𝐮𝐝𝐢𝐨 𝐟𝐢𝐥𝐞𝐬 𝐟𝐨𝐮𝐧𝐝 𝐢𝐧 zeze_md 𝐟�{o𝐥𝐝𝐞𝐫`);
         return;
       }
 
