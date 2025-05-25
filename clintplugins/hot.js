@@ -16,7 +16,7 @@ zokou(
       console.log('DEBUG - xxxvideo triggered:', { arg, nomAuteurMessage, superUser });
 
       if (!superUser) {
-        return repondre(`𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ BACK OFF, ${nomAuteurMessage}! Only mods can hit this command, punk! 😡\n◈━━━━━━━━━━━━━━━━◈`);
+        return repondre(`𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 V²\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ BACK OFF, ${nomAuteurMessage}! Only mods can hit this command, punk! 😡\n◈━━━━━━━━━━━━━━━━◈`);
       }
 
       if (!arg[0]) {
@@ -67,15 +67,15 @@ zokou(
       await zk.sendMessage(
         dest,
         {
-          text: `𝐓𝐎𝐗𝐈𝐂-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ NAILED IT, ${nomAuteurMessage}! Your video is READY! 🔥\n│❒ Title: ${title}\n│❒ Download: ${downloadUrl}\n│❒ Powered by xh_clinton\n◈━━━━━━━━━━━━━━━━◈`,
-          footer: `Hey ${nomAuteurMessage}! I'm Toxic-MD, created by 𝐱𝐡_𝐜𝐥𝐢𝐧𝐭𝐨𝐧 😎`,
+          text: `𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ NAILED IT, ${nomAuteurMessage}! Your video is READY! 🔥\n│❒ Title: ${title}\n│❒ Download: ${downloadUrl}\n│❒ Powered by zeze_md\n◈━━━━━━━━━━━━━━━━◈`,
+          footer: `Hey ${nomAuteurMessage}! I'm Toxic-MD, created by zeze_md 😎`,
         },
         { quoted: ms }
       );
 
     } catch (e) {
       console.error('xxxvideo error:', e);
-      await repondre(`𝐓𝐎𝐗𝐈𝐂-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ CRASH AND BURN, ${nomAuteurMessage}! Something broke: ${e.message} 😡 Fix it or scram!\n◈━━━━━━━━━━━━━━━━◈`);
+      await repondre(`𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ CRASH AND BURN, ${nomAuteurMessage}! Something broke: ${e.message} 😡 Fix it or scram!\n◈━━━━━━━━━━━━━━━━◈`);
     }
   }
 );
