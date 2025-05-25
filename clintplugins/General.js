@@ -123,7 +123,7 @@ zokou({ nomCom: "support", categorie: "General", reaction: "🔗" }, async (dest
 ╔════◇ *𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 V² 𝐒𝐔𝐏𝐏𝐎𝐑𝐓* ◇════╗
 
 *💝 𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐜𝐡𝐨𝐨𝐬𝐢𝐧𝐠 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 V²!❣️*
-
+........ support me on my.....
 *📢 𝐂𝐡𝐚𝐧𝐧𝐞𝐥:*
 https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r
 
@@ -133,8 +133,11 @@ https://chat.whatsapp.com/CS06nnz6auIIVESZwycqOl
 *🎥 𝐘𝐨𝐮𝐓𝐮𝐛𝐞:*
 https://www.youtube.com/@Humphrey47Mbise
 
-*🔥 Tick-tock;*
+*🔥 Tick-tock:*
 https://vm.tiktok.com/ZMS2H8vPx/
+
+*💌 Instagram:*
+https://www.instagram.com/humphreymbise47?igsh=MzNlNGNkZWQ4Mg==
 
 ...☺️THANKS FOR YOUR SUPPORT😊...
 ╚════◇ *𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏* ◇════╝
