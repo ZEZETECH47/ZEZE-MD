@@ -109,7 +109,7 @@ const getRandomQuote = () => {
 };
 
 // Keith command handler for 'menu' command
-zokou({ nomCom: "menu", aliases: ["liste", "helplist", "commandlist"], categorie: "SYSTEM" }, async (message, client, config) => {
+zokou({ nomCom: "menu1", aliases: ["liste", "helplist", "commandlist"], categorie: "SYSTEM" }, async (message, client, config) => {
     const { ms, respond, prefix, nomAuteurMessage } = config;
     const commands = require(__dirname + "/../workflow/zokou").cm;
     const categorizedCommands = {};
@@ -148,7 +148,7 @@ zokou({ nomCom: "menu", aliases: ["liste", "helplist", "commandlist"], categorie
 *Be motivated with this inspiration quote🫧*   
 "💎${randomQuote}💎"
 
-╭━━━ 〔 •𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃• 〕━━━┈⊷
+╭━━━ 〔 •𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 V²• 〕━━━┈⊷
 ┃✵╭───────────────
 ┃✵│▸ *ʙᴏᴛ ᴏᴡɴᴇʀ:* ${settings.OWNER_NAME}
 ┃✵│▸ *ᴘʀᴇғɪx:* *[ ${settings.PREFIXE} ]*
