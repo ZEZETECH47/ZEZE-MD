@@ -1,7 +1,7 @@
 aconst { zokou } = require("../framework/zokou");
 
 zokou({
-  nomCom: "xtest",
+  nomCom: "rtest",
   categorie: "Fun",
   reaction: "🤓"
 }, async (dest, zk, commandeOptions) => {
