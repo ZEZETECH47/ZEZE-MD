@@ -18,7 +18,7 @@ zokou({
         const date = moment().format('DD/MM/YYYY');
 
         const repoInfo = `
- 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 
+ 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 V²
 
 ◈━━━━━━━━━━━━━━━━◈
 │❒ Yo ${nomAuteurMessage}, here’s the lowdown on ZEZE source code! 📂
@@ -29,7 +29,7 @@ zokou({
 │❒ *📅 𝐃𝐚𝐭�{e*: ${date}
 │❒ *⏰ 𝐓𝐢�{m𝐞 (GMT)*: ${time}
 │❒ *👑 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫𝐬*: @255682937675 (𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 ), @255760109840 (𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏)
-│❒ Powered by xh_clinton
+│❒ Powered by master_𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 
 ◈━━━━━━━━━━━━━━━━◈
         `;
 
@@ -55,6 +55,6 @@ zokou({
         }
     } catch (error) {
         console.error("Error in sc command:", error);
-        await repondre(`𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 \n\n◈━━━━━━━━━━━━━━━━◈\n│❒ TOTAL BUST, ${nomAuteurMessage}! 𝔗𝔬𝔵𝔦𝔠 𝔐𝔇 crashed while fetching source code info: ${error.message} 😡 Try again or flop! 😣\n◈━━━━━━━━━━━━━━━━◈`);
+        await repondre(`𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 \n\n◈━━━━━━━━━━━━━━━━◈\n│❒ TOTAL BUST, ${nomAuteurMessage}! ZEZE47 crashed while fetching source code info: ${error.message} 😡 Try again or flop! 😣\n◈━━━━━━━━━━━━━━━━◈`);
     }
 });
