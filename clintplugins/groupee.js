@@ -830,86 +830,66 @@ zokou({ nomCom: "info", categorie: 'Group' }, async (dest, zk, commandeOptions) 
 
     zk.sendMessage(dest, mess, { quoted: ms })
   });
-zokou({ nomCom: "antilink", categorie: 'Group', reaction: "🔗" }, async (dest, zk, commandeOptions) => {
+
+ zokou({ nomCom: "antilink", categorie: 'Group', reaction: "🔗" }, async (dest, zk, commandeOptions) => {
+
+
   var { repondre, arg, verifGroupe, superUser, verifAdmin } = commandeOptions;
+  
 
-  const context = {
-    forwardingScore: 999,
-    isForwarded: true,
-    forwardedNewsletterMessageInfo: {
-      newsletterJid: '120363295141350550@newsletter',
-      newsletterName: 'ZEZE47 MD V²',
-      serverMessageId: 143
-    },
-    externalAdReply: {
-      title: "🚫❌ZEZE47 MD LINK DETECTOR ‼️",
-      body: "Our group moderated automatically!",
-      thumbnailUrl: conf.URL,
-      sourceUrl: conf.GURL,
-      mediaType: 1
-    }
-  };
-
-  const send = (msg) => zk.sendMessage(dest, { text: msg, contextInfo: context });
-
-  if (!verifGroupe) return send("*for groups only*");
-
-  if (superUser || verifAdmin) {
-    const enetatoui = await verifierEtatJid(dest);
-
+  
+  if (!verifGroupe) {
+    return repondre("*for groups only*");
+  }
+  
+  if( superUser || verifAdmin) {
+    const enetatoui = await verifierEtatJid(dest)
     try {
-      if (!arg || !arg[0] || arg === ' ') {
-        return send(`antilink on — activate the anti-link feature
-antilink off — deactivate it
-antilink action/remove — auto-remove link
-antilink action/warn — warn the sender
-antilink action/delete — delete the message only
+      if (!arg || !arg[0] || arg === ' ') { repondre("antilink on to activate the anti-link feature\nantilink off to deactivate the anti-link feature\nantilink action/remove to directly remove the link without notice\nantilink action/warn to give warnings\nantilink action/delete to remove the link without any sanctions\n\nPlease note that by default, the anti-link feature is set to delete.") ; return};
+     
+      if(arg[0] === 'on') {
 
-*Default action: delete*`);
-      }
+      
+       if(enetatoui ) { repondre("the antilink is already activated for this group")
+                    } else {
+                  await ajouterOuMettreAJourJid(dest,"oui");
+                
+              repondre("𝐓𝐡𝐞 𝐚𝐧𝐭𝐢𝐥𝐢𝐧𝐤 𝐚𝐜𝐭𝐢𝐯𝐚𝐭𝐞𝐝 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲") }
+     
+            } else if (arg[0] === "off") {
 
-      if (arg[0] === 'on') {
-        if (enetatoui) {
-          send("The antilink is already activated for this group");
-        } else {
-          await ajouterOuMettreAJourJid(dest, "oui");
-          send("The antilink is activated successfully");
-        }
+              if (enetatoui) { 
+                await ajouterOuMettreAJourJid(dest , "non");
 
-      } else if (arg[0] === "off") {
-        if (enetatoui) {
-          await ajouterOuMettreAJourJid(dest, "non");
-          send("The antilink has been successfully deactivated");
-        } else {
-          send("Antilink is not activated for this group");
-        }
+                repondre("The antilink has been successfully deactivated");
+                
+              } else {
+                repondre("antilink is not activated for this group");
+              }
+            } else if (arg.join('').split("/")[0] === 'action') {
+                            
 
-      } else if (arg.join('').split("/")[0] === 'action') {
-        let action = (arg.join('').split("/")[1] || '').toLowerCase();
+              let action = (arg.join('').split("/")[1]).toLowerCase() ;
 
-        if (["remove", "warn", "delete"].includes(action)) {
-          await mettreAJourAction(dest, action);
-          send(`The anti-link action has been updated to *${action}*`);
-        } else {
-          send("The only actions available are *warn*, *remove*, and *delete*");
-        }
+              if ( action == 'remove' || action == 'warn' || action == 'delete' ) {
 
-      } else {
-        send(`antilink on — activate the anti-link feature
-antilink off — deactivate it
-antilink action/remove — auto-remove link
-antilink action/warn — warn the sender
-antilink action/delete — delete the message only
+                await mettreAJourAction(dest,action);
 
-*Default action: delete*`);
-      }
+                repondre(`The anti-link action has been updated to ${arg.join('').split("/")[1]}`);
 
+              } else {
+                  repondre("The only actions available are warn, remove, and delete") ;
+              }
+            
+
+            } else repondre("antilink on to activate the anti-link feature\nantilink off to deactivate the anti-link feature\nantilink action/remove to directly remove the link without notice\nantilink action/warn to give warnings\nantilink action/delete to remove the link without any sanctions\n\nPlease note that by default, the anti-link feature is set to delete.")
+
+      
     } catch (error) {
-      send("Oops! " + error);
+       repondre(error)
     }
 
-  } else {
-    send('You are not entitled to this order');
+  } else { repondre('𝐓𝐡𝐢𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐜𝐚𝐧 𝐨𝐧𝐥𝐲 𝐛𝐞 𝐮𝐬𝐞𝐝 𝐛𝐲 𝐀𝐝𝐦𝐢𝐧 🤖') ;
   }
 });
 
