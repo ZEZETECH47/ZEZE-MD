@@ -99,7 +99,7 @@ zokou({ nomCom: "tagal", categorie: 'Group', reaction: "📣" }, async (dest, zk
 
   // Prepare the initial message tag
   let tag = `========================\n  
-        🌟 *ZEZE47-MD* 🌟
+        🌟 *ZEZE47-MD V²* 🌟
 ========================\n
 👥 Group : ${nomGroupe} 🚀 
 👤 Author : *${nomAuteurMessage}* 👋 
@@ -268,7 +268,7 @@ zokou({
   let _0x115598 = _0x254221.map(_0x6b0f9 => _0x6b0f9.id);
   await _0xb269b7("*ZEZE47-MD is sending this message to all groups you are in*...");
   for (let _0x398282 of _0x115598) {
-    let _0x25a35f = "‼️‼️ZEZE47-𝐌𝐃 𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓️‼️️‼️\n\n❗*message* : " + _0x1360fc + "\n\n️‼️ *Author*: " + _0x271224;
+    let _0x25a35f = "‼️‼️ZEZE47-𝐌𝐃 V² 𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓️‼️️‼️\n\n❗*message* : " + _0x1360fc + "\n\n️‼️ *Author*: " + _0x271224;
     await _0x4cdb8c.sendMessage(_0x398282, {
       'image': {
         'url': "https://files.catbox.moe/4tu6s0.jpg"
@@ -551,7 +551,7 @@ zokou({
       let _0x5838c2 = _0x269fcd.name || _0x269fcd.notify || "[ALPHA] +" + _0x23a8f8;
       _0x4a6ecd += "BEGIN:VCARD\nVERSION:3.0\nFN:" + _0x5838c2 + "\nTEL;type=CELL;type=VOICE;waid=" + _0x23a8f8 + ':+' + _0x23a8f8 + "\nEND:VCARD\n";
     }
-    await _0x2e5b52("A moment, *ALPHA-MD* is compiling " + _0x267c2d.length + " contacts into a vcf...");
+    await _0x2e5b52("A moment, *ZEZE47-MD* is compiling " + _0x267c2d.length + " contacts into a vcf...");
     await _0x511dab.writeFileSync("./contacts.vcf", _0x4a6ecd.trim());
     await _0xbcbdad.sendMessage(_0x1ec21c, {
       'document': _0x511dab.readFileSync("./contacts.vcf"),
@@ -596,7 +596,7 @@ zokou({
   ;
   let _0x5d1fc3 = _0x57abcf ? await _0x42f894.participants : '';
   var _0x4e4576 = '';
-  _0x4e4576 += "========================\n  \n        🌟 *𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 * 🌟\n========================\n\n👥 Group : " + _0x2b3359 + " 🚀 \n👤 Author : *" + _0x2b0f5a + "* 👋 \n📜 Message : *" + mess + "* 📝\n========================\n\n\n\n\n";
+  _0x4e4576 += "========================\n  \n        🌟 *𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 V²* 🌟\n========================\n\n👥 Group : " + _0x2b3359 + " 🚀 \n👤 Author : *" + _0x2b0f5a + "* 👋 \n📜 Message : *" + mess + "* 📝\n========================\n\n\n\n\n";
   let _0x44caa0 = ['🦴', '👀', "😮‍💨", '❌', '✔️', '😇', '⚙️', '🔧', '🎊', '😡', "🙏🏿", '🖕', '$', '😟', '🥵', '🐅'];
   let _0x534613 = Math.floor(Math.random() * (_0x44caa0.length - 0x1));
   for (const _0x152193 of _0x5d1fc3) {
