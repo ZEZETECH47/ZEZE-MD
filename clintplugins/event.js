@@ -10,11 +10,11 @@ async function events(nomCom) {
         const { ms, arg, repondre, superUser, verifAdmin, nomAuteurMessage } = commandeOptions;
 
         if (!verifAdmin && !superUser) {
-            return repondre(`𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ Yo ${nomAuteurMessage}, you ain’t got the keys to mess with ${nomCom}! 😡 Only admins or 𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏 can run 𝔗𝔬𝔵𝔦𝔠 𝔐𝔇’s group vibes! 🚫\n◈━━━━━━━━━━━━━━━━◈`);
+            return repondre(`𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ Yo ${nomAuteurMessage}, you ain’t got the keys to mess with ${nomCom}! 😡 Only admins or 𝘡𝘌𝘡𝘌47 𝘛𝘌𝘊𝘏 can run 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 group vibes! 🚫\n◈━━━━━━━━━━━━━━━━◈`);
         }
 
         if (!arg[0] || arg.join(' ').trim() === '') {
-            return repondre(`𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ Yo ${nomAuteurMessage}, don’t be lazy! Use *${nomCom} on* to activate or *${nomCom} off* to shut it down! 😎 𝔗𝔬𝔵𝔦𝔠 𝔐𝔇 needs clear orders! 🔥\n◈━━━━━━━━━━━━━━━━◈`);
+            return repondre(`𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ Yo ${nomAuteurMessage}, don’t be lazy! Use *${nomCom} on* to activate or *${nomCom} off* to shut it down! 😎 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 needs clear orders! 🔥\n◈━━━━━━━━━━━━━━━━◈`);
         }
 
         const setting = arg[0].toLowerCase();
@@ -31,7 +31,7 @@ async function events(nomCom) {
                 );
             } catch (error) {
                 console.error(`Error updating ${nomCom}:`, error);
-                await repondre(`𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ TOTAL BUST, ${nomAuteurMessage}! 𝔗𝔬𝔵𝔦𝔠 𝔐𝔇 tripped while setting ${nomCom}: ${error.message} 😡 Try again or flop! 😣\n◈━━━━━━━━━━━━━━━━◈`);
+                await repondre(`𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ TOTAL BUST, ${nomAuteurMessage}! 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃  tripped while setting ${nomCom}: ${error.message} 😡 Try again or flop! 😣\n◈━━━━━━━━━━━━━━━━◈`);
             }
         } else {
             repondre(`𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ Yo ${nomAuteurMessage}, what’s this nonsense? 😡 Only *${nomCom} on* or *${nomCom} off* works for 𝔗𝔬𝔵𝔦𝔠 𝔐𝔇! Get it right! 🔧\n◈━━━━━━━━━━━━━━━━◈`);
