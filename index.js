@@ -901,7 +901,7 @@ try {
          
             /////////////////////////
             
-            //execution des clintplugins   
+            //execution des zezeplugins   
             if (verifCom) {
                 //await await zk.readMessages(ms.key);
                 const cd = evt.cm.find((zokou) => zokou.nomCom === (com));
