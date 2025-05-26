@@ -975,10 +975,10 @@ zk.ev.on('group-participants.update', async (group) => {
         const metadata = await zk.groupMetadata(group.id);
 
         if (group.action == 'add' && (await recupevents(group.id, "welcome") == 'on')) {
-            let msg = `Zeze-MD`;
+            let msg = `ZEZE47-MD V²`;
             let membres = group.participants;
             for (let membre of membres) {
-                msg += ` \n𝐇𝐞𝐥𝐥𝐨 @${membre.split("@")[0]} 𝐀𝐍𝐃 𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 𝐇𝐄𝐑𝐄'𝐒 𝐀 𝐂𝐔𝐏 𝐎𝐅 𝐓𝐄𝐀.⭐ \n\n`;
+                msg += ` \n𝐇𝐞𝐥𝐥𝐨 @${membre.split("@")[0]} 𝐀𝐍𝐃 ❣️🌹𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 𝐇𝐄𝐑𝐄'𝐒 𝐀 𝐂𝐔𝐏 𝐎𝐅 𝐓𝐄𝐀.🌹❣️ \n\n`;
             }
 
             msg += `> 𝐏𝐋𝐄𝐀𝐒𝐄 𝐑𝐄𝐀𝐃 𝐓𝐇𝐄 𝐆𝐑𝐎𝐔𝐏 𝐃𝐄𝐒𝐂𝐑𝐈𝐏𝐓𝐈𝐎𝐍 𝐓𝐎 𝐀𝐕𝐎𝐈𝐃 𝐆𝐄𝐓𝐓𝐈𝐍𝐆 𝐑𝐄𝐌𝐎𝐕𝐄𝐃* `;
@@ -1116,18 +1116,18 @@ zk.ev.on('group-participants.update', async (group) => {
                 console.log("------");
                 await (0, baileys_1.delay)(300);
                 console.log("------------------/-----");
-                console.log("Zeze MD is Online ✅\n\n");
-                //chargement des clintplugins 
+                console.log("ZEZE47 MD is ACTIVE LIKE NUCLEAR ✅\n\n");
+                //chargement des zezeplugins 
                 console.log("Loading Zeze Commands ...\n");
-                fs.readdirSync(__dirname + "/clintplugins").forEach((fichier) => {
+                fs.readdirSync(__dirname + "/zezeplugins").forEach((fichier) => {
                     if (path.extname(fichier).toLowerCase() == (".js")) {
                         try {
-                            require(__dirname + "/clintplugins/" + fichier);
+                            require(__dirname + "/zezeplugins/" + fichier);
                             console.log(fichier + " Installed Successfully✔️");
                         }
                         catch (e) {
                             console.log(`${fichier} could not be installed due to : ${e}`);
-                        } /* require(__dirname + "/xh_clinton/" + fichier);
+                        } /* require(__dirname + "/zeze_md/" + fichier);
                          console.log(fichier + " Installed ✔️")*/
                         (0, baileys_1.delay)(300);
                     }
