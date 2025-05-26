@@ -1,4 +1,4 @@
-"use strict";
+a"use strict";
 var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
     var desc = Object.getOwnPropertyDescriptor(m, k);
@@ -646,7 +646,7 @@ try {
          
             /////////////////////////
             
-            //execution des zezeplugins   
+            //execution des clintplugins   
             if (verifCom) {
                 //await await zk.readMessages(ms.key);
                 const cd = evt.cm.find((zokou) => zokou.nomCom === (com));
@@ -723,7 +723,7 @@ zk.ev.on('group-participants.update', async (group) => {
             let msg = `Zeze-MD`;
             let membres = group.participants;
             for (let membre of membres) {
-                msg += ` \n𝐇𝐞𝐥𝐥𝐨 @${membre.split("@")[0]} 𝐀𝐍𝐃 🌹𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 𝐇𝐄𝐑𝐄'𝐒 𝐀 𝐂𝐔𝐏 𝐎𝐅 𝐓𝐄𝐀❣️.⭐ \n\n`;
+                msg += ` \n𝐇𝐞𝐥𝐥𝐨 @${membre.split("@")[0]} 𝐀𝐍𝐃 𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 𝐇𝐄𝐑𝐄'𝐒 𝐀 𝐂𝐔𝐏 𝐎𝐅 𝐓𝐄𝐀.⭐ \n\n`;
             }
 
             msg += `> 𝐏𝐋𝐄𝐀𝐒𝐄 𝐑𝐄𝐀𝐃 𝐓𝐇𝐄 𝐆𝐑𝐎𝐔𝐏 𝐃𝐄𝐒𝐂𝐑𝐈𝐏𝐓𝐈𝐎𝐍 𝐓𝐎 𝐀𝐕𝐎𝐈𝐃 𝐆𝐄𝐓𝐓𝐈𝐍𝐆 𝐑𝐄𝐌𝐎𝐕𝐄𝐃* `;
@@ -862,9 +862,9 @@ zk.ev.on('group-participants.update', async (group) => {
                 await (0, baileys_1.delay)(300);
                 console.log("------------------/-----");
                 console.log("Zeze MD is Online ✅\n\n");
-                //chargement des zezeplugins 
+                //chargement des clintplugins 
                 console.log("Loading Zeze Commands ...\n");
-                fs.readdirSync(__dirname + "/zezeplugins").forEach((fichier) => {
+                fs.readdirSync(__dirname + "/clintplugins").forEach((fichier) => {
                     if (path.extname(fichier).toLowerCase() == (".js")) {
                         try {
                             require(__dirname + "/clintplugins/" + fichier);
@@ -872,7 +872,7 @@ zk.ev.on('group-participants.update', async (group) => {
                         }
                         catch (e) {
                             console.log(`${fichier} could not be installed due to : ${e}`);
-                        } /* require(__dirname + "/md_zeze/" + fichier);
+                        } /* require(__dirname + "/xh_clinton/" + fichier);
                          console.log(fichier + " Installed ✔️")*/
                         (0, baileys_1.delay)(300);
                     }
