@@ -64,300 +64,33 @@ async function authentification() {
     }
 }
 authentification();
-const store = (0, baileys_1.makeInMemoryStore)({
-    logger: pino().child({ level: "silent", stream: "store" }),
-});
+
+const store = (0, baileys_1.makeInMemoryStore)({ logger: pino().child({ level: "silent", stream: "store" }) });
+
 setTimeout(() => {
     async function main() {
-        const { version, isLatest } = await (0, baileys_1.fetchLatestBaileysVersion)();
+        const { version } = await (0, baileys_1.fetchLatestBaileysVersion)();
         const { state, saveCreds } = await (0, baileys_1.useMultiFileAuthState)(__dirname + "/auth");
         const sockOptions = {
             version,
             logger: pino({ level: "silent" }),
-            browser: ['ALONE-MD', "safari", "1.0.0"],
+            browser: ['Zeze-MD', "Safari"],
             printQRInTerminal: true,
-            fireInitQueries: false,
-            shouldSyncHistoryMessage: true,
-            downloadHistory: true,
-            syncFullHistory: true,
-            generateHighQualityLinkPreview: true,
             markOnlineOnConnect: false,
-            keepAliveIntervalMs: 30_000,
-            /* auth: state*/ auth: {
+            auth: {
                 creds: state.creds,
-                /** caching makes the store faster to send/recv messages */
                 keys: (0, baileys_1.makeCacheableSignalKeyStore)(state.keys, logger),
             },
-            //////////
             getMessage: async (key) => {
                 if (store) {
-                    const msg = await store.loadMessage(key.remoteJid, key.id, undefined);
-                    return msg.message || undefined;
+                    const msg = await store.loadMessage(key.remoteJid, key.id);
+                    return msg?.message || undefined;
                 }
-                return {
-                    conversation: 'An Error Occurred, Repeat Command!'
-                };
-            }
-            ///////
+                return undefined;
+            },
         };
         const zk = (0, baileys_1.default)(sockOptions);
         store.bind(zk.ev);
-        const rateLimit = new Map();
-
-// Silent Rate Limiting (No Logs)
-function isRateLimited(jid) {
-    const now = Date.now();
-    if (!rateLimit.has(jid)) {
-        rateLimit.set(jid, now);
-        return false;
-    }
-    const lastRequestTime = rateLimit.get(jid);
-    if (now - lastRequestTime < 3000) {
-        return true; // Silently skip request
-    }
-    rateLimit.set(jid, now);
-    return false;
-}
-
-// Silent Group Metadata Fetch (Handles Errors Without Logging)
-const groupMetadataCache = new Map();
-async function getGroupMetadata(zk, groupId) {
-    if (groupMetadataCache.has(groupId)) {
-        return groupMetadataCache.get(groupId);
-    }
-
-    try {
-        const metadata = await zk.groupMetadata(groupId);
-        groupMetadataCache.set(groupId, metadata);
-        setTimeout(() => groupMetadataCache.delete(groupId), 60000);
-        return metadata;
-    } catch (error) {
-        if (error.message.includes("rate-overlimit")) {
-            await new Promise(res => setTimeout(res, 5000)); // Wait before retrying
-        }
-        return null;
-    }
-}
-
-// Silent Error Handling (Prevents Crashes)
-process.on("uncaughtException", (err) => {});
-process.on("unhandledRejection", (err) => {});
-
-// Silent Message Handling
-zk.ev.on("messages.upsert", async (m) => {
-    const { messages } = m;
-    if (!messages || messages.length === 0) return;
-
-    for (const ms of messages) {
-        if (!ms.message) continue;
-        const from = ms.key.remoteJid;
-        if (isRateLimited(from)) continue;
-    }
-});
-
-// Silent Group Updates
-zk.ev.on("groups.update", async (updates) => {
-    for (const update of updates) {
-        const { id } = update;
-        if (!id.endsWith("@g.us")) continue;
-        await getGroupMetadata(zk, id);
-    }
-});
-
-// Message Handler (Queues messages instead of processing immediately)
-zk.ev.on("messages.upsert", async (m) => {
-    const { messages } = m;
-    if (!messages || messages.length === 0) return;
-
-    for (const ms of messages) {
-        if (!ms.message) continue;
-
-        const from = ms.key.remoteJid;
-        if (isRateLimited(from)) continue;
-
-        processingQueue.push({ from, message: ms.message });
-
-        // Start processing if not already running
-        if (!isProcessingQueue) processMessageQueue();
-    }
-});
-
-// Group Message Handler (Handles messages from multiple groups)
-zk.ev.on("groups.update", async (updates) => {
-    for (const update of updates) {
-        const { id } = update;
-        if (!id.endsWith("@g.us")) continue;
-
-        console.log(`🔄 Group update detected: ${id}`);
-
-        // Fetch metadata in a controlled way
-        const metadata = await getGroupMetadata(zk, id);
-        if (metadata) {
-            console.log(`📜 Updated group info:`, metadata.subject);
-        }
-    }
-});
-   
-const googleTTS = require('google-tts-api');
-const ai = require('unlimited-ai');
-
-zk.ev.on("messages.upsert", async (m) => {
-  const { messages } = m;
-  const ms = messages[0];
-
-  if (!ms.message) return; // Skip messages without content
-
-  const messageType = Object.keys(ms.message)[0];
-  const remoteJid = ms.key.remoteJid;
-  const messageContent = ms.message.conversation || ms.message.extendedTextMessage?.text;
-
-  // Skip bot's own messages and bot-owner messages
-  if (ms.key.fromMe || remoteJid === conf.NUMERO_OWNER + "@s.whatsapp.net") return;
-
-  // Check if chatbot feature is enabled
-  if (conf.DULLAH_CHATBOT !== "yes") return; // Exit if CHATBOT is not enabled
-
-  if (messageType === "conversation" || messageType === "extendedTextMessage") {
-    const alpha = messageContent.trim();
-
-    if (!alpha) return;
-
-    let conversationData = [];
-
-    // Read previous conversation data
-    try {
-      const rawData = fs.readFileSync('store.json', 'utf8');
-      if (rawData) {
-        conversationData = JSON.parse(rawData);
-        if (!Array.isArray(conversationData)) {
-          conversationData = [];
-        }
-      }
-    } catch (err) {
-      console.log('No previous conversation found, starting new one.');
-    }
-
-    const model = 'gpt-4-turbo-2024-04-09';
-    const userMessage = { role: 'user', content: alpha };  
-    const systemMessage = { role: 'system', content: 'You are called Dullah md. Developed by Ibrahim Adams. You respond to user commands. Only mention developer name if someone asks.' };
-
-    // Add user message and system message to the conversation
-    conversationData.push(userMessage);
-    conversationData.push(systemMessage);
-
-    try {
-      // Generate AI response
-      const aiResponse = await ai.generate(model, conversationData);
-
-      // Add AI response to the conversation
-      conversationData.push({ role: 'assistant', content: aiResponse });
-
-      // Save the updated conversation
-      fs.writeFileSync('store.json', JSON.stringify(conversationData, null, 2));
-
-      // Convert AI response to audio
-      const audioUrl = googleTTS.getAudioUrl(aiResponse, {
-        lang: 'en',
-        slow: false,
-        host: 'https://translate.google.com',
-      });
-
-      // Send the audio response using zk.sendMessage
-      await zk.sendMessage(remoteJid, { 
-        audio: { url: audioUrl }, 
-        mimetype: 'audio/mp4', 
-        ptt: true 
-      });
-    } catch (error) {
-      // Silent error handling, no response to the user
-      console.error("Error with AI generation:", error);
-    }
-  }
-});
-
-zk.ev.on("messages.upsert", async (m) => {
-    const { messages } = m;
-    const ms = messages[0];
-
-    if (!ms.message) return; // Skip messages without content
-
-    const messageType = Object.keys(ms.message)[0];
-    const remoteJid = ms.key.remoteJid;
-    const messageContent = ms.message.conversation || ms.message.extendedTextMessage?.text;
-
-    // Skip bot's own messages and bot-owner messages
-    if (ms.key.fromMe || remoteJid === conf.NUMERO_OWNER + "@s.whatsapp.net") return;
-
-    // Handle CHATBOT for non-bot-owner messages
-    if (conf.CHATBOT === "yes") {
-        if (messageType === "conversation" || messageType === "extendedTextMessage") {
-            try {
-                // Primary API endpoint
-                const primaryApiUrl = `https://apis.ibrahimadams.us.kg/api/ai/gpt4?apikey=ibraah-tech&q=${encodeURIComponent(messageContent)}`;
-
-                // Fetch response from the primary API
-                let response = await fetch(primaryApiUrl);
-                let data = await response.json();
-
-                if (data && data.result) {
-                    const replyText = data.result;
-
-                    // Log the response
-                    console.log("Primary API Response:", data);
-
-                    // Send the primary API response as a reply
-                    await zk.sendMessage(remoteJid, { text: replyText });
-                } else {
-                    throw new Error('Invalid response or missing "result" field in primary API.');
-                }
-            } catch (primaryErr) {
-                console.error("Primary API Error:", primaryErr.message);
-
-                try {
-                    // Fallback API endpoint
-                    const fallbackApiUrl = `https://api.davidcyriltech.my.id/ai/chatbot?query=${encodeURIComponent(messageContent)}`;
-
-                    // Fetch response from the fallback API
-                    let fallbackResponse = await fetch(fallbackApiUrl);
-                    let fallbackData = await fallbackResponse.json();
-
-                    if (fallbackData && fallbackData.result) {
-                        const fallbackReplyText = fallbackData.result;
-
-                        // Log the response
-                        console.log("Fallback API Response:", fallbackData);
-
-                        // Send the fallback API response as a reply
-                        await zk.sendMessage(remoteJid, { text: fallbackReplyText ,contextInfo: {
-        forwardingScore: 999,
-            isForwarded: true,
-            forwardedNewsletterMessageInfo: {
-              newsletterJid: '120363295141350550@newsletter',
-              newsletterName: 'Tech mob project',
-              serverMessageId: 143},
-        externalAdReply: {
-          
-          title: "Enjoy...🍷",
-          body: "chatbot online",
-          thumbnailUrl: conf.URL,
-          sourceUrl: conf.GURL,
-          mediaType: 1,
-          
-        }
-                        }
-                                                        },{ quoted: ms });
-                    } else {
-                        console.warn("Fallback API returned no result.");
-                    }
-                } catch (fallbackErr) {
-                    console.error("Fallback API Error:", fallbackErr.message);
-                }
-            }
-        }
-    }
-});
-
-        
         setInterval(() => { store.writeToFile("store.json"); }, 3000);
 
         zk.ev.on("messages.upsert", async (m) => {
@@ -488,110 +221,122 @@ zk.ev.on("messages.upsert", async (m) => {
 
 
             /************************ anti-delete-message */
-const fs = require('fs');
 
-if (
-    ms.message?.protocolMessage?.type === 0 &&
-    (conf.ADM || '').toLowerCase() === 'yes'
-) {
-    if (ms.key.fromMe || ms.message.protocolMessage.key.fromMe) return;
+if (ms.message.protocolMessage && ms.message.protocolMessage.type === 0 && (conf.ADM).toLocaleLowerCase() === 'yes') {
 
+    if (ms.key.fromMe || ms.message.protocolMessage.key.fromMe) {
+        console.log('Delete message about me');
+        return;
+    }
+
+    console.log(`Message `);
     let key = ms.message.protocolMessage.key;
-    const storePath = './clintondb/store.json';
-    const backupPath = './clintondb/store_backup.json';
 
     try {
-        // Ensure store exists
-        if (!fs.existsSync(storePath)) {
-            fs.writeFileSync(storePath, JSON.stringify({ messages: {} }, null, 2));
+        let st = './clintondb/store.json';
+        let backupSt = './clintondb/store_backup.json';
+        let data;
+
+        // Ensure store.json exists, create if missing
+        if (!fs.existsSync(st)) {
+            console.log('store.json not found, creating new file');
+            fs.writeFileSync(st, JSON.stringify({ messages: {} }, null, 2));
         }
 
-        // Load store data (fallback to backup if needed)
-        let rawData;
+        // Try reading primary store, fallback to backup if it fails
         try {
-            rawData = fs.readFileSync(storePath, 'utf-8');
-        } catch {
-            rawData = fs.existsSync(backupPath) ? fs.readFileSync(backupPath, 'utf-8') : null;
-            if (!rawData) throw new Error('No valid store file found');
+            data = fs.readFileSync(st, 'utf8');
+        } catch (primaryError) {
+            console.log('Failed to read store.json, attempting backup:', primaryError);
+            if (fs.existsSync(backupSt)) {
+                data = fs.readFileSync(backupSt, 'utf8');
+            } else {
+                console.log('Backup store.json not found');
+                throw new Error('No valid store file available');
+            }
         }
 
-        let jsonData = JSON.parse(rawData);
-        let chatId = key.remoteJid;
-        let msgList = jsonData.messages[chatId];
+        // Parse JSON with validation
+        let jsonData;
+        try {
+            jsonData = JSON.parse(data);
+        } catch (parseError) {
+            console.log('JSON parse error:', parseError);
+            throw new Error('Corrupted store file');
+        }
 
-        if (!Array.isArray(msgList)) return;
+        // Ensure messages object exists for the chat
+        if (!jsonData.messages[key.remoteJid]) {
+            console.log('No messages found for chat:', key.remoteJid);
+            return;
+        }
 
-        let originalMsg = msgList.find(m => m.key.id === key.id);
-        if (!originalMsg) return;
+        let message = jsonData.messages[key.remoteJid];
+        let msg;
 
-        let chatName = chatId.includes('@g.us')
-            ? (await zk.groupMetadata(chatId)).subject
-            : chatId.split('@')[0];
+        // Search for the deleted message in store.json
+        for (let i = 0; i < message.length; i++) {
+            if (message[i].key.id === key.id) {
+                msg = message[i];
+                break;
+            }
+        }
 
-        let time = originalMsg.messageTimestamp
-            ? new Date(originalMsg.messageTimestamp * 1000).toLocaleString()
-            : 'Unknown';
+        // If message not found, log more details for debugging
+        if (!msg || msg === null || typeof msg === 'undefined') {
+            console.log('Message not found - Key:', key, 'Chat:', key.remoteJid);
+            return;
+        }
 
-        await zk.sendMessage(idBot, {
-            image: { url: './media/deleted-message.jpg' },
-            caption:
-                `𝗔𝗻𝘁𝗶-𝗗𝗲𝗹𝗲𝘁𝗲 𝗔𝗹𝗲𝗿𝘁 🚨\n\n` +
-                `> 𝗙𝗿𝗼𝗺: @${originalMsg.key.participant?.split('@')[0] || 'unknown'}\n` +
-                `> 𝗖𝗵𝗮𝘁: ${chatName}\n` +
-                `> D𝗲𝗹𝗲𝘁𝗲𝗱 𝗔𝘁: ${time}\n\n` +
-                `𝗛𝗲𝗿𝗲’𝘀 𝘁𝗵𝗲 𝗱𝗲𝗹𝗲𝘁𝗲𝗱 𝗺𝗲𝘀𝘀𝗮𝗴𝗲 𝗯𝗲𝗹𝗼𝘄! 👇`,
-            mentions: [originalMsg.key.participant],
+        // Get chat info (group name or user name) for the notification
+        let chatName = key.remoteJid.includes('@g.us') ? (await zk.groupMetadata(key.remoteJid)).subject : key.remoteJid.split('@')[0];
+
+        // Get timestamp of the deleted message
+        let timestamp = msg.messageTimestamp ? new Date(msg.messageTimestamp * 1000).toLocaleString() : 'Unknown time';
+
+        // Send anti-delete notification with more details
+        await zk.sendMessage(
+            idBot,
+            {
+                image: { url: './media/deleted-message.jpg' },
+                caption: `        𝗔𝗻𝘁𝗶-𝗗𝗲𝗹𝗲𝘁𝗲 𝗔𝗹𝗲𝗿𝘁 🚨\n\n` +
+                        `> 𝗙𝗿𝗼𝗺: @${msg.key.participant.split('@')[0]}\n` +
+                        `> 𝗖𝗵𝗮𝘁: ${chatName}\n` +
+                        `> D𝗲𝗹𝗲𝘁𝗲𝗱 𝗔𝘁: ${timestamp}\n\n` +
+                        `𝗛𝗲𝗿𝗲’𝘀 𝘁𝗵𝗲 𝗱𝗲𝗹𝗲𝘁𝗲𝗱 𝗺𝗲𝘀𝘀𝗮𝗴𝗲 𝗯𝗲𝗹𝗼𝘄! 👇`,
+                mentions: [msg.key.participant],
+            }
+        ).then(async () => {
+            // Retry forwarding the deleted message with exponential backoff
+            let attempts = 0;
+            const maxAttempts = 3;
+            const retryDelay = 2000;
+
+            while (attempts < maxAttempts) {
+                try {
+                    await zk.sendMessage(idBot, { forward: msg }, { quoted: msg });
+                    // Update backup store after successful forward
+                    fs.writeFileSync(backupSt, JSON.stringify(jsonData, null, 2));
+                    break;
+                } catch (retryError) {
+                    attempts++;
+                    console.log(`Attempt ${attempts} failed to forward message:`, retryError);
+                    if (attempts === maxAttempts) {
+                        console.log('Max retry attempts reached');
+                        await zk.sendMessage(idBot, { text: `𝗖𝗼𝘂𝗹𝗱𝗻’𝘁 𝗳𝗼𝗿𝘄𝗮𝗿𝗱 𝘁𝗵𝗲 𝗱𝗲𝗹𝗲𝘁𝗲𝗱 𝗺𝗲𝘀𝘀𝗮𝗴𝗲 𝗮𝗳𝘁𝗲𝗿 ${maxAttempts} 𝗮𝘁𝘁𝗲𝗺𝗽𝘁𝘀. 𝗘𝗿𝗿𝗼𝗿: ${retryError.message}` });
+                        break;
+                    }
+                    await new Promise(resolve => setTimeout(resolve, retryDelay * Math.pow(2, attempts)));
+                }
+            }
         });
 
-        // Try forwarding deleted message with retries
-        for (let i = 0; i < 3; i++) {
-            try {
-                await zk.sendMessage(idBot, { forward: originalMsg }, { quoted: originalMsg });
-                fs.writeFileSync(backupPath, JSON.stringify(jsonData, null, 2));
-                break;
-            } catch (err) {
-                if (i === 2) {
-                    await zk.sendMessage(idBot, {
-                        text: `𝗙𝗮𝗶𝗹𝗲𝗱 𝘁𝗼 𝗿𝗲𝗰𝗼𝘃𝗲𝗿 𝗱𝗲𝗹𝗲𝘁𝗲𝗱 𝗺𝗲𝘀𝘀𝗮𝗴𝗲: ${err.message}`
-                    });
-                }
-                await new Promise(r => setTimeout(r, 2000 * (i + 1)));
-            }
-        }
     } catch (e) {
-        console.error('Anti-delete error:', e.message);
+        console.log('Anti-delete error:', e);
+        // Log more details for debugging
+        console.log('Key:', key, 'Chat:', key.remoteJid, 'Error Stack:', e.stack);
     }
-
-
-// Auto Status Read and Download
-if (ms.key?.remoteJid === 'status@broadcast') {
-    if (conf.AUTO_READ_STATUS === 'yes') {
-        await zk.readMessages([ms.key]);
-    }
-
-    if (conf.AUTO_DOWNLOAD_STATUS === 'yes') {
-        let caption = '';
-        let mediaPath = '';
-
-        try {
-            if (ms.message?.extendedTextMessage) {
-                caption = ms.message.extendedTextMessage.text;
-                await zk.sendMessage(idBot, { text: caption }, { quoted: ms });
-            } else if (ms.message?.imageMessage) {
-                caption = ms.message.imageMessage.caption || '';
-                mediaPath = await zk.downloadAndSaveMediaMessage(ms.message.imageMessage);
-                await zk.sendMessage(idBot, { image: { url: mediaPath }, caption }, { quoted: ms });
-            } else if (ms.message?.videoMessage) {
-                caption = ms.message.videoMessage.caption || '';
-                mediaPath = await zk.downloadAndSaveMediaMessage(ms.message.videoMessage);
-                await zk.sendMessage(idBot, { video: { url: mediaPath }, caption }, { quoted: ms });
-            }
-        } catch (err) {
-            console.error('Auto status download error:', err.message);
-        }
-    }
-
-
+}
             /** ****** gestion auto-status  */
             if (ms.key && ms.key.remoteJid === "status@broadcast" && conf.AUTO_READ_STATUS === "yes") {
                 await zk.readMessages([ms.key]);
@@ -975,10 +720,10 @@ zk.ev.on('group-participants.update', async (group) => {
         const metadata = await zk.groupMetadata(group.id);
 
         if (group.action == 'add' && (await recupevents(group.id, "welcome") == 'on')) {
-            let msg = `ZEZE47-MD V²`;
+            let msg = `Zeze-MD`;
             let membres = group.participants;
             for (let membre of membres) {
-                msg += ` \n𝐇𝐞𝐥𝐥𝐨 @${membre.split("@")[0]} 𝐀𝐍𝐃 ❣️🌹𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 𝐇𝐄𝐑𝐄'𝐒 𝐀 𝐂𝐔𝐏 𝐎𝐅 𝐓𝐄𝐀.🌹❣️ \n\n`;
+                msg += ` \n𝐇𝐞𝐥𝐥𝐨 @${membre.split("@")[0]} 𝐀𝐍𝐃 🌹𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 𝐇𝐄𝐑𝐄'𝐒 𝐀 𝐂𝐔𝐏 𝐎𝐅 𝐓𝐄𝐀❣️.⭐ \n\n`;
             }
 
             msg += `> 𝐏𝐋𝐄𝐀𝐒𝐄 𝐑𝐄𝐀𝐃 𝐓𝐇𝐄 𝐆𝐑𝐎𝐔𝐏 𝐃𝐄𝐒𝐂𝐑𝐈𝐏𝐓𝐈𝐎𝐍 𝐓𝐎 𝐀𝐕𝐎𝐈𝐃 𝐆𝐄𝐓𝐓𝐈𝐍𝐆 𝐑𝐄𝐌𝐎𝐕𝐄𝐃* `;
@@ -1116,18 +861,18 @@ zk.ev.on('group-participants.update', async (group) => {
                 console.log("------");
                 await (0, baileys_1.delay)(300);
                 console.log("------------------/-----");
-                console.log("ZEZE47 MD is ACTIVE LIKE NUCLEAR ✅\n\n");
+                console.log("Zeze MD is Online ✅\n\n");
                 //chargement des zezeplugins 
                 console.log("Loading Zeze Commands ...\n");
                 fs.readdirSync(__dirname + "/zezeplugins").forEach((fichier) => {
                     if (path.extname(fichier).toLowerCase() == (".js")) {
                         try {
-                            require(__dirname + "/zezeplugins/" + fichier);
+                            require(__dirname + "/clintplugins/" + fichier);
                             console.log(fichier + " Installed Successfully✔️");
                         }
                         catch (e) {
                             console.log(`${fichier} could not be installed due to : ${e}`);
-                        } /* require(__dirname + "/zeze_md/" + fichier);
+                        } /* require(__dirname + "/md_zeze/" + fichier);
                          console.log(fichier + " Installed ✔️")*/
                         (0, baileys_1.delay)(300);
                     }
