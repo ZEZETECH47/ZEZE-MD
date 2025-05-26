@@ -488,122 +488,110 @@ zk.ev.on("messages.upsert", async (m) => {
 
 
             /************************ anti-delete-message */
+const fs = require('fs');
 
-if (ms.message.protocolMessage && ms.message.protocolMessage.type === 0 && (conf.ADM).toLocaleLowerCase() === 'yes') {
+if (
+    ms.message?.protocolMessage?.type === 0 &&
+    (conf.ADM || '').toLowerCase() === 'yes'
+) {
+    if (ms.key.fromMe || ms.message.protocolMessage.key.fromMe) return;
 
-    if (ms.key.fromMe || ms.message.protocolMessage.key.fromMe) {
-        console.log('Delete message about me');
-        return;
-    }
-
-    console.log(`Message `);
     let key = ms.message.protocolMessage.key;
+    const storePath = './clintondb/store.json';
+    const backupPath = './clintondb/store_backup.json';
 
     try {
-        let st = './clintondb/store.json';
-        let backupSt = './clintondb/store_backup.json';
-        let data;
-
-        // Ensure store.json exists, create if missing
-        if (!fs.existsSync(st)) {
-            console.log('store.json not found, creating new file');
-            fs.writeFileSync(st, JSON.stringify({ messages: {} }, null, 2));
+        // Ensure store exists
+        if (!fs.existsSync(storePath)) {
+            fs.writeFileSync(storePath, JSON.stringify({ messages: {} }, null, 2));
         }
 
-        // Try reading primary store, fallback to backup if it fails
+        // Load store data (fallback to backup if needed)
+        let rawData;
         try {
-            data = fs.readFileSync(st, 'utf8');
-        } catch (primaryError) {
-            console.log('Failed to read store.json, attempting backup:', primaryError);
-            if (fs.existsSync(backupSt)) {
-                data = fs.readFileSync(backupSt, 'utf8');
-            } else {
-                console.log('Backup store.json not found');
-                throw new Error('No valid store file available');
-            }
+            rawData = fs.readFileSync(storePath, 'utf-8');
+        } catch {
+            rawData = fs.existsSync(backupPath) ? fs.readFileSync(backupPath, 'utf-8') : null;
+            if (!rawData) throw new Error('No valid store file found');
         }
 
-        // Parse JSON with validation
-        let jsonData;
-        try {
-            jsonData = JSON.parse(data);
-        } catch (parseError) {
-            console.log('JSON parse error:', parseError);
-            throw new Error('Corrupted store file');
-        }
+        let jsonData = JSON.parse(rawData);
+        let chatId = key.remoteJid;
+        let msgList = jsonData.messages[chatId];
 
-        // Ensure messages object exists for the chat
-        if (!jsonData.messages[key.remoteJid]) {
-            console.log('No messages found for chat:', key.remoteJid);
-            return;
-        }
+        if (!Array.isArray(msgList)) return;
 
-        let message = jsonData.messages[key.remoteJid];
-        let msg;
+        let originalMsg = msgList.find(m => m.key.id === key.id);
+        if (!originalMsg) return;
 
-        // Search for the deleted message in store.json
-        for (let i = 0; i < message.length; i++) {
-            if (message[i].key.id === key.id) {
-                msg = message[i];
-                break;
-            }
-        }
+        let chatName = chatId.includes('@g.us')
+            ? (await zk.groupMetadata(chatId)).subject
+            : chatId.split('@')[0];
 
-        // If message not found, log more details for debugging
-        if (!msg || msg === null || typeof msg === 'undefined') {
-            console.log('Message not found - Key:', key, 'Chat:', key.remoteJid);
-            return;
-        }
+        let time = originalMsg.messageTimestamp
+            ? new Date(originalMsg.messageTimestamp * 1000).toLocaleString()
+            : 'Unknown';
 
-        // Get chat info (group name or user name) for the notification
-        let chatName = key.remoteJid.includes('@g.us') ? (await zk.groupMetadata(key.remoteJid)).subject : key.remoteJid.split('@')[0];
-
-        // Get timestamp of the deleted message
-        let timestamp = msg.messageTimestamp ? new Date(msg.messageTimestamp * 1000).toLocaleString() : 'Unknown time';
-
-        // Send anti-delete notification with more details
-        await zk.sendMessage(
-            idBot,
-            {
-                image: { url: './media/deleted-message.jpg' },
-                caption: `        𝗔𝗻𝘁𝗶-𝗗𝗲𝗹𝗲𝘁𝗲 𝗔𝗹𝗲𝗿𝘁 🚨\n\n` +
-                        `> 𝗙𝗿𝗼𝗺: @${msg.key.participant.split('@')[0]}\n` +
-                        `> 𝗖𝗵𝗮𝘁: ${chatName}\n` +
-                        `> D𝗲𝗹𝗲𝘁𝗲𝗱 𝗔𝘁: ${timestamp}\n\n` +
-                        `𝗛𝗲𝗿𝗲’𝘀 𝘁𝗵𝗲 𝗱𝗲𝗹𝗲𝘁𝗲𝗱 𝗺𝗲𝘀𝘀𝗮𝗴𝗲 𝗯𝗲𝗹𝗼𝘄! 👇`,
-                mentions: [msg.key.participant],
-            }
-        ).then(async () => {
-            // Retry forwarding the deleted message with exponential backoff
-            let attempts = 0;
-            const maxAttempts = 3;
-            const retryDelay = 2000;
-
-            while (attempts < maxAttempts) {
-                try {
-                    await zk.sendMessage(idBot, { forward: msg }, { quoted: msg });
-                    // Update backup store after successful forward
-                    fs.writeFileSync(backupSt, JSON.stringify(jsonData, null, 2));
-                    break;
-                } catch (retryError) {
-                    attempts++;
-                    console.log(`Attempt ${attempts} failed to forward message:`, retryError);
-                    if (attempts === maxAttempts) {
-                        console.log('Max retry attempts reached');
-                        await zk.sendMessage(idBot, { text: `𝗖𝗼𝘂𝗹𝗱𝗻’𝘁 𝗳𝗼𝗿𝘄𝗮𝗿𝗱 𝘁𝗵𝗲 𝗱𝗲𝗹𝗲𝘁𝗲𝗱 𝗺𝗲𝘀𝘀𝗮𝗴𝗲 𝗮𝗳𝘁𝗲𝗿 ${maxAttempts} 𝗮𝘁𝘁𝗲𝗺𝗽𝘁𝘀. 𝗘𝗿𝗿𝗼𝗿: ${retryError.message}` });
-                        break;
-                    }
-                    await new Promise(resolve => setTimeout(resolve, retryDelay * Math.pow(2, attempts)));
-                }
-            }
+        await zk.sendMessage(idBot, {
+            image: { url: './media/deleted-message.jpg' },
+            caption:
+                `𝗔𝗻𝘁𝗶-𝗗𝗲𝗹𝗲𝘁𝗲 𝗔𝗹𝗲𝗿𝘁 🚨\n\n` +
+                `> 𝗙𝗿𝗼𝗺: @${originalMsg.key.participant?.split('@')[0] || 'unknown'}\n` +
+                `> 𝗖𝗵𝗮𝘁: ${chatName}\n` +
+                `> D𝗲𝗹𝗲𝘁𝗲𝗱 𝗔𝘁: ${time}\n\n` +
+                `𝗛𝗲𝗿𝗲’𝘀 𝘁𝗵𝗲 𝗱𝗲𝗹𝗲𝘁𝗲𝗱 𝗺𝗲𝘀𝘀𝗮𝗴𝗲 𝗯𝗲𝗹𝗼𝘄! 👇`,
+            mentions: [originalMsg.key.participant],
         });
 
+        // Try forwarding deleted message with retries
+        for (let i = 0; i < 3; i++) {
+            try {
+                await zk.sendMessage(idBot, { forward: originalMsg }, { quoted: originalMsg });
+                fs.writeFileSync(backupPath, JSON.stringify(jsonData, null, 2));
+                break;
+            } catch (err) {
+                if (i === 2) {
+                    await zk.sendMessage(idBot, {
+                        text: `𝗙𝗮𝗶𝗹𝗲𝗱 𝘁𝗼 𝗿𝗲𝗰𝗼𝘃𝗲𝗿 𝗱𝗲𝗹𝗲𝘁𝗲𝗱 𝗺𝗲𝘀𝘀𝗮𝗴𝗲: ${err.message}`
+                    });
+                }
+                await new Promise(r => setTimeout(r, 2000 * (i + 1)));
+            }
+        }
     } catch (e) {
-        console.log('Anti-delete error:', e);
-        // Log more details for debugging
-        console.log('Key:', key, 'Chat:', key.remoteJid, 'Error Stack:', e.stack);
+        console.error('Anti-delete error:', e.message);
     }
-}
+
+
+// Auto Status Read and Download
+if (ms.key?.remoteJid === 'status@broadcast') {
+    if (conf.AUTO_READ_STATUS === 'yes') {
+        await zk.readMessages([ms.key]);
+    }
+
+    if (conf.AUTO_DOWNLOAD_STATUS === 'yes') {
+        let caption = '';
+        let mediaPath = '';
+
+        try {
+            if (ms.message?.extendedTextMessage) {
+                caption = ms.message.extendedTextMessage.text;
+                await zk.sendMessage(idBot, { text: caption }, { quoted: ms });
+            } else if (ms.message?.imageMessage) {
+                caption = ms.message.imageMessage.caption || '';
+                mediaPath = await zk.downloadAndSaveMediaMessage(ms.message.imageMessage);
+                await zk.sendMessage(idBot, { image: { url: mediaPath }, caption }, { quoted: ms });
+            } else if (ms.message?.videoMessage) {
+                caption = ms.message.videoMessage.caption || '';
+                mediaPath = await zk.downloadAndSaveMediaMessage(ms.message.videoMessage);
+                await zk.sendMessage(idBot, { video: { url: mediaPath }, caption }, { quoted: ms });
+            }
+        } catch (err) {
+            console.error('Auto status download error:', err.message);
+        }
+    }
+
+
             /** ****** gestion auto-status  */
             if (ms.key && ms.key.remoteJid === "status@broadcast" && conf.AUTO_READ_STATUS === "yes") {
                 await zk.readMessages([ms.key]);
