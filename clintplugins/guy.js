@@ -43,7 +43,7 @@ const date = moment().format('DD/MM/YYYY');
  ${message}
  
  
- *RAHMANI-MD-BOT*`
+ *ZEZE47-MD-BOT*`
 
  if (lien.match(/\.(mp4|gif)$/i)) {
     try {
@@ -78,7 +78,7 @@ else {
      }
  } else {
 
-    if(!superUser) { repondre ("RAHMANI MD") ; return};
+    if(!superUser) { repondre ("ZEZE47 MD") ; return};
 
   
     const texte = arg.join(' ').split(';')[0];
