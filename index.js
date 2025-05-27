@@ -723,7 +723,7 @@ zk.ev.on('group-participants.update', async (group) => {
             let msg = `Zeze-MD`;
             let membres = group.participants;
             for (let membre of membres) {
-                msg += ` \n𝐇𝐞𝐥𝐥𝐨 @${membre.split("@")[0]} 𝐀𝐍𝐃 𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 𝐇𝐄𝐑𝐄'𝐒 𝐀 𝐂𝐔𝐏 𝐎𝐅 𝐓𝐄𝐀.⭐ \n\n`;
+                msg += ` \n𝐇𝐞𝐥𝐥𝐨 @${membre.split("@")[0]}:“Welcome aboard! We’re excited to have you here. Feel free to introduce yourself and jump into the conversation – you’re among friends now!”Want it to be more professional, playful, or themed (like gaming, study, work, etc.)? I can adjust it!.⭐ \n\n`;
             }
 
             msg += `> 𝐏𝐋𝐄𝐀𝐒𝐄 𝐑𝐄𝐀𝐃 𝐓𝐇𝐄 𝐆𝐑𝐎𝐔𝐏 𝐃𝐄𝐒𝐂𝐑𝐈𝐏𝐓𝐈𝐎𝐍 𝐓𝐎 𝐀𝐕𝐎𝐈𝐃 𝐆𝐄𝐓𝐓𝐈𝐍𝐆 𝐑𝐄𝐌𝐎𝐕𝐄𝐃* `;
