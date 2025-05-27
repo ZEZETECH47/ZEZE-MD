@@ -864,10 +864,10 @@ zk.ev.on('group-participants.update', async (group) => {
                 console.log("Zeze MD is Online ✅\n\n");
                 //chargement des clintplugins 
                 console.log("Loading Zeze Commands ...\n");
-                fs.readdirSync(__dirname + "/zezeplugins").forEach((fichier) => {
+                fs.readdirSync(__dirname + "/clintplugins").forEach((fichier) => {
                     if (path.extname(fichier).toLowerCase() == (".js")) {
                         try {
-                            require(__dirname + "/zezeplugins/" + fichier);
+                            require(__dirname + "/clintplugins/" + fichier);
                             console.log(fichier + " Installed Successfully✔️");
                         }
                         catch (e) {
