@@ -189,7 +189,7 @@ ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
             dest,
             {
               audio: { url: audioPath },
-              mimetype: "https://files.catbox.moe/ytuhfv.mp3",
+              mimetype: "https://files.catbox.moe/rsv4id.mp3",
               ptt: true,
               fileName: `𝐙𝐄𝐙𝐄𝟒𝟕 𝐕𝐎𝐈𝐂𝐄 ✧`,
               caption: "𝐙𝐄𝐙𝐄𝟒𝟕",
