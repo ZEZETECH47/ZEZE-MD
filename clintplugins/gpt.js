@@ -6,7 +6,7 @@ const axios = require("axios"); // Replaced node-fetch with axios
 
 zokou(
   {
-    nomCom: "gpt",
+    nomCom: "gpt3",
     categorie: "AI",
     reaction: "🤖",
   },
