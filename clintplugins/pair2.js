@@ -34,7 +34,7 @@ zokou({
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
             newsletterJid: '@newsletter',
-            newsletterName: "Charleske-xmd",
+            newsletterName: "Zeze-md",
             serverMessageId: 143
           },
           forwardingScore: 999,
@@ -42,9 +42,9 @@ zokou({
           externalAdReply: {
             title: "Zeze md",
             body: "Here is your pairing code",
-            thumbnailUrl: 'https://files.catbox.moe/p6uxq0.png',
+            thumbnailUrl: '',
             // Add thumbnail URL if required 
-            sourceUrl: 'https://whatsapp.com/channel/0029Vao2hgeChq6HJ5bmlZ3K',
+            sourceUrl: '',
             // Add source URL if necessary
             mediaType: 1,
             renderLargerThumbnail: true
