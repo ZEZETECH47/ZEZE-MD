@@ -26,8 +26,8 @@ zokou({ nomCom: "videostyle", categorie: "search", reaction: "✋" }, async (des
       mentionedJid: [ms.sender], // Mention the sender
       externalAdReply: {
         title: "ZEZE47 MD",
-        body: "Regards, ®Charleske",
-        thumbnailUrl: "https://files.catbox.moe/p6uxq0.png",
+        body: "Regards, ®Zeze",
+        thumbnailUrl: "https://files.catbox.moe/7glhto.jpg",
         sourceUrl: "https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r",
         mediaType: 1,
         renderLargerThumbnail: true,
@@ -76,7 +76,7 @@ zokou({ nomCom: "videostyle", categorie: "search", reaction: "✋" }, async (des
         if (logoUrl) {
           await zk.sendMessage(dest, {
             video: { url: logoUrl },
-            mimetype: "video/mp4",
+            mimetype: "https://files.catbox.moe/rsv4id.mp3",
             caption: `*Downloaded by 𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃*`,
           }, { quoted: ms });
         }
