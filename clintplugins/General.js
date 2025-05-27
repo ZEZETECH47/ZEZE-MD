@@ -10,10 +10,10 @@ zokou({ nomCom: "owner", categorie: "General", reaction: "❣️" }, async (dest
     if (thsudo) {
         let msg = `╔════◇ *𝐙𝐄𝐙𝐄𝟒𝟕-𝐌𝐃 𝐎𝐖𝐍𝐄𝐑𝐒* ◇════╗\n\n`
         
-        // Primary owner (must be 254735342808)
+        // Primary owner (must be 255760109840)
         msg += `*👑 𝐌𝐚𝐢𝐧 𝐎𝐰𝐧𝐞𝐫:*\n• @255682937675\n\n`
         
-        // Secondary owner (must be 254799283147)
+        // Secondary owner (must be 255682937675)
         msg += `*🌟 𝐒𝐞𝐜𝐨𝐧𝐝𝐚𝐫𝐲 𝐎𝐰𝐧𝐞𝐫:*\n• @255760109840\n\n`
         
         // Other sudo users
