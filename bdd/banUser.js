@@ -1,13 +1,13 @@
-// Importez dotenv et chargez les variables d'environnement depuis le fichier .env
+// Import dotenv and load environment variables from the .env file
 require("dotenv").config();
 
 const { Pool } = require("pg");
 
-// Utilisez le module 'set' pour obtenir la valeur de DATABASE_URL depuis vos configurations
+// Use the 'set' module to get the DATABASE_URL value from your configurations
 const s = require("../set");
 
-// Récupérez l'URL de la base de données de la variable s.DATABASE_URL
-var dbUrl=s.DATABASE_URL?s.DATABASE_URL:"postgres://db_7xp9_user:6hwmTN7rGPNsjlBEHyX49CXwrG7cDeYi@dpg-cj7ldu5jeehc73b2p7g0-a.oregon-postgres.render.com/db_7xp9"
+// Retrieve the database URL from the s.DATABASE_URL variable
+var dbUrl = s.DATABASE_URL ? s.DATABASE_URL : "postgres://db_7xp9_user:6hwmTN7rGPNsjlBEHyX49CXwrG7cDeYi@dpg-cj7ldu5jeehc73b2p7g0-a.oregon-postgres.render.com/db_7xp9";
 const proConfig = {
   connectionString: dbUrl,
   ssl: {
@@ -15,80 +15,80 @@ const proConfig = {
   },
 };
 
-// Créez une pool de connexions PostgreSQL
+// Create a PostgreSQL connection pool
 const pool = new Pool(proConfig);
 
-// Fonction pour créer la table "banGroup"
-const creerTableBanGroup = async () => {
+// You can now use 'pool' to interact with your PostgreSQL database.
+const creerTableBanUser = async () => {
   try {
     await pool.query(`
-      CREATE TABLE IF NOT EXISTS banGroup (
-        groupeJid text PRIMARY KEY
+      CREATE TABLE IF NOT EXISTS banUser (
+        jid text PRIMARY KEY
       );
     `);
-    console.log("La table 'banGroup' a été créée avec succès.");
+    console.log("The 'banUser' table has been successfully created.");
   } catch (e) {
-    console.error("Une erreur est survenue lors de la création de la table 'banGroup':", e);
+    console.error("An error occurred while creating the 'banUser' table:", e);
   }
 };
 
-// Appelez la méthode pour créer la table "banGroup"
-creerTableBanGroup();
+// Call the method to create the "banUser" table
+creerTableBanUser();
 
-// Fonction pour ajouter un groupe à la liste des groupes bannis
-async function addGroupToBanList(groupeJid) {
+// Function to add a user to the banned list
+async function addUserToBanList(jid) {
   const client = await pool.connect();
   try {
-    // Insérez le groupe dans la table "banGroup"
-    const query = "INSERT INTO banGroup (groupeJid) VALUES ($1)";
-    const values = [groupeJid];
+    // Insert the user into the "banUser" table
+    const query = "INSERT INTO banUser (jid) VALUES ($1)";
+    const values = [jid];
 
     await client.query(query, values);
-    console.log(`Groupe JID ${groupeJid} ajouté à la liste des groupes bannis.`);
+    console.log(`JID ${jid} added to the banned list.`);
   } catch (error) {
-    console.error("Erreur lors de l'ajout du groupe banni :", error);
+    console.error("Error while adding the banned user:", error);
   } finally {
     client.release();
   }
 }
 
-// Fonction pour vérifier si un groupe est banni
-async function isGroupBanned(groupeJid) {
+// Function to check if a user is banned
+async function isUserBanned(jid) {
   const client = await pool.connect();
   try {
-    // Vérifiez si le groupe existe dans la table "banGroup"
-    const query = "SELECT EXISTS (SELECT 1 FROM banGroup WHERE groupeJid = $1)";
-    const values = [groupeJid];
+    // Check if the user exists in the "banUser" table
+    const query = "SELECT EXISTS (SELECT 1 FROM banUser WHERE jid = $1)";
+    const values = [jid];
 
     const result = await client.query(query, values);
     return result.rows[0].exists;
   } catch (error) {
-    console.error("Erreur lors de la vérification du groupe banni :", error);
+    console.error("Error while checking the banned user:", error);
     return false;
   } finally {
     client.release();
   }
 }
 
-// Fonction pour supprimer un groupe de la liste des groupes bannis
-async function removeGroupFromBanList(groupeJid) {
+// Function to remove a user from the banned list
+async function removeUserFromBanList(jid) {
   const client = await pool.connect();
   try {
-    // Supprimez le groupe de la table "banGroup"
-    const query = "DELETE FROM banGroup WHERE groupeJid = $1";
-    const values = [groupeJid];
+    // Delete the user from the "banUser" table
+    const query = "DELETE FROM banUser WHERE jid = $1";
+    const values = [jid];
 
     await client.query(query, values);
-    console.log(`Groupe JID ${groupeJid} supprimé de la liste des groupes bannis.`);
+    console.log(`JID ${jid} removed from the banned list.`);
   } catch (error) {
-    console.error("Erreur lors de la suppression du groupe banni :", error);
+    console.error("Error while removing the banned user:", error);
   } finally {
     client.release();
   }
 }
 
 module.exports = {
-  addGroupToBanList,
-  isGroupBanned,
-  removeGroupFromBanList,
+  addUserToBanList,
+  isUserBanned,
+  removeUserFromBanList,
 };
